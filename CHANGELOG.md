@@ -1,5 +1,20 @@
 # Changelog
 
+## 7 September 2026 (2)
+
+### Find Item window now skinned
+
+`EQUI_FindItemWnd.xml` ships with the skin for the first time - previously it
+fell back to `default` and rendered in classic art.
+
+Vert frame and templates throughout, and relaid out: Item Name, Select By Slot
+and Location at the top, secondary filters compacted into two columns, and the
+results list given the rest. Window is 511x459 so it sits beside the Inventory
+window.
+
+Native behaviour is untouched - control names, ScreenIDs, EQTypes and the six
+result columns are identical to stock.
+
 ## 7 September 2026
 
 ### Pet stats on the inventory Pet tab
