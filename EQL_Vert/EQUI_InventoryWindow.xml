@@ -5726,7 +5726,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>	
 	<Label item="IWM_Level">
-<!-- 		<EQType></EQType> -->
+		<EQType>1051</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -5757,7 +5757,7 @@
 		<AlignRight>false</AlignRight>
 	</Label>	
 	<Label item="IWM_Class">
-<!-- 		<EQType></EQType> -->
+		<EQType>1050</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>60</X>
@@ -7113,7 +7113,7 @@
 			<Y>180</Y>
 		</Location>
 		<Size>
-			<CX>325</CX>
+			<CX>356</CX>
 			<CY>225</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>

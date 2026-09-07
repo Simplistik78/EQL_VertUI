@@ -1,5 +1,18 @@
 # Changelog
 
+## 7 September 2026
+
+### Pet stats on the inventory Pet tab
+
+Two bugs, both fixed.
+
+`IWM_Level` and `IWM_Class` had their `EQType` commented out, so Level and
+Class rendered permanently blank. Restored to `1051` and `1050`.
+
+`IW_PetInv` was 325 wide while its two columns need 356, so every value in the
+Pet Stats and Resists column was clipped outside the box - the labels showed
+but the numbers did not. Widened to 356.
+
 ## 6 September 2026
 
 First update since the initial publish. The repository now contains only
