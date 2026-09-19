@@ -49,91 +49,82 @@
 	<Combobox item="MVW_MapsDirCombobox">
 		<ScreenID>MVW_MapsDirCombobox</ScreenID>
 		<DrawTemplate>AUM_WDT_InnerSolid</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
 		<AutoStretchList>true</AutoStretchList>
 		<Location>
-			<X>0</X>
+			<X>62</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>150</CX>
-			<CY>22</CY>
+			<CX>104</CX>
+			<CY>20</CY>
 		</Size>
 		<ListHeight>200</ListHeight>
 		<Button>BDT_Combo</Button>
 		<Style_Border>true</Style_Border>
 	</Combobox>
 	
-	<Label item="MVW_SearchLabel">
-		<ScreenID>MVW_SearchLabel</ScreenID>
-		<Location>
-			<X>160</X>
-			<Y>5</Y>
-		</Location>
-		<Size>
-			<CX>50</CX>
-			<CY>15</CY>
-		</Size>
-		<Text>Search:</Text>
-	</Label>
 	
 	<Editbox item="MVW_SearchBox">
 		<ScreenID>MVW_SearchBox</ScreenID>
 		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<RelativePosition>true</RelativePosition>
-		<LeftAnchorOffset>210</LeftAnchorOffset>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<RightAnchorOffset>212</RightAnchorOffset>
-		<BottomAnchorOffset>24</BottomAnchorOffset>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorOffset>170</LeftAnchorOffset>
+		<RightAnchorOffset>94</RightAnchorOffset>
 		<Style_Border>true</Style_Border>
+		<Font>2</Font>
 	</Editbox>
 	
 	<Button item="MVW_SearchButton">
 		<ScreenID>MVW_SearchButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>210</LeftAnchorOffset>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<RightAnchorOffset>142</RightAnchorOffset>
-		<BottomAnchorOffset>24</BottomAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorOffset>90</LeftAnchorOffset>
+		<RightAnchorOffset>46</RightAnchorOffset>
 		<Text>Search</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 	<Button item="MVW_SearchClearButton">
 		<ScreenID>MVW_SearchClearButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>140</LeftAnchorOffset>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<RightAnchorOffset>72</RightAnchorOffset>
-		<BottomAnchorOffset>24</BottomAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<TopAnchorToTop>true</TopAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorOffset>44</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
 		<Text>Clear</Text>
-		<TooltipReference>Resets the search.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
-	</Button> 
+		<Font>2</Font>
+		<TooltipReference>Reset the search.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 	
 	<StaticAnimation item="MVW_MapPiece">
 		<ScreenID>MapPiece</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>26</TopAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>72</RightAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_VScroll>false</Style_VScroll>
@@ -416,10 +407,10 @@
 		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>28</TopAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>74</RightAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Border>false</Style_Border>
@@ -441,252 +432,190 @@
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>56</CX>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>End Find</Text>
+		<Text>End</Text>
+		<Font>2</Font>
 		<TooltipReference>Cancel the current find path.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
-	</Button>	
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 
-	<Label item="MVW_ControlsLabel">
-		<ScreenID>MVW_LayersLabel</ScreenID>
-		<Font>3</Font>
-		<Text>Controls:</Text>
-		<Size>
-			<CX>69</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>26</Y>
-		</Location>
-	</Label>
 
 	<Button item="MVW_PanResetButton">
 		<ScreenID>MVW_PanResetButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>41</Y>
+			<X>0</X>
+			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>0</CX>
+			<CY>0</CY>
 		</Size>
-		<Text>Center</Text>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Template>AUM_BDT_Normal</Template>
+		<Text></Text>
+		<Font>2</Font>
+		<TooltipReference>Re-centre the map on you.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 
 	<Button item="MVW_ZoomInButton">
 		<ScreenID>MVW_ZoomInButton</ScreenID>
-		<RelativePosition>true</RelativePosition>	
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>65</Y>
+			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Zoom (+)</Text>
-		<TooltipReference>Zoom In. (Or use Mouse Wheel)</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
+		<Text>+</Text>
+		<Font>2</Font>
+		<TooltipReference>Zoom in. (Or use the mouse wheel)</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 	<Button item="MVW_ZoomOutButton">
 		<ScreenID>MVW_ZoomOutButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>89</Y>
+			<X>24</X>
+			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Zoom (-)</Text>
-		<TooltipReference>Zoom Out. (Or use Mouse Wheel)</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>	 
-	</Button>	
+		<Text>-</Text>
+		<Font>2</Font>
+		<TooltipReference>Zoom out. (Or use the mouse wheel)</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 	
 	<Button item="MVW_FindAutoZoom">
 		<ScreenID>MVW_FindAutoZoom</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>112</Y>
+			<X>46</X>
+			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>76</CX>
-			<CY>34</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text>Auto-Zoom</Text>
-		<TooltipReference>Toggle the map auto-zooming on your find path.</TooltipReference>
-		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_CheckboxWithTextDouble</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>34</CY>
-		</DecalSize>
-		<TextOffsetX>22</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
+		<Text>AZ</Text>
 		<Font>2</Font>
+		<TooltipReference>Auto-zoom the map onto your find path.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 		
-	<Label item="MVW_LayersLabel">
-		<ScreenID>MVW_LayersLabel</ScreenID>
-		<Font>3</Font>
-		<Text>Layers:</Text>
-		<Size>
-			<CX>46</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>147</Y>
-		</Location>
-	</Label>
 
-	<Label item="MVW_LayerVisibleLabel">
-		<ScreenID>MVW_LayerVisibleLabel</ScreenID>
-		<Font>2</Font>
-		<Text>Visible</Text>
-		<Size>
-			<CX>69</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>163</Y>
-		</Location>
-		<AlignCenter>true</AlignCenter>
-	</Label>		
 		
 	<Button item="MVW_Layer0Button">
 		<ScreenID>MVW_Layer0Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>177</Y>
+			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text>Base</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Text>B</Text>
+		<Font>2</Font>
+		<TooltipReference>Show the base map layer.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 	<Button item="MVW_Layer3Button">
 		<ScreenID>MVW_Layer3Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>48</X>
-			<Y>201</Y>
+			<X>53</X>
+			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>3</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<TooltipReference>Show map layer 3.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 	<Button item="MVW_Layer2Button">
 		<ScreenID>MVW_Layer2Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>25</X>
-			<Y>201</Y>
+			<X>36</X>
+			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>2</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<TooltipReference>Show map layer 2.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 	<Button item="MVW_Layer1Button">
 		<ScreenID>MVW_Layer1Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>201</Y>
+			<X>19</X>
+			<Y>68</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>1</Text>
-		<Template>AUM_BDT_Normal</Template>
-	</Button>		
-		
-	<Label item="MVW_LayerActiveLabel">
-		<ScreenID>MVW_LayerActiveLabel</ScreenID>
 		<Font>2</Font>
-		<Text>Active</Text>
-		<Size>
-			<CX>69</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>223</Y>
-		</Location>
-		<AlignCenter>true</AlignCenter>
-	</Label>
+		<TooltipReference>Show map layer 1.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
+		
 	
 	<Button item="MVW_Layer3ActiveButton">
 		<ScreenID>MVW_Layer3ActiveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>48</X>
-			<Y>237</Y>
+			<X>53</X>
+			<Y>90</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>3</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<TooltipReference>Draw new lines on layer 3.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 		<RadioGroup>MVW_ActiveLayer</RadioGroup>
 	</Button>
 	
@@ -694,19 +623,19 @@
 		<ScreenID>MVW_Layer2ActiveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>25</X>
-			<Y>237</Y>
+			<X>36</X>
+			<Y>90</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>2</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<TooltipReference>Draw new lines on layer 2.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 		<RadioGroup>MVW_ActiveLayer</RadioGroup>
 	</Button>
 	
@@ -714,19 +643,19 @@
 		<ScreenID>MVW_Layer1ActiveButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>237</Y>
+			<X>19</X>
+			<Y>90</Y>
 		</Location>
 		<Size>
-			<CX>20</CX>
-			<CY>22</CY>
+			<CX>17</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>1</Text>
-		<Template>AUM_BDT_Normal</Template>
+		<Font>2</Font>
+		<TooltipReference>Draw new lines on layer 1.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 		<RadioGroup>MVW_ActiveLayer</RadioGroup>
 	</Button>
 
@@ -735,85 +664,40 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>261</Y>
+			<Y>112</Y>
 		</Location>
 		<Size>
-			<CX>80</CX>
-			<CY>16</CY>
+			<CX>34</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text>Filter Z</Text>
-		<TooltipReference>Toggle filtering map lines based on your position and the high and low values.</TooltipReference>
-		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_CheckboxWithText</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
-		</DecalSize>
-		<TextOffsetX>20</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
+		<Text>ZF</Text>
 		<Font>2</Font>
+		<TooltipReference>Filter map lines by your height and the low/high values.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 
 	<Button item="MVW_ZAutoFadeButton">
 		<ScreenID>MVW_ZAutoFadeButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>283</Y>
+			<X>38</X>
+			<Y>112</Y>
 		</Location>
 		<Size>
-			<CX>80</CX>
-			<CY>16</CY>
+			<CX>34</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Text>Auto Z</Text>
-		<TooltipReference>Uses automatic zone dependent low and high values.</TooltipReference>
-		<Template>BDT_CheckboxWithText</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
-		</DecalSize>
-		<TextOffsetX>20</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
+		<Text>ZA</Text>
 		<Font>2</Font>
+		<TooltipReference>Use automatic zone-dependent low and high values.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 
-	<Label item="MVW_MinZLabel">
-		<ScreenID>MVW_MinZLabel</ScreenID>
-		<Font>2</Font>
-		<Text>Z Min</Text>
-		<Size>
-			<CX>69</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>305</Y>
-		</Location>
-		<AlignCenter>true</AlignCenter>
-	</Label>
 	
-	<Label item="MVW_MaxZLabel">
-		<ScreenID>MVW_MaxZLabel</ScreenID>
-		<Font>2</Font>
-		<Text>Z Max</Text>
-		<Size>
-			<CX>69</CX>
-			<CY>15</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>340</Y>
-		</Location>
-		<AlignCenter>true</AlignCenter>		
-	</Label>
 	
 	<Editbox item="MVW_MinZEditBox">
 		<ScreenID>MVW_MinZEditBox</ScreenID>
@@ -821,14 +705,15 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>320</Y>
+			<Y>134</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>20</CY>
+			<CX>34</CX>
+			<CY>18</CY>
 		</Size>
 		<Style_Border>true</Style_Border>
-		<TooltipReference>How much below your current position to draw map lines.</TooltipReference>
+		<Font>2</Font>
+		<TooltipReference>How far below you to draw map lines.</TooltipReference>
 	</Editbox>
 	
 	<Editbox item="MVW_MaxZEditBox">
@@ -836,151 +721,107 @@
 		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>355</Y>
+			<X>38</X>
+			<Y>134</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>20</CY>
+			<CX>34</CX>
+			<CY>18</CY>
 		</Size>
 		<Style_Border>true</Style_Border>
-		<TooltipReference>How much above your current position to draw map lines.</TooltipReference>
+		<Font>2</Font>
+		<TooltipReference>How far above you to draw map lines.</TooltipReference>
 	</Editbox>
 
 	<!-- Z Fade Percent slider -->
-	<Label item="MVW_ZFadePercentLabel">
-		<ScreenID>MVW_ZFadePercentLabel</ScreenID>
-		<Location>
-			<X>2</X>
-			<Y>377</Y>
-		</Location>
-		<Size>
-			<CX>32</CX>
-			<CY>12</CY>
-		</Size>
-		<Text>Fade:</Text>
-		<Font>3</Font>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-	</Label>
 	<Label item="MVW_ZFadePercentValueLabel">
 		<ScreenID>MVW_ZFadePercentValueLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>32</X>
-			<Y>377</Y>
+			<X>48</X>
+			<Y>157</Y>
 		</Location>
 		<Size>
-			<CX>35</CX>
+			<CX>24</CX>
 			<CY>12</CY>
 		</Size>
 		<Text>0%</Text>
+		<Font>2</Font>
 		<NoWrap>true</NoWrap>
-		<Font>3</Font>
-		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
 	</Label>
 	<Slider item="MVW_ZFadePercentSlider">
 		<ScreenID>MVW_ZFadePercentSlider</ScreenID>
+		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>391</Y>
+			<Y>156</Y>
 		</Location>
 		<Size>
-			<CX>70</CX>
-			<CY>16</CY>
+			<CX>44</CX>
+			<CY>14</CY>
 		</Size>
 		<SliderArt>SDT_DefSlider</SliderArt>
+		<TooltipReference>How far out-of-range map lines fade.</TooltipReference>
 	</Slider>
 	
-	<Label item="MVW_ShowLabel">
-		<ScreenID>MVW_LayersLabel</ScreenID>
-		<Font>3</Font>
-		<Text>Show:</Text>
-		<Size>
-			<CX>46</CX>
-			<CY>12</CY>
-		</Size>
-		<Location>
-			<X>2</X>
-			<Y>409</Y>
-		</Location>
-	</Label>
 			
 	<Button item="MVW_LabelsToggleButton">
 		<ScreenID>MVW_LabelsToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>423</Y>
+			<Y>24</Y>
 		</Location>
 		<Size>
-			<CX>76</CX>
-			<CY>16</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<Text>Labels</Text>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_CheckboxWithText</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
-		</DecalSize>
-		<TextOffsetX>22</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
+		<Text>L</Text>
 		<Font>2</Font>
-		<TooltipReference>Toggle displaying of labels on and off.</TooltipReference>		
-	</Button>		
+		<TooltipReference>Toggle map labels.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 		
 	<Button item="MVW_ShowGroupButton">
 		<ScreenID>MVW_ShowGroupButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>445</Y>
+			<X>24</X>
+			<Y>24</Y>
 		</Location>
 		<Size>
-			<CX>71</CX>
-			<CY>16</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
-		<Text>Group</Text>
-		<TooltipReference>Toggle display of group members in the current zone.</TooltipReference>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_CheckboxWithText</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
-		</DecalSize>
-		<TextOffsetX>19</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
+		<Text>G</Text>
 		<Font>2</Font>
+		<TooltipReference>Toggle display of group members in this zone.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	
 		<Button item="MVW_ShowNamesButton">
 		<ScreenID>MVW_ShowNamesButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>467</Y>
+			<X>46</X>
+			<Y>24</Y>
 		</Location>
 		<Size>
-			<CX>76</CX>
-			<CY>16</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
-		<TextOffsetX>20</TextOffsetX>
-		<TextOffsetY>0</TextOffsetY>
-		<Font>2</Font>		
-		<Text>Names</Text>
-		<TooltipReference>Toggle display of group members' names in the current zone.</TooltipReference>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
-		<Template>BDT_CheckboxWithText</Template>
-		<DecalSize>
-			<CX>16</CX>
-			<CY>16</CY>
-		</DecalSize>
-	</Button>			
+		<Text>N</Text>
+		<Font>2</Font>
+		<TooltipReference>Toggle display of group members' names.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 				
 	<Button item="MVW_LoadCurrent">
 		<ScreenID>MVW_LoadCurrent</ScreenID>
@@ -997,7 +838,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Current Zone</Text>
 		<TooltipReference>Reset map to current zone.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>	 
 	
 	<Button item="MVW_MapZoneGuide">
@@ -1005,36 +846,38 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>497</Y>
+			<Y>46</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>34</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text> Zone  Guide</Text>
-		<TooltipReference>Toggle the visibility of the Zone Guide.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
-	</Button>	
+		<Text>ZG</Text>
+		<Font>2</Font>
+		<TooltipReference>Toggle the Zone Guide window.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 		
 	<Button item="MVW_ToolbarButton">
 		<ScreenID>MVW_ToolbarButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>2</X>
-			<Y>533</Y>
+			<X>24</X>
+			<Y>46</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>20</CX>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Edit Map</Text>
-		<TooltipReference>Pop up the Toolbar Window.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
-	</Button>		
+		<Text>E</Text>
+		<Font>2</Font>
+		<TooltipReference>Open the map editing toolbar.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 
 	<Button item="MVW_Find">
 		<ScreenID>MVW_Find</ScreenID>
@@ -1044,92 +887,82 @@
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>69</CX>
-			<CY>22</CY>
+			<CX>56</CX>
+			<CY>20</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Find</Text>
-		<TooltipReference>Find a destination in the current zone.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
-	</Button>	
+		<Font>2</Font>
+		<TooltipReference>Find a destination in this zone.</TooltipReference>
+		<Template>OS_BDT_PetFlat</Template>
+	</Button>
 
 		
 	<Screen item="MVW_MapToolBar">
 		<ScreenID>MVW_MapToolBar</ScreenID>
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
-		<TopAnchorOffset>0</TopAnchorOffset>
+		<TopAnchorOffset>26</TopAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<LeftAnchorOffset>72</LeftAnchorOffset>
+		<LeftAnchorOffset>74</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<RightAnchorOffset>0</RightAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
+		<Style_Transparent>true</Style_Transparent>
 		<Style_Border>false</Style_Border>
-		<Pieces>MVW_PanLeftButton</Pieces>
-		<Pieces>MVW_PanRightButton</Pieces>
-		<Pieces>MVW_PanUpButton</Pieces>
-		<Pieces>MVW_PanDownButton</Pieces>
 		<Pieces>MVW_ZoomInButton</Pieces>
 		<Pieces>MVW_ZoomOutButton</Pieces>
+		<Pieces>MVW_FindAutoZoom</Pieces>
+		<Pieces>MVW_LabelsToggleButton</Pieces>
+		<Pieces>MVW_ShowGroupButton</Pieces>
+		<Pieces>MVW_ShowNamesButton</Pieces>
+		<Pieces>MVW_MapZoneGuide</Pieces>
 		<Pieces>MVW_ToolbarButton</Pieces>
-		<Pieces>MVW_MinZLabel</Pieces>
-		<Pieces>MVW_MaxZLabel</Pieces>
-		<Pieces>MVW_MinZEditBox</Pieces>
-		<Pieces>MVW_MaxZEditBox</Pieces>
-		<Pieces>MVW_LayersLabel</Pieces>
+		<Pieces>MVW_Layer0Button</Pieces>
 		<Pieces>MVW_Layer1Button</Pieces>
 		<Pieces>MVW_Layer2Button</Pieces>
 		<Pieces>MVW_Layer3Button</Pieces>
-		<Pieces>MVW_LayerVisibleLabel</Pieces>
-		<Pieces>MVW_LayerActiveLabel</Pieces>
 		<Pieces>MVW_Layer1ActiveButton</Pieces>
 		<Pieces>MVW_Layer2ActiveButton</Pieces>
 		<Pieces>MVW_Layer3ActiveButton</Pieces>
 		<Pieces>MVW_ZFilterButton</Pieces>
 		<Pieces>MVW_ZAutoFadeButton</Pieces>
-		<Pieces>MVW_PanResetButton</Pieces>
-		<Pieces>MVW_LabelsToggleButton</Pieces>
-		<Pieces>MVW_Layer0Button</Pieces>
-		<Pieces>MVW_LoadCurrent</Pieces>
-		<Pieces>MVW_Find</Pieces>
-		<Pieces>MVW_ZFadePercentLabel</Pieces>
+		<Pieces>MVW_MinZEditBox</Pieces>
+		<Pieces>MVW_MaxZEditBox</Pieces>
+		<Pieces>MVW_ZFadePercentSlider</Pieces>
 		<Pieces>MVW_ZFadePercentValueLabel</Pieces>
-		<Pieces>MVW_ZFadePercentSlider</Pieces>		
-		<Pieces>MVW_EndFind</Pieces>
-		<Pieces>MVW_FindAutoZoom</Pieces>
-		<Pieces>MVW_ShowGroupButton</Pieces>
-		<Pieces>MVW_ShowNamesButton</Pieces>
-		<Pieces>MVW_MapZoneGuide</Pieces>	
-		<Pieces>MVW_ControlsLabel</Pieces>
-		<Pieces>MVW_ShowLabel</Pieces>
+		<Pieces>MVW_PanLeftButton</Pieces>
+		<Pieces>MVW_PanRightButton</Pieces>
+		<Pieces>MVW_PanUpButton</Pieces>
+		<Pieces>MVW_PanDownButton</Pieces>
+		<Pieces>MVW_PanResetButton</Pieces>
+		<Pieces>MVW_LoadCurrent</Pieces>
 	</Screen>
 
 	<Screen item="MVW_MapTopBar">
 		<ScreenID>MVW_MapTopBar</ScreenID>
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorToTop>true</TopAnchorToTop>
-		<TopAnchorOffset>0</TopAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<BottomAnchorOffset>26</BottomAnchorOffset>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<RightAnchorOffset>72</RightAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
+		<Style_Transparent>true</Style_Transparent>
 		<Style_Border>false</Style_Border>
+		<Pieces>MVW_Find</Pieces>
+		<Pieces>MVW_EndFind</Pieces>
 		<Pieces>MVW_MapsDirCombobox</Pieces>
-		<Pieces>MVW_SearchLabel</Pieces>
 		<Pieces>MVW_SearchBox</Pieces>
 		<Pieces>MVW_SearchButton</Pieces>
 		<Pieces>MVW_SearchClearButton</Pieces>
@@ -1145,12 +978,12 @@
 		<RightAnchorOffset>194</RightAnchorOffset>
 		<Text>Hide</Text>
 		<TooltipReference>Hides the search list.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button> 
 	
 	<Listbox item="MVW_SearchList">
 		<ScreenID>MVW_SearchList</ScreenID>
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>
 		<RelativePosition>true</RelativePosition>
 		<Size>
 			<CX>200</CX>
@@ -1182,7 +1015,7 @@
 		<TopAnchorOffset>22</TopAnchorOffset>
 		<BottomAnchorOffset>-2</BottomAnchorOffset>
 		<LeftAnchorOffset>-2</LeftAnchorOffset>
-		<RightAnchorOffset>70</RightAnchorOffset>
+		<RightAnchorOffset>78</RightAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Spacing>4</Spacing>
@@ -1267,7 +1100,7 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Zone Guide</Text>
 		<TooltipReference>Toggle the visibility of the Zone Guide.</TooltipReference>
-		<Template>AUM_BDT_Normal</Template>
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>	 
 	
 	<Page item ="AtlasPage">
@@ -1327,7 +1160,7 @@
 		</Size>
 		<NoWrap>false</NoWrap>
 		<TooltipReference>Map Viewer</TooltipReference>
-		<DrawTemplate>AUM_WDT_Rounded</DrawTemplate>
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>
 		<MenuName>Default Map, Light Background</MenuName>		
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
@@ -1336,8 +1169,8 @@
 		<Style_Sizable>true</Style_Sizable>
 		<Style_Transparent>true</Style_Transparent>
 		<Text>Map</Text>
-		<MinHSize>600</MinHSize>
-		<MinVSize>556</MinVSize>
+		<MinHSize>300</MinHSize>
+		<MinVSize>240</MinVSize>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>

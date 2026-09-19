@@ -1,5 +1,35 @@
 # Changelog
 
+## 19 September 2026 (2)
+
+### Map window
+
+Rebuilt. The map now fills the whole window - the search row and the control
+panel float over it instead of taking a strip out of it.
+
+Controls are 20x20 squares grouped by job down the right edge: zoom and
+auto-zoom, the label/group/name toggles, zone guide and edit map, the two layer
+rows, Z filtering with its low and high boxes, and the fade slider. Every one
+carries a tooltip, because the letters on their own are cryptic.
+
+Vert artwork throughout - the dark rock frame with the black square border the
+player and pet windows use, and the flat Vert buttons from the pet window.
+
+The window drags down to `300 x 240` instead of `600 x 556`, so it can sit in a
+corner as a minimap. A size you have already saved still wins over the skin, so
+drag the window in to find the new floor.
+
+Dropped: the pan arrows, Center, Current Zone, and the text headings the old
+panel carried. Panning is a drag on the map; everything else is a button.
+
+The two floating strips take clicks, so the map does not pan underneath them.
+
+### Find window
+
+Now skinned. It had been loading the client's classic art all along because the
+skin carried no copy of the file. It gets the same dark rock frame and inset
+boxes as the map window it opens from.
+
 ## 19 September 2026
 
 A console band across the bottom of the screen: every window and hot bar in it
