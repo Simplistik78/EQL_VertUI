@@ -89,60 +89,60 @@
     <ScreenID>A_TargetBoxStaticAnimTop</ScreenID>
     <Animation>A_TargetBoxTop</Animation>
     <AutoDraw>false</AutoDraw>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>134</TopAnchorOffset>
-    <BottomAnchorOffset>133</BottomAnchorOffset>
-    <LeftAnchorOffset>1</LeftAnchorOffset>
-    <RightAnchorOffset>1</RightAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>2</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
   </StaticAnimation>
   
   <StaticAnimation item="A_TargetBoxStaticAnimBottom">
     <ScreenID>A_TargetBoxStaticAnimBottom</ScreenID>
     <Animation>A_TargetBoxBottom</Animation>
     <AutoDraw>false</AutoDraw>
-    <AutoStretch>true</AutoStretch>
-	<TopAnchorOffset>11</TopAnchorOffset>
-	<BottomAnchorOffset>2</BottomAnchorOffset>
-    <LeftAnchorOffset>1</LeftAnchorOffset>
-    <RightAnchorOffset>1</RightAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
   </StaticAnimation>
   
   <StaticAnimation item="A_TargetBoxStaticAnimLeft">
     <ScreenID>A_TargetBoxStaticAnimLeft</ScreenID>
     <Animation>A_TargetBoxLeft</Animation>
     <AutoDraw>false</AutoDraw>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>148</TopAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
-    <LeftAnchorOffset>1</LeftAnchorOffset>
-    <RightAnchorOffset>9</RightAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>true</RightAnchorToLeft>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
   </StaticAnimation>
   
   <StaticAnimation item="A_TargetBoxStaticAnimRight">
     <ScreenID>A_TargetBoxStaticAnimRight</ScreenID>
     <Animation>A_TargetBoxRight</Animation>
     <AutoDraw>false</AutoDraw>
-    <AutoStretch>true</AutoStretch>
-    <TopAnchorOffset>148</TopAnchorOffset>
-    <BottomAnchorOffset>2</BottomAnchorOffset>
-    <LeftAnchorOffset>9</LeftAnchorOffset>
-    <RightAnchorOffset>1</RightAnchorOffset>
-    <TopAnchorToTop>false</TopAnchorToTop>
-    <BottomAnchorToTop>false</BottomAnchorToTop>
-    <LeftAnchorToLeft>false</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
   </StaticAnimation>
   
   <StaticAnimation item="A_TargetBoxStaticAnimFill">
@@ -170,13 +170,17 @@
 		<Text></Text>
 		<EQType>306</EQType>
 		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>93</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<FontShadow>true</FontShadow>	
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>350</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>384</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
 	
 	<Label item="Target_AggroNameSecondaryLabel">
@@ -186,15 +190,17 @@
 		<Text></Text>
 		<EQType>304</EQType>
 		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
 		<AlignCenter>true</AlignCenter>
-		<TopAnchorOffset>93</TopAnchorOffset>
-		<LeftAnchorOffset>20</LeftAnchorOffset>
-		<RightAnchorOffset>20</RightAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>		
 		<FontShadow>true</FontShadow>	
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>250</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>320</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
 	
 	<Label item="Target_AggroPctSecondaryLabel">
@@ -204,14 +210,17 @@
 		<Text></Text>
 		<EQType>308</EQType>
 		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
 		<AlignRight>true</AlignRight>
-		<TopAnchorOffset>93</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
-		<LeftAnchorOffset>35</LeftAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>		
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>320</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>350</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
 
 <!-- Target's gauges, class, level	 -->
@@ -242,11 +251,14 @@
 			<Fill>AUM_A_HUDGaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>15</TopAnchorOffset>
-		<BottomAnchorOffset>35</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<TopAnchorOffset>54</TopAnchorOffset>
+		<RightAnchorOffset>438</RightAnchorOffset>
+		<BottomAnchorOffset>72</BottomAnchorOffset>
 	</Gauge>
  
 	<Gauge item="Target_HP_NameOnly">
@@ -259,7 +271,7 @@
 		<RelativePosition>true</RelativePosition>
 		<GaugeOffsetY>-1000</GaugeOffsetY>
 		<TextOffsetX>2</TextOffsetX>
-		<TextOffsetY>3</TextOffsetY>
+		<TextOffsetY>1</TextOffsetY>
 		<FontShadow>true</FontShadow>
 		<Font>3</Font>
 		<Style_Transparent>false</Style_Transparent>
@@ -274,28 +286,34 @@
 		<GaugeDrawTemplate>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>15</TopAnchorOffset>
-		<BottomAnchorOffset>35</BottomAnchorOffset>
-		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>25</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>108</LeftAnchorOffset>
+		<TopAnchorOffset>54</TopAnchorOffset>
+		<RightAnchorOffset>250</RightAnchorOffset>
+		<BottomAnchorOffset>72</BottomAnchorOffset>
 	</Gauge>
  
 	<Label item="Target_HPLabel">
 		<ScreenID>HPLabel</ScreenID>
 		<EQType>29</EQType>
 		<RelativePosition>true</RelativePosition>
-		<Font>4</Font>
+		<Font>3</Font>
 		<Text>100</Text>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>17</TopAnchorOffset>
-		<BottomAnchorOffset>36</BottomAnchorOffset>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>384</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>435</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
   
 	<Label item="Target_HPPercLabel">
@@ -310,14 +328,16 @@
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>-1</TopAnchorOffset>
-		<BottomAnchorOffset>14</BottomAnchorOffset>
-		<LeftAnchorOffset>20</LeftAnchorOffset>
-		<RightAnchorOffset>125</RightAnchorOffset>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>22</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>110</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
 	  
 	<Label item="Target_Level">
@@ -328,14 +348,16 @@
 		<Text></Text>
 		<NoWrap>true</NoWrap>
 		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>-1</TopAnchorOffset>
-		<BottomAnchorOffset>15</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>30</RightAnchorOffset>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>4</LeftAnchorOffset>
+		<TopAnchorOffset>55</TopAnchorOffset>
+		<RightAnchorOffset>22</RightAnchorOffset>
+		<BottomAnchorOffset>71</BottomAnchorOffset>
 	</Label>
 <!-- End of Target's gauges, level, class -->
 
@@ -351,7 +373,7 @@
 		<RelativePosition>true</RelativePosition>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<TextOffsetX>2</TextOffsetX>
-		<TextOffsetY>-2</TextOffsetY>
+		<TextOffsetY>0</TextOffsetY>
 		<FontShadow>true</FontShadow>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -369,11 +391,14 @@
 			<Fill>AUM_A_HUDGaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>72</TopAnchorOffset>
-		<BottomAnchorOffset>82</BottomAnchorOffset>
-		<LeftAnchorOffset>25</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>219</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Gauge>
 		
 	<Label item="TTargetOfTarget_HPLabel">
@@ -389,14 +414,16 @@
 		<Text />
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>70</TopAnchorOffset>
-		<BottomAnchorOffset>85</BottomAnchorOffset>
-		<LeftAnchorOffset>30</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>186</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>216</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Label>
 
 	<Label item="ToT_Class">
@@ -413,14 +440,16 @@
 		<NoWrap>true</NoWrap>
 		<RelativePosition>true</RelativePosition>
 		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>83</TopAnchorOffset>
-		<BottomAnchorOffset>96</BottomAnchorOffset>
-		<LeftAnchorOffset>43</LeftAnchorOffset>
-		<RightAnchorOffset>155</RightAnchorOffset>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>138</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>186</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Label>
   
 	<Label item="ToT_Level">
@@ -437,48 +466,19 @@
 		<NoWrap>true</NoWrap>
 		<RelativePosition>true</RelativePosition>
 		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>83</TopAnchorOffset>
-		<BottomAnchorOffset>96</BottomAnchorOffset>
-		<LeftAnchorOffset>26</LeftAnchorOffset>
-		<RightAnchorOffset>41</RightAnchorOffset>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>		
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>120</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>136</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Label>	  	
 
-	<Ui2DAnimation item="TT_Indicator">
-		<Cycle>true</Cycle>
-		<Frames>
-		  <Texture>aumaar_window_fg_pieces.tga</Texture>
-		  <Location>
-			<X>0</X>
-			<Y>0</Y>
-		  </Location>
-		  <Size>
-			<CX>25</CX>
-			<CY>25</CY>
-		  </Size>
-		  <Hotspot>
-			<X>0</X>
-			<Y>0</Y>
-		  </Hotspot>
-		  <Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
 
-	<StaticAnimation item="TT_Indicator">
-		<RelativePosition>true</RelativePosition>
-		<Location>
-		  <X>1</X>
-		  <Y>69</Y>
-		</Location>
-		<Size>
-		  <CX>25</CX>
-		  <CY>25</CY>
-		</Size>
-		<Animation>TT_Indicator</Animation>
-	</StaticAnimation>
 	
 <!-- End of Target of Target gauges, level, class -->	
 
@@ -499,17 +499,20 @@
 			<Fill>AUM_A_HUDGaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<TopAnchorOffset>74</TopAnchorOffset>
+		<RightAnchorOffset>219</RightAnchorOffset>
+		<BottomAnchorOffset>86</BottomAnchorOffset>
 	</Gauge>
 	
 	<Label item="Target_MPNumbers">
 		<ScreenID>Target_MPNumbers</ScreenID>
 		<EQType>1007</EQType>
-		<Font>4</Font>
+		<Font>2</Font>
 		<TextColor>
 			<R>240</R>
 			<G>240</G>
@@ -519,13 +522,17 @@
 		<Text>100</Text>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>60</BottomAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>150</LeftAnchorOffset>
+		<TopAnchorOffset>73</TopAnchorOffset>
+		<RightAnchorOffset>216</RightAnchorOffset>
+		<BottomAnchorOffset>87</BottomAnchorOffset>
 	</Label>
 	
 	<Gauge item="Castspell_Gauge">
@@ -547,11 +554,14 @@
 			<Fill>AUM_A_HUDGaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>221</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>438</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Gauge>
 	
 	<Label item="Castspell_Name">
@@ -560,15 +570,17 @@
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
 		<NoWrap>true</NoWrap>
-		<TopAnchorOffset>38</TopAnchorOffset>
-		<BottomAnchorOffset>51</BottomAnchorOffset>
-		<LeftAnchorOffset>3</LeftAnchorOffset>
-		<RightAnchorOffset>30</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>224</LeftAnchorOffset>
+		<TopAnchorOffset>88</TopAnchorOffset>
+		<RightAnchorOffset>435</RightAnchorOffset>
+		<BottomAnchorOffset>102</BottomAnchorOffset>
 	</Label>
 
 	<Gauge item="Target_Fatigue">
@@ -586,17 +598,20 @@
 			<Fill>AUM_A_HUDGaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>56</TopAnchorOffset>
-		<BottomAnchorOffset>70</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>221</LeftAnchorOffset>
+		<TopAnchorOffset>74</TopAnchorOffset>
+		<RightAnchorOffset>438</RightAnchorOffset>
+		<BottomAnchorOffset>86</BottomAnchorOffset>
 	</Gauge>
 	
 	<Label item="Target_FatigueLabel">
 		<ScreenID>Target_FatigueLabel</ScreenID>
 		<EQType>1013</EQType>
-		<Font>4</Font>
+		<Font>2</Font>
 		<TextColor>
 			<R>240</R>
 			<G>240</G>
@@ -606,13 +621,17 @@
 		<Text>100</Text>
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>55</TopAnchorOffset>
-		<BottomAnchorOffset>69</BottomAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
 		<FontShadow>true</FontShadow>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>370</LeftAnchorOffset>
+		<TopAnchorOffset>73</TopAnchorOffset>
+		<RightAnchorOffset>435</RightAnchorOffset>
+		<BottomAnchorOffset>87</BottomAnchorOffset>
 	</Label>
 	
 <!-- End Target mana and casting gauge	 -->
@@ -644,14 +663,19 @@
 	<TileLayoutBox item="Target_Buttons">
 		<ScreenID>TargetBuffsButtons</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>436</CX>
+			<CY>46</CY>
+		</Size>
+		<AnchorToTop>true</AnchorToTop>
 		<Style_Transparent>false</Style_Transparent>
 		<Spacing>0</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>false</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
 		<Pieces>Target_Buff_Template</Pieces>
@@ -660,14 +684,6 @@
 	<Screen item="Target_BuffWindow">
 		<ScreenID>BuffWindow</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>2</LeftAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
-		<BottomAnchorOffset>150</BottomAnchorOffset>		
-		<TopAnchorOffset>2</TopAnchorOffset>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
@@ -679,111 +695,49 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TileLayoutBox:Target_Buttons</Pieces>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>2</LeftAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<RightAnchorOffset>438</RightAnchorOffset>
+		<BottomAnchorOffset>52</BottomAnchorOffset>
 	</Screen>	
 <!-- End of target's buffs -->
 
-	<DragBox item="TWDragBox1">
-        <ScreenID>TWDragBox1</ScreenID>
-		<AutoStretch>true</AutoStretch>		
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<TopAnchorOffset>132</TopAnchorOffset>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>49</BottomAnchorOffset>
-        <BackgroundTextureTint>
-            <R>255</R>
-            <G>0</G>
-            <B>0</B>
-        </BackgroundTextureTint>
-        <Style_Transparent>true</Style_Transparent>
-    </DragBox>
 
-	<DragBox item="TWDragBox2">
-        <ScreenID>TWDragBox2</ScreenID>
-		<AutoStretch>true</AutoStretch>		
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<TopAnchorOffset>29</TopAnchorOffset>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-        <BackgroundTextureTint>
-            <R>255</R>
-            <G>0</G>
-            <B>0</B>
-        </BackgroundTextureTint>
-        <Style_Transparent>true</Style_Transparent>
-    </DragBox>
 	
-	<Screen item="TargetSubWindow">
-		<RelativePosition>true</RelativePosition>
-		<RelativePosition>true</RelativePosition>
-		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>		
-		<AutoStretch>true</AutoStretch>
-		<ResizeLast>true</ResizeLast>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Titlebar>true</Style_Titlebar>
-		<Style_Closebox>false</Style_Closebox>
-		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>148</TopAnchorOffset>
-		<BottomAnchorOffset>12</BottomAnchorOffset>
-		<LeftAnchorOffset>10</LeftAnchorOffset>
-		<RightAnchorOffset>10</RightAnchorOffset>
-		<Pieces>Target_AggroPctPlayerLabel</Pieces>
-		<Pieces>Target_AggroNameSecondaryLabel</Pieces>
-		<Pieces>Target_AggroPctSecondaryLabel</Pieces>
-		<Pieces>Target_HP</Pieces>	
-		<Pieces>Target_HP_NameOnly</Pieces>
-		<Pieces>Target_HPLabel</Pieces>
-		<Pieces>Target_HPPercLabel</Pieces>
-		<Pieces>TTargetOfTarget_HP</Pieces>	
-		<Pieces>TTargetOfTarget_HPLabel</Pieces>	
-		<Pieces>TT_Indicator</Pieces>
-		<Pieces>Target_Class</Pieces>
-		<Pieces>Target_Level</Pieces>
-		<Pieces>ToT_Class</Pieces>
-		<Pieces>ToT_Level</Pieces>
-		<Pieces>Target_Mana</Pieces>
-		<Pieces>Target_MPNumbers</Pieces>
-		<Pieces>Castspell_Gauge</Pieces>
-		<Pieces>Castspell_Name</Pieces>	
-		<Pieces>Target_Fatigue</Pieces>
-		<Pieces>Target_FatigueLabel</Pieces>
-	</Screen>
 	
+<!-- ===== Flat target bar =====
+     450 wide (the width players already had), 112 tall.  Buffs stack in
+     two rows of 18 across the top, no scroll bar; HP; mana |
+     endurance; target of target | cast bar.  The con-colour box is a 2px
+     ring on the inside edge of the frame.  All positions are window-
+     client coordinates. -->
 	<Screen item="TargetWindow">
 		<RelativePosition>false</RelativePosition>
-		<MenuName>Fixed Size - Buffs on Top</MenuName>
+		<MenuName>Fixed Size - Flat Bar</MenuName>
 		<Location>
 			<X>3</X>
 			<Y>0</Y>
 		</Location>
-		<MinVSize>174</MinVSize>
-		<MinHSize>260</MinHSize>
+		<MinVSize>120</MinVSize>
+		<MinHSize>458</MinHSize>
 		<Size>
-			<CX>354</CX>
-			<CY>186</CY>
+			<CX>458</CX>
+			<CY>120</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<DrawTemplate>AUM_WDT_RoundedTransparentNoArrow</DrawTemplate>	
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>	
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
-		<Style_Transparent>true</Style_Transparent>
-		<Style_Sizable>true</Style_Sizable>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Sizable>false</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<ClickThroughEmptyBuffs>true</ClickThroughEmptyBuffs>		
 		<Escapable>false</Escapable>
@@ -792,15 +746,31 @@
 			<X>-6</X>
 			<Y>-9</Y>
 		</KeepOnScreenOffset>			
+		<Pieces>Target_BuffWindow</Pieces>
+		<Pieces>Target_HP</Pieces>
+		<Pieces>Target_HP_NameOnly</Pieces>
+		<Pieces>Target_Level</Pieces>
+		<Pieces>Target_Class</Pieces>
+		<Pieces>Target_AggroNameSecondaryLabel</Pieces>
+		<Pieces>Target_AggroPctSecondaryLabel</Pieces>
+		<Pieces>Target_AggroPctPlayerLabel</Pieces>
+		<Pieces>Target_HPLabel</Pieces>
+		<Pieces>Target_HPPercLabel</Pieces>
+		<Pieces>Target_Mana</Pieces>
+		<Pieces>Target_MPNumbers</Pieces>
+		<Pieces>Target_Fatigue</Pieces>
+		<Pieces>Target_FatigueLabel</Pieces>
+		<Pieces>TTargetOfTarget_HP</Pieces>
+		<Pieces>ToT_Level</Pieces>
+		<Pieces>ToT_Class</Pieces>
+		<Pieces>TTargetOfTarget_HPLabel</Pieces>
+		<Pieces>Castspell_Gauge</Pieces>
+		<Pieces>Castspell_Name</Pieces>
+		<Pieces>A_TargetBoxStaticAnimFill</Pieces>
 		<Pieces>A_TargetBoxStaticAnimTop</Pieces>
 		<Pieces>A_TargetBoxStaticAnimBottom</Pieces>
 		<Pieces>A_TargetBoxStaticAnimLeft</Pieces>
 		<Pieces>A_TargetBoxStaticAnimRight</Pieces>
-		<Pieces>A_TargetBoxStaticAnimFill</Pieces>				
-		<Pieces>Screen:TargetSubWindow</Pieces>
-		<Pieces>DragBox:TWDragBox1</Pieces>
-		<Pieces>DragBox:TWDragBox2</Pieces>		
-		<Pieces>Target_BuffWindow</Pieces>			
 	</Screen>
 	
 </XML>

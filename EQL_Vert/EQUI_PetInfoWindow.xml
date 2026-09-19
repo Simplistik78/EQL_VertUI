@@ -91,11 +91,11 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>15</TopAnchorOffset>
-		<BottomAnchorOffset>35</BottomAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>23</BottomAnchorOffset>
 		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorOffset>109</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Gauge>
 
 	<Gauge item="PIW_PetHPGauge_NameOnly">
@@ -125,11 +125,11 @@
 		</GaugeDrawTemplate>
 		<DrawLinesFill>false</DrawLinesFill>		
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>15</TopAnchorOffset>
-		<BottomAnchorOffset>35</BottomAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>23</BottomAnchorOffset>
 		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>25</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorOffset>80</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Gauge>
 
 	<Label item="PIW_PetHPGaugeLabel">
@@ -141,12 +141,12 @@
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>17</TopAnchorOffset>
-		<BottomAnchorOffset>36</BottomAnchorOffset>
-		<LeftAnchorOffset>30</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<BottomAnchorOffset>22</BottomAnchorOffset>
+		<LeftAnchorOffset>79</LeftAnchorOffset>
+		<RightAnchorOffset>107</RightAnchorOffset>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<FontShadow>true</FontShadow>
 	</Label>
 	
@@ -178,11 +178,11 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<LeftAnchorOffset>26</LeftAnchorOffset>
-		<RightAnchorOffset>1</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>26</TopAnchorOffset>
+		<BottomAnchorOffset>48</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>109</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Gauge>
 
 	<Gauge item="PIW_PetTargetHPGauge_NameOnly">
@@ -212,11 +212,11 @@
 		</GaugeDrawTemplate>
 		<DrawLinesFill>false</DrawLinesFill>		
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<LeftAnchorOffset>26</LeftAnchorOffset>
-		<RightAnchorOffset>25</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>26</TopAnchorOffset>
+		<BottomAnchorOffset>48</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>80</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 	</Gauge>
 
 	<Label item="PIW_PetTargetHPGaugeLabel">
@@ -233,57 +233,27 @@
 		<NoWrap>true</NoWrap>
 		<AlignRight>true</AlignRight>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>38</TopAnchorOffset>
-		<BottomAnchorOffset>60</BottomAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>28</TopAnchorOffset>
+		<LeftAnchorOffset>79</LeftAnchorOffset>
+		<BottomAnchorOffset>47</BottomAnchorOffset>
+		<RightAnchorOffset>107</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
 		<FontShadow>true</FontShadow>
 	</Label>
 
-	<Ui2DAnimation item="PetTarget_Indicator">
-		<Cycle>true</Cycle>
-		<Frames>
-		  <Texture>aumaar_window_fg_pieces.tga</Texture>
-		  <Location>
-			<X>0</X>
-			<Y>0</Y>
-		  </Location>
-		  <Size>
-			<CX>25</CX>
-			<CY>25</CY>
-		  </Size>
-		  <Hotspot>
-			<X>0</X>
-			<Y>0</Y>
-		  </Hotspot>
-		  <Duration>1000</Duration>
-		</Frames>
-	</Ui2DAnimation>
 
-	<StaticAnimation item="PetTarget_Indicator">
-		<RelativePosition>true</RelativePosition>
-		<Location>
-		  <X>1</X>
-		  <Y>33</Y>
-		</Location>
-		<Size>
-		  <CX>25</CX>
-		  <CY>25</CY>
-		</Size>
-		<Animation>PetTarget_Indicator</Animation>
-	</StaticAnimation>
 
 	<Button item="PIW_Pet0_Button">
 		<ScreenID>Pet0_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>1</X>
-			<Y>56</Y>
+			<X>113</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>57</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -297,12 +267,12 @@
 		<ScreenID>Pet1_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>59</X>
-			<Y>56</Y>
+			<X>163</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -316,12 +286,12 @@
 		<ScreenID>Pet2_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>118</X>
-			<Y>56</Y>
+			<X>213</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -335,12 +305,12 @@
 		<ScreenID>Pet3_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>177</X>
-			<Y>56</Y>
+			<X>263</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -354,12 +324,12 @@
 		<ScreenID>Pet4_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>236</X>
-			<Y>56</Y>
+			<X>313</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -373,12 +343,12 @@
 		<ScreenID>Pet5_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>1</X>
-			<Y>81</Y>
+			<X>363</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>57</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -392,12 +362,12 @@
 		<ScreenID>Pet6_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>59</X>
-			<Y>81</Y>
+			<X>413</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -411,12 +381,12 @@
 		<ScreenID>Pet7_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>118</X>
-			<Y>81</Y>
+			<X>463</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -430,12 +400,12 @@
 		<ScreenID>Pet8_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>177</X>
-			<Y>81</Y>
+			<X>513</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -449,12 +419,12 @@
 		<ScreenID>Pet9_Button</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>236</X>
-			<Y>81</Y>
+			<X>563</X>
+			<Y>26</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>23</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
@@ -466,39 +436,39 @@
 
 	<Button item="PIW_Pet10_Button">
 		<ScreenID>Pet10_Button</ScreenID>
-<!-- 		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>240</X>
-			<Y>78</Y>
+			<X>513</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>20</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<Template>OS_BDT_PetFlat</Template> -->
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	<Button item="PIW_Pet11_Button">
 		<ScreenID>Pet11_Button</ScreenID>
-<!-- 		<RelativePosition>true</RelativePosition>
+		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>240</X>
-			<Y>78</Y>
+			<X>563</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
-			<CX>58</CX>
-			<CY>20</CY>
+			<CX>49</CX>
+			<CY>22</CY>
 		</Size>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text>none</Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<Template>OS_BDT_PetFlat</Template> -->
+		<Template>OS_BDT_PetFlat</Template>
 	</Button>
 	<Button item="PIW_Pet12_Button">
 		<ScreenID>Pet12_Button</ScreenID>
@@ -537,35 +507,23 @@
 		<Template>OS_BDT_PetFlat</Template> -->
 	</Button>
 
-	<Label item="Pet_label">
-		<ScreenID>Pet_label</ScreenID>>
-		<RelativePosition>true</RelativePosition>
-		<Font>3</Font>
-		<Text>Pet:</Text>
-		<NoWrap>true</NoWrap>
-		<AlignLeft>true</AlignLeft>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>-1</TopAnchorOffset>
-		<BottomAnchorOffset>15</BottomAnchorOffset>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>30</RightAnchorOffset>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<FontShadow>true</FontShadow>
-	</Label>
 	
 	<TileLayoutBox item="PIW_BuffButtons">
 		<ScreenID>PetBuffButtons</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>138</CX>
+			<CY>115</CY>
+		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Spacing>0</Spacing>
 		<SecondarySpacing>0</SecondarySpacing>
 		<HorizontalFirst>true</HorizontalFirst>
-		<AnchorToTop>false</AnchorToTop>
+		<AnchorToTop>true</AnchorToTop>
 		<AnchorToLeft>true</AnchorToLeft>
 		<FirstPieceTemplate>true</FirstPieceTemplate>
 		<Pieces>PIW_PetBuff_Template</Pieces>
@@ -575,15 +533,15 @@
 		<ScreenID>PetBuffWindow</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>6</LeftAnchorOffset>
-		<TopAnchorOffset>146</TopAnchorOffset>
-		<RightAnchorOffset>6</RightAnchorOffset>
-		<BottomAnchorOffset>192</BottomAnchorOffset>
+		<LeftAnchorOffset>625</LeftAnchorOffset>
+		<TopAnchorOffset>7</TopAnchorOffset>
+		<RightAnchorOffset>779</RightAnchorOffset>
+		<BottomAnchorOffset>57</BottomAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<Style_VScroll>false</Style_VScroll>
+		<Style_VScroll>true</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>true</Style_Transparent>
 		<TooltipReference>Buffs on your pet will show here</TooltipReference>
@@ -591,30 +549,26 @@
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
+		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TileLayoutBox:PIW_BuffButtons</Pieces>
 	</Screen>
 
-	<!-- PIWDragBox1 covers window y 1..17 - the "Pet:" label strip, which is
-	     the only band with nothing interactive in it.  It was y 72..90, which
-	     was harmless while PetInfoSubWindow started at y=70 (buttons then sat
-	     at window y 126..174).  Pulling the sub-window up to y=2 to reclaim the
-	     old buff strip moved the buttons to y 58..106, putting them straight
-	     under the drag box - hence the move cursor over them.
-	     The DragBox is anchored to PetInfoWindow, not to the sub-window, so it
-	     did not travel with the rest of the body. -->
+	<!-- Flat pet bar, after PetScrollableBuffs.  PIWDragBox1 sits over the
+	     Vert grip bar at the end of the equipment row - the only empty
+	     band.  It is anchored to PetInfoWindow, so its offsets are the
+	     sub-window positions plus 9,7 (the black-bordered frame: L9 T7). -->
 	<DragBox item="PIWDragBox1">
         <ScreenID>PIWDragBox1</ScreenID>
 		<AutoStretch>true</AutoStretch>		
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<TopAnchorOffset>1</TopAnchorOffset>
-		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<TopAnchorOffset>8</TopAnchorOffset>
+		<LeftAnchorOffset>413</LeftAnchorOffset>
+		<RightAnchorOffset>518</RightAnchorOffset>
+		<BottomAnchorOffset>31</BottomAnchorOffset>
         <BackgroundTextureTint>
             <R>255</R>
             <G>0</G>
@@ -630,7 +584,7 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>2</TopAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
 		<LeftAnchorOffset>0</LeftAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<BottomAnchorOffset>0</BottomAnchorOffset>
@@ -638,7 +592,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Text>Pet Info</Text>
-		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
@@ -649,7 +603,6 @@
 		<Pieces>PIW_PetHPGauge_NameOnly</Pieces>		
 		<Pieces>PIW_PetTargetHPGauge</Pieces>
 		<Pieces>PIW_PetTargetHPGauge_NameOnly</Pieces>	
-		<Pieces>Pet_label</Pieces>
 		<Pieces>PIW_Pet0_Button</Pieces>
 		<Pieces>PIW_Pet1_Button</Pieces>
 		<Pieces>PIW_Pet2_Button</Pieces>
@@ -664,12 +617,9 @@
 		<Pieces>PIW_Pet11_Button</Pieces>
 		<Pieces>PIW_Pet12_Button</Pieces>		
 		<Pieces>PIW_Pet13_Button</Pieces>	
-		<Pieces>PetTarget_Indicator</Pieces>
 		<Pieces>PIW_PetHPGaugeLabel</Pieces>
 		<Pieces>PIW_PetTargetHPGaugeLabel</Pieces>
 		<Pieces>PIW_VertRule1</Pieces>
-		<Pieces>PIW_VertRule2</Pieces>
-		<Pieces>PIW_VertRule3</Pieces>
 		<Pieces>PIW_PetInvSlot00</Pieces>
 		<Pieces>PIW_PetInvSlot01</Pieces>
 		<Pieces>PIW_PetInvSlot02</Pieces>
@@ -686,14 +636,14 @@
 	
 	<Screen item="PetInfoWindow">
 		<RelativePosition>false</RelativePosition>
-		<MenuName>Fixed Size - Buffs on Top</MenuName>		
+		<MenuName>Fixed Size - Pet Bar</MenuName>		
 		<Location>
 			<X>3</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>315</CX>
-			<CY>198</CY>
+			<CX>788</CX>
+			<CY>66</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -703,7 +653,7 @@
 		<Style_Qmarkbox>false</Style_Qmarkbox>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
+		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<ClickThroughEmptyBuffs>true</ClickThroughEmptyBuffs>			
 		<KeepOnScreen>true</KeepOnScreen>
@@ -720,22 +670,14 @@
 	
 	
 
-<!-- ===== pet inventory: 7 slots, flush with the buttons =====
-     Seven is what the client actually draws for this pet, so the row
-     is built for seven - which means they can be full 40px and the
-     item icons are never scaled.
-     Positions round(1 + i*(294-40)/6) = [1, 43, 86, 128, 170, 213, 255]
-     spanning x 1..295 against a button block of x 1..294.
-
-     Slots 7-11 are NOT declared here.  If a pet ever has more than
-     seven, those items stay reachable from the inventory window Pet
-     tab, which is untouched. -->
+<!-- ===== pet inventory: 12 slots across the top row of the bar =====
+     x = 113 + 24*i, y = 1, above the command buttons. -->
 	<InvSlot item="PIW_PetInvSlot00">
 		<ScreenID>PIW_PetInvSlot00</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>1</X>
-			<Y>112</Y>
+			<X>113</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -748,8 +690,8 @@
 		<ScreenID>PIW_PetInvSlot01</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>26</X>
-			<Y>112</Y>
+			<X>137</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -762,8 +704,8 @@
 		<ScreenID>PIW_PetInvSlot02</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>50</X>
-			<Y>112</Y>
+			<X>161</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -776,8 +718,8 @@
 		<ScreenID>PIW_PetInvSlot03</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>75</X>
-			<Y>112</Y>
+			<X>185</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -790,8 +732,8 @@
 		<ScreenID>PIW_PetInvSlot04</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>99</X>
-			<Y>112</Y>
+			<X>209</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -804,8 +746,8 @@
 		<ScreenID>PIW_PetInvSlot05</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>124</X>
-			<Y>112</Y>
+			<X>233</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -818,8 +760,8 @@
 		<ScreenID>PIW_PetInvSlot06</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>148</X>
-			<Y>112</Y>
+			<X>257</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -832,8 +774,8 @@
 		<ScreenID>PIW_PetInvSlot07</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>173</X>
-			<Y>112</Y>
+			<X>281</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -846,8 +788,8 @@
 		<ScreenID>PIW_PetInvSlot08</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>197</X>
-			<Y>112</Y>
+			<X>305</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -860,8 +802,8 @@
 		<ScreenID>PIW_PetInvSlot09</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>222</X>
-			<Y>112</Y>
+			<X>329</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -874,8 +816,8 @@
 		<ScreenID>PIW_PetInvSlot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>246</X>
-			<Y>112</Y>
+			<X>353</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -888,8 +830,8 @@
 		<ScreenID>PIW_PetInvSlot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>271</X>
-			<Y>112</Y>
+			<X>377</X>
+			<Y>1</Y>
 		</Location>
 		<Size>
 			<CX>24</CX>
@@ -901,14 +843,8 @@
 <!-- ===== end pet inventory ===== -->
 
 <!-- ===== Vert accents =====
-     No new textures: OS_A_GWHBar and the rail both come from atlases
-     already installed for the group window.  StaticAnimation supports
-     AutoStretch (GW_H_barblack in EQUI_GroupWindow.xml does the same
-     thing), so a 125x14 bar and a 14x172 rail stretch to any size.
-
-     The command buttons cannot move, so every accent sits in a gap
-     around them.  Three horizontal rules at y 50, 106 and 156.
-     -->
+     One OS_A_GWHBar, stretched over the free end of the equipment row
+     as the drag grip. -->
 	<StaticAnimation item="PIW_VertRule1">
 		<ScreenID>PIW_VertRule1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -916,39 +852,11 @@
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>50</TopAnchorOffset>
-		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<LeftAnchorOffset>3</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<Animation>OS_A_GWHBar</Animation>
-	</StaticAnimation>
-	<StaticAnimation item="PIW_VertRule2">
-		<ScreenID>PIW_VertRule2</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>106</TopAnchorOffset>
-		<BottomAnchorOffset>110</BottomAnchorOffset>
-		<LeftAnchorOffset>3</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
-		<Animation>OS_A_GWHBar</Animation>
-	</StaticAnimation>
-	<StaticAnimation item="PIW_VertRule3">
-		<ScreenID>PIW_VertRule3</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>true</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TopAnchorOffset>140</TopAnchorOffset>
-		<BottomAnchorOffset>144</BottomAnchorOffset>
-		<LeftAnchorOffset>3</LeftAnchorOffset>
-		<RightAnchorOffset>3</RightAnchorOffset>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorOffset>6</TopAnchorOffset>
+		<BottomAnchorOffset>20</BottomAnchorOffset>
+		<LeftAnchorOffset>405</LeftAnchorOffset>
+		<RightAnchorOffset>509</RightAnchorOffset>
 		<Animation>OS_A_GWHBar</Animation>
 	</StaticAnimation>
 <!-- ===== end Vert accents ===== -->

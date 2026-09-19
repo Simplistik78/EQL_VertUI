@@ -76,8 +76,8 @@
 			<Y>280</Y>
 		</Location>
 		<Size>
-			<CX>421</CX>
-			<CY>200</CY>
+			<CX>533</CX>
+			<CY>208</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
@@ -88,8 +88,8 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_ClientMovable>true</Style_ClientMovable>
-		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>
-		<Style_Titlebar>true</Style_Titlebar>
+		<DrawTemplate>OS_WDT_ConsoleVertBlack</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>

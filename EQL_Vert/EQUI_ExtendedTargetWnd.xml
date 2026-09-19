@@ -3092,8 +3092,8 @@
 			<Y>134</Y>
 		</Location>
 		<Size>
-			<CX>147</CX>
-			<CY>260</CY>
+			<CX>155</CX>
+			<CY>268</CY>
 		</Size>	
 		<Text>Extended Targets</Text>
 		<Style_VScroll>true</Style_VScroll>
@@ -3106,9 +3106,9 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
 		<Escapable>false</Escapable>
-		<MinVSize>34</MinVSize>
-		<MinHSize>133</MinHSize>		
-		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>
+		<MinVSize>42</MinVSize>
+		<MinHSize>141</MinHSize>		
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>

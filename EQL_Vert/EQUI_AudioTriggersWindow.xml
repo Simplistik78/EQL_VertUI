@@ -1,0 +1,933 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Button item = "ATW_Apply">
+		<ScreenID>ATW_Apply</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Apply</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
+	<Button item = "ATW_Create">
+		<ScreenID>ATW_Create</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Create</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
+	<Button item = "ATW_Delete">
+		<ScreenID>ATW_Delete</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Delete</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
+	<Button item = "ATW_Play">
+		<ScreenID>ATW_Play</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Play</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
+	<Button item = "ATW_MoveUp">
+		<ScreenID>ATW_MoveUp</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>60</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Move Up</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	
+	<Button item = "ATW_MoveDown">
+		<ScreenID>ATW_MoveDown</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>20</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Move Down</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Label item ="ATW_SkinLabel">
+		<ScreenID>ATW_SkinLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Trigger Set</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Combobox item = "ATW_Skin">
+		<ScreenID>ATW_Skin</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretchList>true</AutoStretchList>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>120</CX>
+			<CY>24</CY>
+		</Size>
+		<ListHeight>120</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
+
+	<Label item ="ATW_PatternLabel">
+		<ScreenID>ATW_PatternLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>45</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Pattern</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Editbox item = "ATW_Pattern">
+		<ScreenID>ATW_Pattern</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<TooltipReference>When this text is detected in the chat window, the associated audio will be played.</TooltipReference>
+		<Style_Border>true</Style_Border>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>370</CX>
+			<CY>24</CY>
+		</Size>
+	</Editbox>
+
+
+	
+	<Label item ="ATW_SoundLabel">
+		<ScreenID>ATW_SoundLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Sound</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Combobox item = "ATW_Sound">
+		<ScreenID>ATW_Sound</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretchList>true</AutoStretchList>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>145</CX>
+			<CY>24</CY>
+		</Size>
+		<ListHeight>400</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
+	
+	<Label item ="ATW_NoteLabel">
+		<ScreenID>ATW_NoteLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>45</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Note</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Editbox item = "ATW_Note">
+		<ScreenID>ATW_Note</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<TooltipReference>Enter a note about this Audio Trigger.</TooltipReference>
+		<Style_Border>true</Style_Border>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>370</CX>
+			<CY>24</CY>
+		</Size>
+	</Editbox>
+	
+	<Label item="ATW_VolumeLabel">
+		<ScreenID>ATW_VolumeLabel</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>17</CY>
+		</Size>
+		<Text>Volume</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	
+	<Slider item="ATW_Volume">
+		<ScreenID>ATW_Volume</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>100</CX>
+			<CY>20</CY>
+		</Size>
+		<SliderArt>SDT_DefSlider</SliderArt>
+	</Slider>
+	<Label item="ATW_VolumeValueLabel">
+		<ScreenID>ATW_VolumeValueLabel</ScreenID>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>50</CX>
+			<CY>16</CY>
+		</Size>
+		<Text>0 %</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+	
+	<Listbox item = "ATW_List">
+		<ScreenID>ATW_List</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<TooltipReference>List of Audio Triggers.</TooltipReference>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Border>true</Style_Border>
+		<Style_VScroll>true</Style_VScroll>
+		<Columns>
+			<Width>210</Width>
+			<Heading>Pattern</Heading>
+		</Columns>
+		<Columns>
+			<Width>210</Width>
+			<Heading>Note</Heading>
+		</Columns>
+		<Columns>
+			<Width>145</Width>
+			<Heading>Audio</Heading>
+		</Columns>
+		<Columns>
+			<Width>60</Width>
+			<Heading>Enabled</Heading>
+		</Columns>
+		<LeftAnchorOffset>-2000</LeftAnchorOffset>
+		<TopAnchorOffset>-2000</TopAnchorOffset>
+		<RightAnchorOffset>-2000</RightAnchorOffset>
+		<BottomAnchorOffset>-2000</BottomAnchorOffset>
+	</Listbox>
+	<Button item="ATW_Checkbox">
+		<ScreenID>ATW_Checkbox</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-2000</X>
+			<Y>-2000</Y>
+		</Location>
+		<Size>
+			<CX>16</CX>
+			<CY>16</CY>
+		</Size>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>true</Style_Checkbox>
+		<Text />
+		<Template>BDT_Checkbox</Template>
+	</Button>
+
+<!-- ===== Bag bar, after NewWorld_RoF =====
+     Hosted in Audio Triggers: an unused, display-only window with its own
+     keybind (Options > Keys, "Toggle Audio Trigger Window").  It replaced
+     Real Estate Items, which put the client into place-an-item mode and made
+     clicks in bags highlight items instead of picking them up.  This window's
+     own controls are kept (the client looks them up) but parked at -2000,-2000.
+     Worn and bag slots 24px, weapons 48px; 12 bag slots (Equip 23-34). -->
+	<InvSlot item="BB_InvLeftEar">
+		<ScreenID>BB_InvLeftEar</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvEar</Background>
+		<EQType>inventory/Equip 1</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvHead">
+		<ScreenID>BB_InvHead</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>28</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvHead</Background>
+		<EQType>inventory/Equip 2</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvRightEar">
+		<ScreenID>BB_InvRightEar</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>53</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvEar</Background>
+		<EQType>inventory/Equip 4</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvShoulders">
+		<ScreenID>BB_InvShoulders</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>85</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvShoulders</Background>
+		<EQType>inventory/Equip 6</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvChest">
+		<ScreenID>BB_InvChest</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>110</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvChest</Background>
+		<EQType>inventory/Equip 17</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBack">
+		<ScreenID>BB_InvBack</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>135</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvAboutBody</Background>
+		<EQType>inventory/Equip 8</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvHands">
+		<ScreenID>BB_InvHands</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>167</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvHands</Background>
+		<EQType>inventory/Equip 12</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvArms">
+		<ScreenID>BB_InvArms</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvArms</Background>
+		<EQType>inventory/Equip 7</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvWaist">
+		<ScreenID>BB_InvWaist</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>217</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvWaist</Background>
+		<EQType>inventory/Equip 20</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvLeftFinger">
+		<ScreenID>BB_InvLeftFinger</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvRing</Background>
+		<EQType>inventory/Equip 15</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvFace">
+		<ScreenID>BB_InvFace</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>28</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvFace</Background>
+		<EQType>inventory/Equip 3</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvRightFinger">
+		<ScreenID>BB_InvRightFinger</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>53</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvRing</Background>
+		<EQType>inventory/Equip 16</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvLeftWrist">
+		<ScreenID>BB_InvLeftWrist</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>85</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvWrist</Background>
+		<EQType>inventory/Equip 9</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvNeck">
+		<ScreenID>BB_InvNeck</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>110</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvNeck</Background>
+		<EQType>inventory/Equip 5</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvRightWrist">
+		<ScreenID>BB_InvRightWrist</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>135</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvWrist</Background>
+		<EQType>inventory/Equip 10</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvLegs">
+		<ScreenID>BB_InvLegs</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>167</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvLegs</Background>
+		<EQType>inventory/Equip 18</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvFeet">
+		<ScreenID>BB_InvFeet</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvFeet</Background>
+		<EQType>inventory/Equip 19</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvCharm">
+		<ScreenID>BB_InvCharm</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>217</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvAny1</Background>
+		<EQType>inventory/Equip 0</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvPowerSource">
+		<ScreenID>BB_InvPowerSource</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>246</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_InvAny2</Background>
+		<EQType>inventory/Equip 21</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag01">
+		<ScreenID>BB_InvBag01</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>277</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag01</Background>
+		<EQType>inventory/Equip 23</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag02">
+		<ScreenID>BB_InvBag02</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>302</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag02</Background>
+		<EQType>inventory/Equip 24</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag03">
+		<ScreenID>BB_InvBag03</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>327</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag03</Background>
+		<EQType>inventory/Equip 25</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag04">
+		<ScreenID>BB_InvBag04</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>352</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag04</Background>
+		<EQType>inventory/Equip 26</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag05">
+		<ScreenID>BB_InvBag05</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>377</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag05</Background>
+		<EQType>inventory/Equip 27</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag06">
+		<ScreenID>BB_InvBag06</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>402</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag06</Background>
+		<EQType>inventory/Equip 28</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag07">
+		<ScreenID>BB_InvBag07</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>277</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag07</Background>
+		<EQType>inventory/Equip 29</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag08">
+		<ScreenID>BB_InvBag08</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>302</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag08</Background>
+		<EQType>inventory/Equip 30</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag09">
+		<ScreenID>BB_InvBag09</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>327</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag09</Background>
+		<EQType>inventory/Equip 31</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag10">
+		<ScreenID>BB_InvBag10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>352</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag10</Background>
+		<EQType>inventory/Equip 32</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag11">
+		<ScreenID>BB_InvBag11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>377</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag11</Background>
+		<EQType>inventory/Equip 33</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvBag12">
+		<ScreenID>BB_InvBag12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>402</X>
+			<Y>26</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>24</CY>
+		</Size>
+		<Background>OS_A_Bag12</Background>
+		<EQType>inventory/Equip 34</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvPrimary">
+		<ScreenID>BB_InvPrimary</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>433</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Background>OS_A_InvPrimary</Background>
+		<EQType>inventory/Equip 13</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvSecondary">
+		<ScreenID>BB_InvSecondary</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>482</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Background>OS_A_InvSecondary</Background>
+		<EQType>inventory/Equip 14</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvRange">
+		<ScreenID>BB_InvRange</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>531</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Background>OS_A_InvRange</Background>
+		<EQType>inventory/Equip 11</EQType>
+	</InvSlot>
+	<InvSlot item="BB_InvAmmo">
+		<ScreenID>BB_InvAmmo</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>580</X>
+			<Y>1</Y>
+		</Location>
+		<Size>
+			<CX>48</CX>
+			<CY>48</CY>
+		</Size>
+		<Background>OS_A_InvAmmo</Background>
+		<EQType>inventory/Equip 22</EQType>
+	</InvSlot>
+	<Screen item = "AudioTriggersWindow">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>320</X>
+			<Y>240</Y>
+		</Location>
+		<Size>
+			<CX>649</CX>
+			<CY>67</CY>
+		</Size>
+		<Text>Audio Triggers</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Qmarkbox>true</Style_Qmarkbox>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Escapable>false</Escapable>
+		<MinHSize>649</MinHSize>
+		<MinVSize>67</MinVSize>
+		<MaxHSize>649</MaxHSize>
+		<MaxVSize>67</MaxVSize>
+		<Pieces>ATW_List</Pieces>
+		<Pieces>ATW_Apply</Pieces>
+		<Pieces>ATW_Create</Pieces>
+		<Pieces>ATW_Delete</Pieces>
+		<Pieces>ATW_Play</Pieces>
+		<Pieces>ATW_MoveUp</Pieces>
+		<Pieces>ATW_MoveDown</Pieces>
+		<Pieces>ATW_PatternLabel</Pieces>
+		<Pieces>ATW_Pattern</Pieces>
+		<Pieces>ATW_SoundLabel</Pieces>
+		<Pieces>ATW_Sound</Pieces>
+		<Pieces>ATW_NoteLabel</Pieces>
+		<Pieces>ATW_Note</Pieces>
+		<Pieces>ATW_VolumeValueLabel</Pieces>
+		<Pieces>ATW_VolumeLabel</Pieces>
+		<Pieces>ATW_Volume</Pieces>
+		<Pieces>ATW_SkinLabel</Pieces>
+		<Pieces>ATW_Skin</Pieces>
+		<Pieces>ATW_Checkbox</Pieces>
+		<Pieces>BB_InvLeftEar</Pieces>
+		<Pieces>BB_InvHead</Pieces>
+		<Pieces>BB_InvRightEar</Pieces>
+		<Pieces>BB_InvShoulders</Pieces>
+		<Pieces>BB_InvChest</Pieces>
+		<Pieces>BB_InvBack</Pieces>
+		<Pieces>BB_InvHands</Pieces>
+		<Pieces>BB_InvArms</Pieces>
+		<Pieces>BB_InvWaist</Pieces>
+		<Pieces>BB_InvLeftFinger</Pieces>
+		<Pieces>BB_InvFace</Pieces>
+		<Pieces>BB_InvRightFinger</Pieces>
+		<Pieces>BB_InvLeftWrist</Pieces>
+		<Pieces>BB_InvNeck</Pieces>
+		<Pieces>BB_InvRightWrist</Pieces>
+		<Pieces>BB_InvLegs</Pieces>
+		<Pieces>BB_InvFeet</Pieces>
+		<Pieces>BB_InvCharm</Pieces>
+		<Pieces>BB_InvPowerSource</Pieces>
+		<Pieces>BB_InvBag01</Pieces>
+		<Pieces>BB_InvBag02</Pieces>
+		<Pieces>BB_InvBag03</Pieces>
+		<Pieces>BB_InvBag04</Pieces>
+		<Pieces>BB_InvBag05</Pieces>
+		<Pieces>BB_InvBag06</Pieces>
+		<Pieces>BB_InvBag07</Pieces>
+		<Pieces>BB_InvBag08</Pieces>
+		<Pieces>BB_InvBag09</Pieces>
+		<Pieces>BB_InvBag10</Pieces>
+		<Pieces>BB_InvBag11</Pieces>
+		<Pieces>BB_InvBag12</Pieces>
+		<Pieces>BB_InvPrimary</Pieces>
+		<Pieces>BB_InvSecondary</Pieces>
+		<Pieces>BB_InvRange</Pieces>
+		<Pieces>BB_InvAmmo</Pieces>
+	</Screen>
+</XML>

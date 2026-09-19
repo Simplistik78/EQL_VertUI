@@ -13,10 +13,11 @@ Repository: <https://github.com/Simplistik78/EQL_VertUI>
 
 1. [Install](#install)
 2. [Six rules](#six-rules) — read before changing anything
-3. [Reskinned windows](#reskinned-windows)
-4. [Optional mods](#optional-mods)
-5. [File reference](#file-reference)
-6. [Adding a window](#adding-a-window)
+3. [The shipped layout](#the-shipped-layout)
+4. [Reskinned windows](#reskinned-windows)
+5. [Optional mods](#optional-mods)
+6. [File reference](#file-reference)
+7. [Adding a window](#adding-a-window)
 
 ---
 
@@ -36,6 +37,34 @@ That is the whole install. Nothing to run, nothing to patch - the folder is
 shipped ready to load.
 
 ---
+
+## The shipped layout
+
+The skin ships `default1080.ini`: one console band across the bottom of the
+screen, every window edge meeting its neighbour on a 4px black seam.
+
+**You only get it if you untick "Keep Your Layout"** in the Load Skin window.
+Leave it ticked — the default — and your own window positions are kept, which is
+usually what you want.
+
+**Unticking replaces your arrangement, and there is no undo in game.** Close the
+game and copy `UI_<Char>_<server>.ini` somewhere outside the game folder first.
+That file also holds your chat filters, which the layout does not carry: set
+those up again afterwards (Options > Chat, or right-click a chat window).
+
+**It is built for 1920x1080.** There is no 1440, 4K or 720 version, so at other
+resolutions the windows will not line up.
+
+Two things no layout file can carry:
+
+| Thing | Where it lives | What to do |
+| --- | --- | --- |
+| Bag bar keybind | `eqclient.ini` | Options > Keys, bind **Toggle Audio Trigger Window** |
+| Chat filters | your character's UI ini | set per chat window after loading |
+
+**If a window looks the wrong size after loading the skin,** your ini has a saved
+size for it and the ini always wins. Close the game and delete the `Width=` and
+`Height=` lines from that window's section in `UI_<Char>_<server>.ini`.
 
 ## Six rules
 
@@ -222,10 +251,11 @@ BigBank, Container and Templates keep stock `A_RecessedBox`.
 Bandolier is in scope because it is the only other consumer of the equipment slot
 art.
 
-### Pet window — `315 x 214`
+### Pet bar — `788 x 66`
 
-Pet inventory integrated into the pet window, buffs relocated below it, flat
-command buttons.
+A flat bar: pet and pet-target gauges at the left, twelve equipment slots along
+the top, the command buttons in one row beneath them, and a scrolling buff box at
+the right end.
 
 `petInventory/Equip N` **does** bind from `EQUI_PetInfoWindow.xml`, not just the
 inventory window. This was genuinely unknown — the type is implemented by the
@@ -233,36 +263,110 @@ inventory window, OceanSpray predates pet inventory entirely, and the Project 19
 reference warns that inventory EQTypes in unintended contexts can crash the
 client. Tested with a throwaway probe before anything was built on it.
 
-**Seven slots, not twelve.** The client draws only the slots the pet has. Seven
-fit the button block at full 40px, so icons are never scaled. Slots 7-11 are not
-declared; a pet with more capacity keeps those items reachable from the inventory
-Pet tab, which is untouched.
+**Twelve slots at 24px.** The client draws only the slots the pet actually has,
+so most pets fill the first seven and the rest stay empty.
 
-`PetInfoSubWindow` starts at window `y=2`. Sub-window coordinates:
+`PetInfoSubWindow` fills the window and carries the frame. Sub-window
+coordinates:
 
-| Region | sub-y |
-| --- | --- |
-| gauges | 2..48 |
-| rule 1 | 50 |
-| command buttons | 56..104 |
-| rule 2 | 106 |
-| inventory, 7 x 40px | 112..152 |
-| rule 3 | 156 |
-| buffs, two rows | 162..208 |
+| Region | sub-x | sub-y |
+| --- | --- | --- |
+| pet / pet-target gauges | 1..109 | 1..48 |
+| equipment, 12 x 24px | 113..401 | 1..25 |
+| command buttons, 49x22 | 113..612 | 26..48 |
+| two more buttons | 513..612 | 1..23 |
+| buff box, scrolling | 616..770 | 0..50 |
 
-`PIWDragBox1` at **window** `y 1..17`. Slot positions
-`round(1 + i x (294-40)/6)` = `1, 43, 86, 128, 170, 213, 255`.
+The buff box holds a `138 x 115` tile box — six icons per row, two rows visible,
+the rest reached with its scroll bar. The grip bar between the equipment slots
+and the two extra buttons is the only place the bar can be dragged.
 
-The three rules are `OS_A_GWHBar` stretched. `StaticAnimation` accepts
-`AutoStretch`, so a 125x14 bar becomes full-width at 4px tall — no tiling, no new
-template. Vertical rails were built and removed: 14px against a 46px strip reads
-as a slab, not trim.
+`PIWDragBox1` covers the grip bar. The bar itself is `OS_A_GWHBar` stretched:
+`StaticAnimation` accepts `AutoStretch`, so a 125x14 texture becomes any width at
+4px tall — no tiling, no new template.
 
 **Flat buttons.** `BDT_Normal` draws `A_BtnNormal`, a gradient running 165 down to
 71 — the wrong *kind* of art, not the wrong shade. `A_BtnNormal` lives in
 `window_pieces03.tga`, which this skin does not ship, so it cannot be edited.
 Hence `os_petbuttons.tga` and `OS_BDT_PetFlat`, drawing `(41,44,49)` with a 1px
 `(16,16,16)` edge at 0.75 alpha. `BDT_Normal` itself is untouched.
+
+### Player window — `193 x 247`
+
+Rebuilt from NewWorld_RoF's layout: name on the HP bar, mana and endurance with
+their icons and numbers, XP and AA bars, AA banked, then AC/ATK, haste, velocity,
+mana and endurance regen, the seven stats and six resists in two columns.
+
+Stat values use the same client values as the inventory window, so the two always
+agree.
+
+**Clicking the window targets you**, as stock does. That needs the controls to
+sit inside `PlayerSubWindow`: placed directly on a `Style_ClientMovable` window, a
+left click starts a window drag and never reaches the client. For the same
+reason, the name is drawn by the HP bar itself rather than by a label over it —
+a label takes the click. `PW_ClickTarget`, an undrawn copy of the HP bar covering
+the window, extends that to the whole window; the buttons listed after it stay
+clickable.
+
+The window is moved by `PW_DragBox`, an invisible grip on the empty right half of
+the **AA Banked** row.
+
+### Target bar — `458 x 120`
+
+Flat: two stacked rows of target buffs across the top, the HP bar with level,
+class and name, then mana | endurance, then target-of-target | cast bar.
+
+The con-colour box (`A_TargetBoxStaticAnim*`) is a 2px ring on the inside edge of
+the frame rather than a thick border.
+
+### Threat window — `198 x 116`
+
+Target name, your threat bar with your percentage, then the most-hated player's
+name and percentage in gold. Sized to sit between the player window and the group
+window.
+
+### Bag bar — `649 x 67`
+
+35 inventory slots in one strip: the worn slots and power source at 24px, twelve
+bag slots, and primary / secondary / range / ammo at 48px.
+
+**It lives in the Audio Triggers window.** The client instantiates a fixed set of
+windows and you cannot add one, so the bar reuses a window nothing else needs.
+Bind **Toggle Audio Trigger Window** under Options > Keys to open it. The
+window's own controls are kept — the client looks them up — but parked at
+`-2000,-2000`.
+
+**Real Estate Items cannot host it.** While that window is open the client is in
+place-an-item mode, and clicking an item in a bag highlights it instead of picking
+it up. Any replacement host must be a display-only window.
+
+**If Esc closes the bar,** your ini has `Escapable=1` saved for that window from
+before, which beats the XML. Right-click the bar and untick **Escapable**.
+
+### Console band
+
+Every window and hot bar in the band carries a 4px black border, and neighbours
+overlap by 4px so each seam reads as one black line. Three draw templates provide
+it, each a copy of an existing frame with black added outside every border slice:
+
+| Template | Copy of | Used by |
+| --- | --- | --- |
+| `OS_WDT_VertSquareBlack` | `AUM_WDT_VertSquare` | player, target, threat, pet, bag bar, extended target |
+| `OS_WDT_ConsoleVertBlack` | `AUM_WDT_Console` | group window, all chat windows |
+| `OS_WDT_ConsoleBlack` | `AUM_WDT_Console` | the 11 hot bars (plain black, no blue frame) |
+
+A window using one of these is 8px larger than before, and its inside is
+unchanged.
+
+**Hot bar buttons.** A button holding an item, social or ability draws its
+`Normal` art underneath, which was a solid grey square hiding the blue Vert slot.
+`A_HotButtonNNormal` now draws `os_hotbar_normal.tga`, the empty-slot art plus the
+1px grey frame empty slots show, so full and empty slots match. Hovering draws
+`os_hotbar_flyby.tga`, the same 45% brighter.
+
+**No slot padding.** Slot sets start at `0,0`, so a bar's black border is the
+spacing between its edge and its buttons. Rows are `468 x 48`, single columns
+`48` wide.
 
 ---
 
@@ -331,6 +435,10 @@ what and for the caveat on the spell-sheet variants.
 | `os_petslots.tga` | 256 KB | 7 `PET n` tiles |
 | `os_petbuttons.tga` | 128 KB | flat pet command buttons |
 | `os_hotbar_empty.tga` | 16 KB | hotbar fill — the `(24,48,93)` colour reference |
+| `os_hotbar_normal.tga` | 16 KB | hot buttons holding something |
+| `os_hotbar_flyby.tga` | 16 KB | hot button under the mouse |
+| `os_vertsq_black.tga` | 64 KB | Vert square frame with its 4px black border |
+| `os_console_black.tga` | 64 KB | console frame with its 4px black border |
 
 ### Namespaces
 

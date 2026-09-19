@@ -463,8 +463,8 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
-			<X>1</X>
-			<Y>65</Y>
+			<X>13</X>
+			<Y>176</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -486,8 +486,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>148</Y>
+			<X>12</X>
+			<Y>259</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -512,8 +512,8 @@
 		<ScreenID>SCButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>106</Y>
+			<X>12</X>
+			<Y>217</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -527,8 +527,8 @@
 		<ScreenID>SCFSButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>106</Y>
+			<X>12</X>
+			<Y>217</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -542,8 +542,8 @@
 		<ScreenID>EQMW_ActionsToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>0</Y>
+			<X>12</X>
+			<Y>111</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -563,8 +563,8 @@
 		<ScreenID>EQMW_InventoryToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>21</X>
-			<Y>0</Y>
+			<X>33</X>
+			<Y>111</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -584,8 +584,8 @@
 		<ScreenID>EQMW_OptionsToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>42</Y>
+			<X>12</X>
+			<Y>153</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -605,8 +605,8 @@
 		<ScreenID>EQMW_AAToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>0</X>
-			<Y>21</Y>
+			<X>12</X>
+			<Y>132</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -626,8 +626,8 @@
 		<ScreenID>EQMW_AchievementToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>21</X>
-			<Y>21</Y>
+			<X>33</X>
+			<Y>132</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -647,8 +647,8 @@
 		<ScreenID>EQMW_HelpToggleButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>21</X>
-			<Y>42</Y>
+			<X>33</X>
+			<Y>153</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -663,6 +663,10 @@
 			<PressedFlyby>A_EQHelpBtnPressed</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
+<!-- EQMainWnd: 68x312 (was 60x297), buttons moved +8,+16, so the dark column
+     fills from bar 8's black edge (x 1855) up to the top of the bar band (y 771)
+     while the buttons stay where they were.  It is saved right/bottom at 0%,
+     which the client draws 3px past the screen edge (KeepOnScreenOffset). -->
 	<Screen item = "EQMainWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -672,19 +676,19 @@
 			<Y>550</Y>
 		</Location>
 		<Size>
-			<CX>52</CX>
-			<CY>200</CY>
+			<CX>68</CX>
+			<CY>312</CY>
 		</Size>
 		<Text></Text>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference/>
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>AUM_WDT_Console</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
+		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<KeepOnScreen>True</KeepOnScreen>
 		<KeepOnScreenOffset>

@@ -2043,8 +2043,8 @@
 			<Y>134</Y>
 		</Location>
 		<Size>
-			<CX>190</CX>
-			<CY>91</CY>
+			<CX>198</CX>
+			<CY>440</CY>
 		</Size>
 		<GroupSize1>
 			<CX>190</CX>
@@ -2088,17 +2088,17 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>true</Style_Sizable>
-		<MinHSize>160</MinHSize>
-		<MinVSize>91</MinVSize>
-		<MaxHSize>400</MaxHSize>
-		<MaxVSize>427</MaxVSize>
+		<MinHSize>168</MinHSize>
+		<MinVSize>440</MinVSize>
+		<MaxHSize>408</MaxHSize>
+		<MaxVSize>440</MaxVSize>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>
 		<Escapable>false</Escapable>
-		<DrawTemplate>OS_WDT_GroupVert</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleVertBlack</DrawTemplate>
 		<Pieces>GW_H_barblack</Pieces>
 		<Pieces>GW_H_bar</Pieces>
 		<Pieces>GW_Gauge1black</Pieces>

@@ -31327,6 +31327,12 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
+	<TextureInfo item="os_vertsq_black.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
 	<TextureInfo item="os_solwindow_pieces07.tga">
 		<Size>
 			<CX>256</CX>
@@ -31648,6 +31654,269 @@
 			<Texture>os_window_pieces01.tga</Texture>
 			<Location><X>220</X><Y>0</Y></Location>
 			<Size><CX>5</CX><CY>12</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- OS_A_BlkFrame*: the Vert square frame slices with 4px of solid black
+	     added on their outer side(s), in os_vertsq_black.tga.  Used by
+	     OS_WDT_VertSquareBlack, so a window reads as part of one black-
+	     bordered console.  Client area is unchanged; the window grows 8px. -->
+	<Ui2DAnimation item="OS_A_BlkFrameTopLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>0</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>10</X><Y>0</Y></Location>
+			<Size><CX>4</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameTopRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>15</X><Y>0</Y></Location>
+			<Size><CX>44</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameRightTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>60</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>36</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>70</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameRightBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>80</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameBottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>90</X><Y>0</Y></Location>
+			<Size><CX>30</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>121</X><Y>0</Y></Location>
+			<Size><CX>2</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameBottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>124</X><Y>0</Y></Location>
+			<Size><CX>22</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameLeftTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>147</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>36</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>157</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkFrameLeftBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>167</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>12</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- Solid black 4x4 (the padding corner of os_vertsq_black.tga), for
+	     OS_WDT_ConsoleBlack: a plain 4px black border for the frameless hot bars. -->
+	<Ui2DAnimation item="OS_A_Blk4">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>0</X><Y>0</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<!-- OS_A_BlkCon: AUM_WDT_Console with 4px of solid black outside each border slice. -->
+	<TextureInfo item="os_console_black.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<Ui2DAnimation item="OS_A_BlkConTopLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>0</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>10</X><Y>0</Y></Location>
+			<Size><CX>4</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConTopRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>15</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConRightTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>25</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>35</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConRightBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>45</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConBottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>55</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>65</X><Y>0</Y></Location>
+			<Size><CX>2</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConBottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>68</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConLeftTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>78</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>88</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BlkConLeftBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>98</X><Y>0</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
 			<Hotspot><X>0</X><Y>0</Y></Hotspot>
 			<Duration>1000</Duration>
 		</Frames>

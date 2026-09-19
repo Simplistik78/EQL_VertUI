@@ -13,6 +13,18 @@
 			<CY>64</CY>
 		</Size>
 	</TextureInfo>
+	<TextureInfo item="os_hotbar_flyby.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<TextureInfo item="os_hotbar_normal.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
 	<!-- Vert33OceanSpray hotbar header artwork.  These namespaced definitions
 	     are intentionally limited to the page selector so the current hotbar
 	     buttons, layout, and window frame remain unchanged. -->
@@ -203,10 +215,16 @@
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Animation>OS_A_HBEmptyBackground</Animation>
 	</StaticAnimation>
+<!-- A_HotButtonNNormal / Flyby draw under any button that holds something.
+     They were solid dark grey (aumaar_window_pieces06/07), which hid the blue
+     Vert slot, so loaded buttons read black.  Normal is the empty-slot art plus the
+     1px grey frame empty slots show (os_hotbar_normal.tga), so assigned and empty
+     buttons look the same; Flyby is a 45% brighter copy (os_hotbar_flyby.tga).
+     Pressed, PressedFlyby and Disabled are unchanged. -->
 	<Ui2DAnimation item="A_HotButton1Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -244,9 +262,9 @@
 	<Ui2DAnimation item="A_HotButton1Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
+				<X>0</X>
 				<Y>0</Y>
 			</Location>
 			<Size>
@@ -301,10 +319,10 @@
 	<Ui2DAnimation item="A_HotButton2Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>40</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -339,10 +357,10 @@
 	<Ui2DAnimation item="A_HotButton2Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>40</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -396,10 +414,10 @@
 	<Ui2DAnimation item="A_HotButton3Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>80</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -434,10 +452,10 @@
 	<Ui2DAnimation item="A_HotButton3Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>80</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -491,10 +509,10 @@
 	<Ui2DAnimation item="A_HotButton4Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>120</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -529,10 +547,10 @@
 	<Ui2DAnimation item="A_HotButton4Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>120</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -586,10 +604,10 @@
 	<Ui2DAnimation item="A_HotButton5Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>160</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -624,10 +642,10 @@
 	<Ui2DAnimation item="A_HotButton5Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>160</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -681,10 +699,10 @@
 	<Ui2DAnimation item="A_HotButton6Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>200</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -719,10 +737,10 @@
 	<Ui2DAnimation item="A_HotButton6Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces06.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>200</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -776,7 +794,7 @@
 	<Ui2DAnimation item="A_HotButton7Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -814,9 +832,9 @@
 	<Ui2DAnimation item="A_HotButton7Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
+				<X>0</X>
 				<Y>0</Y>
 			</Location>
 			<Size>
@@ -871,10 +889,10 @@
 	<Ui2DAnimation item="A_HotButton8Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>40</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -909,10 +927,10 @@
 	<Ui2DAnimation item="A_HotButton8Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>40</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -966,10 +984,10 @@
 	<Ui2DAnimation item="A_HotButton9Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>80</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1004,10 +1022,10 @@
 	<Ui2DAnimation item="A_HotButton9Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>80</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1061,10 +1079,10 @@
 	<Ui2DAnimation item="A_HotButton10Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>120</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1099,10 +1117,10 @@
 	<Ui2DAnimation item="A_HotButton10Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>120</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1156,10 +1174,10 @@
 	<Ui2DAnimation item="A_HotButton11Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>160</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1194,10 +1212,10 @@
 	<Ui2DAnimation item="A_HotButton11Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>160</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1251,10 +1269,10 @@
 	<Ui2DAnimation item="A_HotButton12Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_normal.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>200</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1289,10 +1307,10 @@
 	<Ui2DAnimation item="A_HotButton12Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>aumaar_window_pieces07.tga</Texture>
+			<Texture>os_hotbar_flyby.tga</Texture>
 			<Location>
-				<X>40</X>
-				<Y>200</Y>
+				<X>0</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1377,7 +1395,7 @@
 			<CY>40</CY>
 		</Size>
 		<Font>1</Font>
-		<Background>A_RecessedBox</Background>
+		<Background>OS_A_HBEmptyBackground</Background>
 		<EQType>-2</EQType>
 	</InvSlot>
 	
@@ -1720,9 +1738,293 @@
 	<!-- Each layout cell keeps the OceanSpray tile behind its real HotButton.
 	     Populated controls draw their normal opaque surface over it; an empty
 	     control draws no surface, revealing only the blue underlay. -->
+	<Screen item="HB_SplitSlot1">
+		<ScreenID>HB_SplitSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button1</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot2">
+		<ScreenID>HB_SplitSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>46</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot3">
+		<ScreenID>HB_SplitSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>87</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot4">
+		<ScreenID>HB_SplitSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>128</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot5">
+		<ScreenID>HB_SplitSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>169</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot6">
+		<ScreenID>HB_SplitSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>210</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot7">
+		<ScreenID>HB_SplitSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot8">
+		<ScreenID>HB_SplitSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>46</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot9">
+		<ScreenID>HB_SplitSlot9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>87</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot10">
+		<ScreenID>HB_SplitSlot10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>128</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot11">
+		<ScreenID>HB_SplitSlot11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>169</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+	</Screen>
+	<Screen item="HB_SplitSlot12">
+		<ScreenID>HB_SplitSlot12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>481</X><Y>210</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button12</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot1">
+		<ScreenID>HB_ColSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button1</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot2">
+		<ScreenID>HB_ColSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>46</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot3">
+		<ScreenID>HB_ColSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>87</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot4">
+		<ScreenID>HB_ColSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>128</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot5">
+		<ScreenID>HB_ColSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>169</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot6">
+		<ScreenID>HB_ColSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>210</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+	</Screen>
+	<Screen item="HB_ColSlot7">
+		<ScreenID>HB_ColSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>251</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot1">
+		<ScreenID>HB_EndSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button1</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot7">
+		<ScreenID>HB_EndSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>251</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button7</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot2">
+		<ScreenID>HB_EndSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>46</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot4">
+		<ScreenID>HB_EndSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>128</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot3">
+		<ScreenID>HB_EndSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>87</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot3">
+		<ScreenID>HB_EndSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>89</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot4">
+		<ScreenID>HB_EndSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>130</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot5">
+		<ScreenID>HB_EndSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>169</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button5</Pieces>
+	</Screen>
+	<Screen item="HB_EndSlot6">
+		<ScreenID>HB_EndSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>210</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button6</Pieces>
+	</Screen>
+<!-- Slot sets start at 0,0: the 4px black border of OS_WDT_ConsoleBlack is the
+     spacing between a bar's edge and its buttons (it used to be 2px padding).
+     Rows are 468x48, columns 48x299. -->
 	<Screen item="HB_Slot1">
 		<ScreenID>HB_Slot1</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1732,6 +2034,7 @@
 	<Screen item="HB_Slot2">
 		<ScreenID>HB_Slot2</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>42</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1741,6 +2044,7 @@
 	<Screen item="HB_Slot3">
 		<ScreenID>HB_Slot3</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>84</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1750,6 +2054,7 @@
 	<Screen item="HB_Slot4">
 		<ScreenID>HB_Slot4</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>126</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1759,6 +2064,7 @@
 	<Screen item="HB_Slot5">
 		<ScreenID>HB_Slot5</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>168</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1768,6 +2074,7 @@
 	<Screen item="HB_Slot6">
 		<ScreenID>HB_Slot6</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>210</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1777,6 +2084,7 @@
 	<Screen item="HB_Slot7">
 		<ScreenID>HB_Slot7</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>252</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1786,6 +2094,7 @@
 	<Screen item="HB_Slot8">
 		<ScreenID>HB_Slot8</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>294</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1795,6 +2104,7 @@
 	<Screen item="HB_Slot9">
 		<ScreenID>HB_Slot9</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>336</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1804,6 +2114,7 @@
 	<Screen item="HB_Slot10">
 		<ScreenID>HB_Slot10</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>378</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1813,6 +2124,7 @@
 	<Screen item="HB_Slot11">
 		<ScreenID>HB_Slot11</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>420</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1822,6 +2134,7 @@
 	<Screen item="HB_Slot12">
 		<ScreenID>HB_Slot12</ScreenID>
 		<RelativePosition>true</RelativePosition>
+		<Location><X>462</X><Y>0</Y></Location>
 		<Size><CX>40</CX><CY>40</CY></Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -1873,7 +2186,7 @@
 		<UseInLayoutVertical>false</UseInLayoutVertical>
 		<UseInLayoutHorizontal>false</UseInLayoutHorizontal>
 	</Screen>
-	<TileLayoutBox item="HB_HotButtonLayout">
+	<TileLayoutBox item="HB_HotButtonLayout_2up">
 		<ScreenID>HB_HotButtonLayout</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
@@ -1888,6 +2201,30 @@
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
 		<Spacing>2</Spacing>
+		<SecondarySpacing>1</SecondarySpacing>
+		<HorizontalFirst>true</HorizontalFirst>
+		<AnchorToTop>true</AnchorToTop>
+		<AnchorToLeft>true</AnchorToLeft>
+		<FirstPieceTemplate>true</FirstPieceTemplate>
+		<SnapToChildren>true</SnapToChildren>
+		<Pieces>Screen:HB_Slot1</Pieces>
+		<Pieces>Screen:HB_Slot2</Pieces>
+	</TileLayoutBox>
+	<TileLayoutBox item="HB_HotButtonLayout">
+		<ScreenID>HB_HotButtonLayout</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>18</RightAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Spacing>7</Spacing>
 		<SecondarySpacing>1</SecondarySpacing>
 		<HorizontalFirst>true</HorizontalFirst>
 		<AnchorToTop>true</AnchorToTop>
@@ -2100,9 +2437,124 @@
 		<Pieces>DragBox:HBDragBox2</Pieces>				
 	</Screen>
 	<LayoutVertical item="HB_LayoutV">
-		<ResizeVertical>true</ResizeVertical>
+		<ResizeVertical>false</ResizeVertical>
 		<ResizeHorizontal>true</ResizeHorizontal>
 	</LayoutVertical>
+<!-- ===== Block around the Pet Dmg chat window =====
+     Bars 10 (left of Pet Dmg) and 3 (right of it) use HB_BlockSlot1..8:
+     buttons 1-4 on top, 8-11 underneath, so bar 10's 1-4 and bar 3's 8-11
+     keep their screen positions.  Buttons 5-7 sat under Pet Dmg and are not
+     shown; the client keeps their contents.  Remove this block and restore
+     HB_Slot1..11 in both bars' Pieces to undo. -->
+	<Screen item="HB_BlockSlot1">
+		<ScreenID>HB_BlockSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button1</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot2">
+		<ScreenID>HB_BlockSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>42</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button2</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot3">
+		<ScreenID>HB_BlockSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>84</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button3</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot4">
+		<ScreenID>HB_BlockSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>126</X><Y>0</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button4</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot5">
+		<ScreenID>HB_BlockSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>0</X><Y>44</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button8</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot6">
+		<ScreenID>HB_BlockSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>42</X><Y>44</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button9</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot7">
+		<ScreenID>HB_BlockSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>84</X><Y>44</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button10</Pieces>
+	</Screen>
+	<Screen item="HB_BlockSlot8">
+		<ScreenID>HB_BlockSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location><X>126</X><Y>44</Y></Location>
+		<Size><CX>40</CX><CY>40</CY></Size>
+		<Style_Transparent>true</Style_Transparent>
+		<Style_TransparentControl>true</Style_TransparentControl>
+		<Pieces>OS_HBEmptySlotUnderlay</Pieces>
+		<Pieces>HotButton:HB_Button11</Pieces>
+	</Screen>
+	<StaticAnimation item="HB_BlockRowSeam">
+		<ScreenID>HB_BlockRowSeam</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>179</RightAnchorOffset>
+		<BottomAnchorOffset>44</BottomAnchorOffset>
+		<Animation>OS_A_Blk4</Animation>
+	</StaticAnimation>
+	<StaticAnimation item="HB_BlockPetGap">
+		<ScreenID>HB_BlockPetGap</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorOffset>166</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>179</RightAnchorOffset>
+		<BottomAnchorOffset>84</BottomAnchorOffset>
+		<Animation>OS_A_Blk4</Animation>
+	</StaticAnimation>
+
 	<Screen item="HotButtonWnd">
 		<ScreenID />
 		<Layout>HB_LayoutV</Layout>
@@ -2113,15 +2565,15 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>533</CX>
+			<CY>61</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
@@ -2137,7 +2589,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd2">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2145,22 +2596,33 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>468</CX>
+			<CY>48</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_Slot1</Pieces>
+		<Pieces>Screen:HB_Slot2</Pieces>
+		<Pieces>Screen:HB_Slot3</Pieces>
+		<Pieces>Screen:HB_Slot4</Pieces>
+		<Pieces>Screen:HB_Slot5</Pieces>
+		<Pieces>Screen:HB_Slot6</Pieces>
+		<Pieces>Screen:HB_Slot7</Pieces>
+		<Pieces>Screen:HB_Slot8</Pieces>
+		<Pieces>Screen:HB_Slot9</Pieces>
+		<Pieces>Screen:HB_Slot10</Pieces>
+		<Pieces>Screen:HB_Slot11</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2169,7 +2631,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd3">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2177,22 +2638,31 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>174</CX>
+			<CY>92</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_BlockSlot1</Pieces>
+		<Pieces>Screen:HB_BlockSlot2</Pieces>
+		<Pieces>Screen:HB_BlockSlot3</Pieces>
+		<Pieces>Screen:HB_BlockSlot4</Pieces>
+		<Pieces>Screen:HB_BlockSlot5</Pieces>
+		<Pieces>Screen:HB_BlockSlot6</Pieces>
+		<Pieces>Screen:HB_BlockSlot7</Pieces>
+		<Pieces>Screen:HB_BlockSlot8</Pieces>
+		<Pieces>HB_BlockRowSeam</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2201,7 +2671,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd4">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2209,22 +2678,33 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>468</CX>
+			<CY>48</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_Slot1</Pieces>
+		<Pieces>Screen:HB_Slot2</Pieces>
+		<Pieces>Screen:HB_Slot3</Pieces>
+		<Pieces>Screen:HB_Slot4</Pieces>
+		<Pieces>Screen:HB_Slot5</Pieces>
+		<Pieces>Screen:HB_Slot6</Pieces>
+		<Pieces>Screen:HB_Slot7</Pieces>
+		<Pieces>Screen:HB_Slot8</Pieces>
+		<Pieces>Screen:HB_Slot9</Pieces>
+		<Pieces>Screen:HB_Slot10</Pieces>
+		<Pieces>Screen:HB_Slot11</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2233,7 +2713,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd5">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2241,22 +2720,29 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>48</CX>
+			<CY>299</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_ColSlot1</Pieces>
+		<Pieces>Screen:HB_ColSlot2</Pieces>
+		<Pieces>Screen:HB_ColSlot3</Pieces>
+		<Pieces>Screen:HB_ColSlot4</Pieces>
+		<Pieces>Screen:HB_ColSlot5</Pieces>
+		<Pieces>Screen:HB_ColSlot6</Pieces>
+		<Pieces>Screen:HB_ColSlot7</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2265,7 +2751,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd6">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2273,22 +2758,29 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>48</CX>
+			<CY>299</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_ColSlot1</Pieces>
+		<Pieces>Screen:HB_ColSlot2</Pieces>
+		<Pieces>Screen:HB_ColSlot3</Pieces>
+		<Pieces>Screen:HB_ColSlot4</Pieces>
+		<Pieces>Screen:HB_ColSlot5</Pieces>
+		<Pieces>Screen:HB_ColSlot6</Pieces>
+		<Pieces>Screen:HB_ColSlot7</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2297,7 +2789,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd7">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2305,22 +2796,29 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>48</CX>
+			<CY>299</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_ColSlot1</Pieces>
+		<Pieces>Screen:HB_ColSlot2</Pieces>
+		<Pieces>Screen:HB_ColSlot3</Pieces>
+		<Pieces>Screen:HB_ColSlot4</Pieces>
+		<Pieces>Screen:HB_ColSlot5</Pieces>
+		<Pieces>Screen:HB_ColSlot6</Pieces>
+		<Pieces>Screen:HB_ColSlot7</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2329,7 +2827,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd8">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2337,22 +2834,29 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>48</CX>
+			<CY>299</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_EndSlot1</Pieces>
+		<Pieces>Screen:HB_EndSlot2</Pieces>
+		<Pieces>Screen:HB_EndSlot3</Pieces>
+		<Pieces>Screen:HB_EndSlot4</Pieces>
+		<Pieces>Screen:HB_EndSlot5</Pieces>
+		<Pieces>Screen:HB_EndSlot6</Pieces>
+		<Pieces>Screen:HB_EndSlot7</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2361,7 +2865,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd9">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2369,22 +2872,33 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>468</CX>
+			<CY>48</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_Slot1</Pieces>
+		<Pieces>Screen:HB_Slot2</Pieces>
+		<Pieces>Screen:HB_Slot3</Pieces>
+		<Pieces>Screen:HB_Slot4</Pieces>
+		<Pieces>Screen:HB_Slot5</Pieces>
+		<Pieces>Screen:HB_Slot6</Pieces>
+		<Pieces>Screen:HB_Slot7</Pieces>
+		<Pieces>Screen:HB_Slot8</Pieces>
+		<Pieces>Screen:HB_Slot9</Pieces>
+		<Pieces>Screen:HB_Slot10</Pieces>
+		<Pieces>Screen:HB_Slot11</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2393,7 +2907,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd10">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2401,22 +2914,32 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>187</CX>
+			<CY>92</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_BlockSlot1</Pieces>
+		<Pieces>Screen:HB_BlockSlot2</Pieces>
+		<Pieces>Screen:HB_BlockSlot3</Pieces>
+		<Pieces>Screen:HB_BlockSlot4</Pieces>
+		<Pieces>Screen:HB_BlockSlot5</Pieces>
+		<Pieces>Screen:HB_BlockSlot6</Pieces>
+		<Pieces>Screen:HB_BlockSlot7</Pieces>
+		<Pieces>Screen:HB_BlockSlot8</Pieces>
+		<Pieces>HB_BlockRowSeam</Pieces>
+		<Pieces>HB_BlockPetGap</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>
@@ -2425,7 +2948,6 @@
 	</Screen>
 	<Screen item="HotButtonWnd11">
 		<ScreenID />
-		<Layout>HB_LayoutV</Layout>
 		<Font>2</Font>
 		<RelativePosition>false</RelativePosition>
 		<Location>
@@ -2433,22 +2955,33 @@
 			<Y>230</Y>
 		</Location>
 		<Size>
-			<CX>525</CX>
-			<CY>53</CY>
+			<CX>468</CX>
+			<CY>48</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
 			<X>-3</X>
 			<Y>-3</Y>
 		</KeepOnScreenOffset>			
-		<DrawTemplate>AUM_WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsoleBlack</DrawTemplate>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>true</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<Escapable>false</Escapable>
-		<Pieces>TileLayoutBox:HB_HotButtonLayout</Pieces>
+		<Pieces>Screen:HB_Slot1</Pieces>
+		<Pieces>Screen:HB_Slot2</Pieces>
+		<Pieces>Screen:HB_Slot3</Pieces>
+		<Pieces>Screen:HB_Slot4</Pieces>
+		<Pieces>Screen:HB_Slot5</Pieces>
+		<Pieces>Screen:HB_Slot6</Pieces>
+		<Pieces>Screen:HB_Slot7</Pieces>
+		<Pieces>Screen:HB_Slot8</Pieces>
+		<Pieces>Screen:HB_Slot9</Pieces>
+		<Pieces>Screen:HB_Slot10</Pieces>
+		<Pieces>Screen:HB_Slot11</Pieces>
 		<Pieces>Screen:HB_VerticalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarPageButtons</Pieces>
 		<Pieces>Screen:HB_HorizontalBarTemplate</Pieces>

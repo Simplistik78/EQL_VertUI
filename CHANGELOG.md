@@ -1,5 +1,62 @@
 # Changelog
 
+## 19 September 2026
+
+A console band across the bottom of the screen: every window and hot bar in it
+carries a 4px black outer border, and neighbours overlap by 4px so each seam
+reads as one black line. The skin now ships that arrangement as
+`default1080.ini`.
+
+### The shipped layout
+
+`default1080.ini` is loaded by unticking **Keep Your Layout** in the Load Skin
+window. Leave it ticked and nothing changes for you.
+
+Unticking replaces your window positions and cannot be undone in game, so back
+up `UI_<Char>_<server>.ini` first. Chat filters are not part of the layout and
+need setting up again. It is built for 1920x1080 only.
+
+### Player window - `193 x 247`
+
+Rebuilt on NewWorld_RoF's stats layout: name on the HP bar, mana and endurance
+with icons and numbers, XP and AA, AA banked, AC/ATK, haste, velocity, mana and
+endurance regen, seven stats and six resists in two columns. Stat values come
+from the same client values the inventory window uses, so the two agree.
+
+Clicking anywhere in the window targets you again.
+
+### Target bar - `458 x 120`
+
+Flat: two rows of target buffs on top, HP with level, class and name, then
+mana | endurance, then target-of-target | cast bar. The con-colour box is now a
+2px ring inside the frame instead of a thick border.
+
+### Threat window - `198 x 116`
+
+Target name, your threat bar and percentage, and the most-hated player's name
+and percentage in gold.
+
+### Pet bar - `788 x 66`
+
+Flat: gauges at the left, twelve 24px equipment slots along the top, command
+buttons in one row beneath, and a scrolling buff box at the right end. Two extra
+command buttons sit above `leave` and `inventory`.
+
+### Bag bar - `649 x 67`
+
+New: 35 inventory slots in one strip - worn slots and power source at 24px,
+twelve bag slots, and primary / secondary / range / ammo at 48px.
+
+It is hosted in the **Audio Triggers** window, because the client will not let a
+skin add a window. Bind **Toggle Audio Trigger Window** under Options > Keys to
+open it.
+
+### Hot bars
+
+A button holding an item, social or ability now draws the blue Vert slot behind
+it instead of a grey square, matching the empty slots. The 2px padding inside
+each bar is gone, so a bar's black border is the spacing around its buttons.
+
 ## 7 September 2026 (2)
 
 ### Find Item window now skinned
