@@ -47,7 +47,7 @@
 				<Y>0</Y>
 			</Location>
 			<Size>
-				<CX>128</CX>
+				<CX>8</CX>
 				<CY>2</CY>
 			</Size>
 			<Duration>150</Duration>
@@ -55,11 +55,11 @@
 		<Frames>
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>32</Y>
+				<X>8</X>
+				<Y>0</Y>
 			</Location>
 			<Size>
-				<CX>128</CX>
+				<CX>8</CX>
 				<CY>2</CY>
 			</Size>
 			<Duration>150</Duration>
@@ -71,11 +71,11 @@
 		<Frames>
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
-				<X>0</X>
+				<X>8</X>
 				<Y>30</Y>
 			</Location>
 			<Size>
-				<CX>128</CX>
+				<CX>8</CX>
 				<CY>2</CY>
 			</Size>
 			<Duration>150</Duration>
@@ -84,10 +84,10 @@
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>62</Y>
+				<Y>30</Y>
 			</Location>
 			<Size>
-				<CX>128</CX>
+				<CX>8</CX>
 				<CY>2</CY>
 			</Size>
 			<Duration>150</Duration>
@@ -104,7 +104,7 @@
 			</Location>
 			<Size>
 				<CX>2</CX>
-				<CY>32</CY>
+				<CY>8</CY>
 			</Size>
 			<Duration>150</Duration>
 		</Frames>
@@ -112,11 +112,11 @@
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>32</Y>
+				<Y>8</Y>
 			</Location>
 			<Size>
 				<CX>2</CX>
-				<CY>32</CY>
+				<CY>8</CY>
 			</Size>
 			<Duration>150</Duration>
 		</Frames>
@@ -128,11 +128,11 @@
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
 				<X>126</X>
-				<Y>0</Y>
+				<Y>8</Y>
 			</Location>
 			<Size>
 				<CX>2</CX>
-				<CY>32</CY>
+				<CY>8</CY>
 			</Size>
 			<Duration>150</Duration>
 		</Frames>
@@ -140,11 +140,11 @@
 			<Texture>AttackIndicator.tga</Texture>
 			<Location>
 				<X>126</X>
-				<Y>32</Y>
+				<Y>0</Y>
 			</Location>
 			<Size>
 				<CX>2</CX>
-				<CY>32</CY>
+				<CY>8</CY>
 			</Size>
 			<Duration>150</Duration>
 		</Frames>
@@ -183,10 +183,10 @@
 		<Animation>A_AttackIndicatorTop</Animation>
 		<AutoDraw>false</AutoDraw>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>7</TopAnchorOffset>
-		<BottomAnchorOffset>9</BottomAnchorOffset>
-		<LeftAnchorOffset>9</LeftAnchorOffset>
-		<RightAnchorOffset>9</RightAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>3</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>1</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -198,10 +198,10 @@
 		<Animation>A_AttackIndicatorBottom</Animation>
 		<AutoDraw>false</AutoDraw>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>11</TopAnchorOffset>
-		<BottomAnchorOffset>9</BottomAnchorOffset>
-		<LeftAnchorOffset>9</LeftAnchorOffset>
-		<RightAnchorOffset>9</RightAnchorOffset>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>1</RightAnchorOffset>
 		<TopAnchorToTop>false</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -213,10 +213,10 @@
 		<Animation>A_AttackIndicatorLeft</Animation>
 		<AutoDraw>false</AutoDraw>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>7</TopAnchorOffset>
-		<BottomAnchorOffset>9</BottomAnchorOffset>
-		<LeftAnchorOffset>9</LeftAnchorOffset>
-		<RightAnchorOffset>11</RightAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<LeftAnchorOffset>1</LeftAnchorOffset>
+		<RightAnchorOffset>3</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -228,10 +228,10 @@
 		<Animation>A_AttackIndicatorRight</Animation>
 		<AutoDraw>false</AutoDraw>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>7</TopAnchorOffset>
-		<BottomAnchorOffset>9</BottomAnchorOffset>
-		<LeftAnchorOffset>11</LeftAnchorOffset>
-		<RightAnchorOffset>9</RightAnchorOffset>
+		<TopAnchorOffset>1</TopAnchorOffset>
+		<BottomAnchorOffset>1</BottomAnchorOffset>
+		<LeftAnchorOffset>3</LeftAnchorOffset>
+		<RightAnchorOffset>1</RightAnchorOffset>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
@@ -408,14 +408,15 @@
 	<Button item="PW_CombatStateAnim">
 		<ScreenID>PW_CombatStateAnim</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>158</X>
-			<Y>3</Y>
-		</Location>
-		<Size>
-			<CX>14</CX>
-			<CY>14</CY>
-		</Size>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorOffset>3</TopAnchorOffset>
+		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<LeftAnchorOffset>18</LeftAnchorOffset>
+		<RightAnchorOffset>4</RightAnchorOffset>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<DecalOffset>
@@ -491,61 +492,15 @@
 	
 	<Label item="PW_AggroPctPlayerLabel">
 		<ScreenID>PW_AggroPctPlayerLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
-		<Text/>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<EQType>306</EQType>
-		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
-		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>59</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	
 	
 	<Label item="PW_AggroNameSecondaryLabel">
 		<ScreenID>PW_AggroNameSecondaryLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
-		<Text/>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<EQType>304</EQType>
-		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
-		<AlignCenter>true</AlignCenter>
-		<TopAnchorOffset>59</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	
 	<Label item="PW_AggroPctSecondaryLabel">
 		<ScreenID>PW_AggroPctSecondaryLabel</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
-		<Text/>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<EQType>308</EQType>
-		<NoWrap>true</NoWrap>
-		<AutoStretch>true</AutoStretch>
-		<AlignRight>true</AlignRight>
-		<TopAnchorOffset>59</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
-		<LeftAnchorOffset>35</LeftAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 
 <!-- Player HP, Mana, Endurance, XP, AAXP guages -->
@@ -2160,11 +2115,11 @@
 		<AutoStretch>true</AutoStretch>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
+		<Style_Transparent>true</Style_Transparent>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>true</Style_Border>
+		<Style_Border>false</Style_Border>
 		<TopAnchorToTop>true</TopAnchorToTop>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
@@ -2280,12 +2235,12 @@
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<DrawTemplate>AUM_WDT_RoundedTransparentNoArrow</DrawTemplate>		
+		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>		
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>
-		<Style_Border>false</Style_Border>
-		<Style_Transparent>true</Style_Transparent>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>false</Style_Transparent>
 		<Style_Sizable>false</Style_Sizable>
 		<Style_ClientMovable>true</Style_ClientMovable>
 		<ClickThroughEmptyBuffs>true</ClickThroughEmptyBuffs>		

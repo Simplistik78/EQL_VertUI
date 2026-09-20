@@ -224,7 +224,7 @@
 	<Ui2DAnimation item="A_HotButton1Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -262,9 +262,9 @@
 	<Ui2DAnimation item="A_HotButton1Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
+				<X>40</X>
 				<Y>0</Y>
 			</Location>
 			<Size>
@@ -319,10 +319,10 @@
 	<Ui2DAnimation item="A_HotButton2Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>40</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -357,10 +357,10 @@
 	<Ui2DAnimation item="A_HotButton2Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>40</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -414,10 +414,10 @@
 	<Ui2DAnimation item="A_HotButton3Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>80</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -452,10 +452,10 @@
 	<Ui2DAnimation item="A_HotButton3Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>80</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -509,10 +509,10 @@
 	<Ui2DAnimation item="A_HotButton4Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>120</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -547,10 +547,10 @@
 	<Ui2DAnimation item="A_HotButton4Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>120</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -604,10 +604,10 @@
 	<Ui2DAnimation item="A_HotButton5Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>160</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -642,10 +642,10 @@
 	<Ui2DAnimation item="A_HotButton5Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>160</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -699,10 +699,10 @@
 	<Ui2DAnimation item="A_HotButton6Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>200</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -737,10 +737,10 @@
 	<Ui2DAnimation item="A_HotButton6Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces06.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>200</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -794,7 +794,7 @@
 	<Ui2DAnimation item="A_HotButton7Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
 				<Y>0</Y>
@@ -832,9 +832,9 @@
 	<Ui2DAnimation item="A_HotButton7Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
+				<X>40</X>
 				<Y>0</Y>
 			</Location>
 			<Size>
@@ -889,10 +889,10 @@
 	<Ui2DAnimation item="A_HotButton8Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>40</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -927,10 +927,10 @@
 	<Ui2DAnimation item="A_HotButton8Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>40</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -984,10 +984,10 @@
 	<Ui2DAnimation item="A_HotButton9Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>80</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1022,10 +1022,10 @@
 	<Ui2DAnimation item="A_HotButton9Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>80</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1079,10 +1079,10 @@
 	<Ui2DAnimation item="A_HotButton10Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>120</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1117,10 +1117,10 @@
 	<Ui2DAnimation item="A_HotButton10Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>120</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1174,10 +1174,10 @@
 	<Ui2DAnimation item="A_HotButton11Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>160</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1212,10 +1212,10 @@
 	<Ui2DAnimation item="A_HotButton11Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>160</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1269,10 +1269,10 @@
 	<Ui2DAnimation item="A_HotButton12Normal">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_normal.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
 				<X>0</X>
-				<Y>0</Y>
+				<Y>200</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -1307,10 +1307,10 @@
 	<Ui2DAnimation item="A_HotButton12Flyby">
 		<Cycle>true</Cycle>
 		<Frames>
-			<Texture>os_hotbar_flyby.tga</Texture>
+			<Texture>aumaar_window_pieces07.tga</Texture>
 			<Location>
-				<X>0</X>
-				<Y>0</Y>
+				<X>40</X>
+				<Y>200</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>

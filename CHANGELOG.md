@@ -1,5 +1,46 @@
 # Changelog
 
+## 19 September 2026 (3)
+
+Four fixes.
+
+### Hot buttons
+
+Pressing a button does something visible again. The buttons are the modern
+client's own art, whose pressed state is almost entirely transparent so that the
+blue Vert slot underneath shows through. An earlier change in this release
+replaced the resting and hover art with opaque blue tiles, which covered that
+slot permanently - so every button read as a flat blue slab and a press revealed
+nothing. The original art is back.
+
+### Player window
+
+The flashing attack indicator draws again. It had been hidden behind the
+sub-window added to make clicking the window target you; that sub-window is now
+inset, and the indicator traces the window frame.
+
+Threat readouts are gone from this window. Three labels had lost their
+horizontal anchors and were stretching the full width across the XP and AA bars,
+drawing over both - and because a label takes the click here, they were also
+swallowing click-to-target-self across that band. The threat window already
+shows all three numbers.
+
+The combat state icon is anchored to the right edge instead of a fixed position,
+so a change in border thickness cannot push it off the window.
+
+### Target bar
+
+A 4px black seam between each bar, so they no longer run together. The target's
+name now reads before the level and class rather than after them, and the
+target-of-target class field is wide enough for a three-class mix.
+
+### Threat window - `198 x 104`
+
+Twelve pixels shorter, trimmed from empty space below the most-hated row, so it
+no longer overlaps the group window's controls. The window is a fixed size, so
+an existing layout keeps the old height until `Width` and `Height` are removed
+from its `[AggroMeterWnd]` section with the game closed.
+
 ## 19 September 2026 (2)
 
 ### Map window

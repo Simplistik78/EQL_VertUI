@@ -343,6 +343,50 @@ it up. Any replacement host must be a display-only window.
 **If Esc closes the bar,** your ini has `Escapable=1` saved for that window from
 before, which beats the XML. Right-click the bar and untick **Escapable**.
 
+### Map window — resizable, `300 x 240` minimum
+
+The map fills the whole window. The search row and the control panel float over
+it rather than taking a strip out of it, so none of the frame is spent on chrome.
+
+Controls are 20x20 Vert squares down the right edge, grouped by job:
+
+| Row | Buttons |
+| --- | --- |
+| 1 | `+` `-` `AZ` — zoom in, zoom out, auto-zoom onto a find path |
+| 2 | `L` `G` `N` — labels, group members, their names |
+| 3 | `ZG` `E` — zone guide, map editing toolbar |
+| 4 | `B` `1` `2` `3` — which layers are drawn |
+| 5 | `1` `2` `3` — which layer new lines go on |
+| 6 | `ZF` `ZA` — filter lines by height, automatic height range |
+| 7 | Z low, Z high |
+| 8 | fade amount |
+
+Every button carries a tooltip; the letters alone are cryptic.
+
+**It drags down to `300 x 240`** against stock's `600 x 556`, so it can sit in a
+corner as a minimap. A size already saved in your ini still beats the skin — drag
+the window in to find the new floor.
+
+**There are no preset-size buttons.** Every control in this window is bound by
+name to a fixed client action, and none of those actions resizes a window, so
+there is nothing a new button could be made to do.
+
+**The two floating strips take clicks**, so the map does not pan underneath them.
+Drag anywhere else on the map to pan.
+
+Gone from the panel: the pan arrows, Center, Current Zone, and the headings
+`Controls:`, `Layers:`, `Visible`, `Active`, `Z Min`, `Z Max`, `Fade:` and
+`Show:`. The dropped buttons are kept defined at `0 x 0` rather than deleted,
+the same way stock already hides the pan buttons.
+
+### Find window
+
+The destination list the map's **Find** button opens. It now carries the same
+dark frame and inset boxes as the map; before this it was still drawing the
+client's classic art, because the skin had no copy of the file.
+
+It keeps stock's `425 x 325` minimum, which is larger than the map's.
+
 ### Console band
 
 Every window and hot bar in the band carries a 4px black border, and neighbours
