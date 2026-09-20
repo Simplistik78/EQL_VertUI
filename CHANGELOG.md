@@ -29,9 +29,8 @@ the pinstripe down both edges so it runs into the chat window above it.
 
 ### Layout
 
-`default1080.ini` is recaptured from the arranged UI - the full console band,
-with the bag bar, pet bar and both block bars around the pet damage window -
-with every band window locked.
+`default1080.ini` is recaptured from the arranged UI, with the console band
+locked.
 
 ## 19 September 2026 (3)
 
