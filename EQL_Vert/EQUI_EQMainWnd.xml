@@ -463,8 +463,8 @@
 		<RelativePosition>true</RelativePosition>
 		<Font>2</Font>
 		<Location>
-			<X>13</X>
-			<Y>176</Y>
+			<X>65</X>
+			<Y>13</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -486,8 +486,8 @@
 		<!--<Font>3</Font>-->
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>12</X>
-			<Y>259</Y>
+			<X>64</X>
+			<Y>96</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -512,8 +512,8 @@
 		<ScreenID>SCButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>12</X>
-			<Y>217</Y>
+			<X>64</X>
+			<Y>54</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -527,8 +527,8 @@
 		<ScreenID>SCFSButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>12</X>
-			<Y>217</Y>
+			<X>64</X>
+			<Y>54</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -543,7 +543,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
-			<Y>111</Y>
+			<Y>43</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -564,7 +564,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>33</X>
-			<Y>111</Y>
+			<Y>43</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -585,7 +585,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
-			<Y>153</Y>
+			<Y>85</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -606,7 +606,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>12</X>
-			<Y>132</Y>
+			<Y>64</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -627,7 +627,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>33</X>
-			<Y>132</Y>
+			<Y>64</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -648,7 +648,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>33</X>
-			<Y>153</Y>
+			<Y>85</Y>
 		</Location>
 		<Size>
 			<CX>21</CX>
@@ -667,6 +667,34 @@
      fills from bar 8's black edge (x 1855) up to the top of the bar band (y 771)
      while the buttons stay where they were.  It is saved right/bottom at 0%,
      which the client draws 3px past the screen edge (KeepOnScreenOffset). -->
+	<StaticAnimation item = "EQM_StripeLeft">
+		<ScreenID>EQM_StripeLeft</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>0</LeftAnchorOffset>
+		<RightAnchorOffset>5</RightAnchorOffset>
+		<Animation>OS_A_BorderFrameLeft</Animation>
+	</StaticAnimation>
+	<StaticAnimation item = "EQM_StripeRight">
+		<ScreenID>EQM_StripeRight</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<BottomAnchorOffset>0</BottomAnchorOffset>
+		<LeftAnchorOffset>113</LeftAnchorOffset>
+		<RightAnchorOffset>118</RightAnchorOffset>
+		<Animation>OS_A_BorderFrameRight</Animation>
+	</StaticAnimation>
 	<Screen item = "EQMainWnd">
 		<ScreenID/>
 		<RelativePosition>false</RelativePosition>
@@ -676,8 +704,8 @@
 			<Y>550</Y>
 		</Location>
 		<Size>
-			<CX>68</CX>
-			<CY>312</CY>
+			<CX>121</CX>
+			<CY>153</CY>
 		</Size>
 		<Text></Text>
 		<Style_VScroll>false</Style_VScroll>
@@ -705,6 +733,8 @@
 		<Pieces>EQMW_AchievementToggleButton</Pieces>
 		<Pieces>EQMW_HelpToggleButton</Pieces>		
 		<Pieces>EQM_DifficultyButton</Pieces>
+		<Pieces>EQM_StripeLeft</Pieces>
+		<Pieces>EQM_StripeRight</Pieces>
 	</Screen>
 </XML>
 

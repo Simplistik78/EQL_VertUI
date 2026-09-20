@@ -88,7 +88,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_ClientMovable>true</Style_ClientMovable>
-		<DrawTemplate>OS_WDT_ConsoleVertBlack</DrawTemplate>
+		<DrawTemplate>OS_WDT_ConsolePinTop</DrawTemplate>
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

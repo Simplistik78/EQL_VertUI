@@ -2235,7 +2235,7 @@
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
-		<DrawTemplate>OS_WDT_VertSquareBlack</DrawTemplate>		
+		<DrawTemplate>OS_WDT_VertSquarePinBottom</DrawTemplate>		
 		<Style_Titlebar>false</Style_Titlebar>
 		<Style_Closebox>false</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

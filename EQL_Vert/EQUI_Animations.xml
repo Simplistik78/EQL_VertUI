@@ -31548,6 +31548,256 @@
 			<Duration>1000</Duration>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_VertPinstripeDim">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_window_pieces01.tga</Texture>
+			<Location><X>45</X><Y>0</Y></Location>
+			<Size><CX>1</CX><CY>36</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4Top">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>0</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4Bottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>5</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4Left">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>10</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4Right">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>15</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4TopLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>20</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4TopRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>25</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4BottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>30</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_Pin4BottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>35</X><Y>20</Y></Location>
+			<Size><CX>4</CX><CY>4</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinFrameBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>121</X><Y>36</Y></Location>
+			<Size><CX>2</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinFrameBottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>124</X><Y>36</Y></Location>
+			<Size><CX>22</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinFrameBottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_vertsq_black.tga</Texture>
+			<Location><X>90</X><Y>36</Y></Location>
+			<Size><CX>30</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConTopLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>0</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>10</X><Y>10</Y></Location>
+			<Size><CX>4</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConTopRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>15</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConRightTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>25</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>35</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConRightBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>45</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConBottomRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>55</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>65</X><Y>10</Y></Location>
+			<Size><CX>2</CX><CY>9</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConBottomLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>68</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>7</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConLeftTop">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>78</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>88</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_PinConLeftBottom">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_console_black.tga</Texture>
+			<Location><X>98</X><Y>10</Y></Location>
+			<Size><CX>9</CX><CY>2</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_VertPinstripe">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>os_window_pieces01.tga</Texture>
+			<Location><X>44</X><Y>0</Y></Location>
+			<Size><CX>1</CX><CY>36</CY></Size>
+			<Hotspot><X>0</X><Y>0</Y></Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
 	<Ui2DAnimation item="OS_A_BorderFrameTop">
 		<Cycle>true</Cycle>
 		<Frames>

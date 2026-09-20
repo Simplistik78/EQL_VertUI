@@ -1,5 +1,37 @@
 # Changelog
 
+## 20 September 2026
+
+The blue pinstripe now runs around the console, and the layout ships with it.
+
+### Pinstriped frames
+
+The Vert artwork only ever drew its blue stripe down the left and right of a
+window - the top and bottom pieces are a dark shadow with no blue in them. New
+frame slices supply the missing horizontal runs, mitred into the side stripes at
+the corners, and three new draw templates carry them: chat windows gain a stripe
+across the top, and the player, bag, pet and target windows along the bottom. It
+is the window frame doing this, not decoration laid over each window, so any
+window pointed at one of those templates picks it up.
+
+### Hot bars
+
+Bar 1 draws its page spinner below the buttons instead of above them, and the
+button grid starts at the top of the bar. The vertical column bars lose a
+seventh slot that the window was too short to draw, leaving a clean margin
+rather than a sliced icon.
+
+### EQ menu block
+
+The tall button column is now a 121x153 block with the six small toggles beside
+the EQ, marketplace and difficulty buttons rather than stacked above them, with
+the pinstripe down both edges so it runs into the chat window above it.
+
+### Layout
+
+`default1080.ini` is recaptured from the arranged UI, with the console band
+locked.
+
 ## 19 September 2026 (3)
 
 Four fixes.
