@@ -41,6 +41,12 @@ no longer overlaps the group window's controls. The window is a fixed size, so
 an existing layout keeps the old height until `Width` and `Height` are removed
 from its `[AggroMeterWnd]` section with the game closed.
 
+### The shipped layout
+
+`default1080.ini` carries the threat window's new height and leaves the pet bar
+showing, so a player who unticks **Keep Your Layout** gets both. Nothing else in
+the layout moved.
+
 ## 19 September 2026 (2)
 
 ### Map window
