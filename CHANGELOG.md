@@ -43,9 +43,10 @@ from its `[AggroMeterWnd]` section with the game closed.
 
 ### The shipped layout
 
-`default1080.ini` carries the threat window's new height and leaves the pet bar
-showing, so a player who unticks **Keep Your Layout** gets both. Nothing else in
-the layout moved.
+`default1080.ini` has been rebuilt from the maintainer's own arranged UI, so
+unticking **Keep Your Layout** now reproduces that arrangement exactly rather
+than an older snapshot of it - every window position, size and visibility
+matches, including the threat window's new height and the pet bar left showing.
 
 ## 19 September 2026 (2)
 
