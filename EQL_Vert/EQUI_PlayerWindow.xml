@@ -611,6 +611,125 @@
 			<LinesFill>A_GaugeLinesFill</LinesFill>
 		</GaugeDrawTemplate>
 	</Gauge>
+<!-- Timer bars from stock's 21 Sep 2026 update, shown and hidden by the
+     window's right-click menu.  Regen tick runs under endurance; the swing
+     timers are Main / Offhand pills in their own row, labels drawn on top.
+     Rows from XP down moved 14 to make room. -->
+	<Gauge item="Server_Tick">
+		<ScreenID>Server_Tick</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>110</CX>
+			<CY>2</CY>
+		</Size>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>132</R>
+			<G>132</G>
+			<B>165</B>
+		</FillTint>
+		<EQType>183</EQType>
+		<GaugeDrawTemplate>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+	</Gauge>
+	<Gauge item="Mainhand_Timer">
+		<ScreenID>Mainhand_Timer</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>53</CX>
+			<CY>12</CY>
+		</Size>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>255</R>
+			<G>128</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>184</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_GaugeBackground</Background>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+	</Gauge>
+	<Gauge item="Offhand_Timer">
+		<ScreenID>Offhand_Timer</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>74</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>53</CX>
+			<CY>12</CY>
+		</Size>
+		<GaugeOffsetX>0</GaugeOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>255</R>
+			<G>128</G>
+			<B>0</B>
+		</FillTint>
+		<EQType>185</EQType>
+		<GaugeDrawTemplate>
+			<Background>A_GaugeBackground</Background>
+			<Fill>A_GaugeFill</Fill>
+		</GaugeDrawTemplate>
+	</Gauge>
+	<Label item="OS_PW_MainPillLabel">
+		<ScreenID>OS_PW_MainPillLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>17</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>53</CX>
+			<CY>12</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>Main</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+	<Label item="OS_PW_OffPillLabel">
+		<ScreenID>OS_PW_OffPillLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>74</X>
+			<Y>50</Y>
+		</Location>
+		<Size>
+			<CX>53</CX>
+			<CY>12</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>Offhand</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
 	
 
 		
@@ -831,7 +950,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>1</X>
-			<Y>54</Y>
+			<Y>68</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -857,7 +976,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>17</X>
-			<Y>55</Y>
+			<Y>69</Y>
 		</Location>
 		<Size>
 			<CX>110</CX>
@@ -893,7 +1012,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>123</X>
-			<Y>54</Y>
+			<Y>68</Y>
 		</Location>
 		<Size>
 			<CX>31</CX>
@@ -915,7 +1034,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>154</X>
-			<Y>54</Y>
+			<Y>68</Y>
 		</Location>
 		<Size>
 			<CX>12</CX>
@@ -938,7 +1057,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>1</X>
-			<Y>66</Y>
+			<Y>80</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -964,7 +1083,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>17</X>
-			<Y>67</Y>
+			<Y>81</Y>
 		</Location>
 		<Size>
 			<CX>110</CX>
@@ -1000,7 +1119,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>123</X>
-			<Y>66</Y>
+			<Y>80</Y>
 		</Location>
 		<Size>
 			<CX>31</CX>
@@ -1022,7 +1141,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>154</X>
-			<Y>66</Y>
+			<Y>80</Y>
 		</Location>
 		<Size>
 			<CX>12</CX>
@@ -1045,7 +1164,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>1</X>
-			<Y>77</Y>
+			<Y>91</Y>
 		</Location>
 		<Size>
 			<CX>56</CX>
@@ -1068,7 +1187,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>57</X>
-			<Y>77</Y>
+			<Y>91</Y>
 		</Location>
 		<Size>
 			<CX>26</CX>
@@ -1091,7 +1210,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>129</Y>
+			<Y>143</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
@@ -1114,7 +1233,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>129</Y>
+			<Y>143</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1137,7 +1256,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>181</Y>
+			<Y>195</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1160,7 +1279,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>168</Y>
+			<Y>182</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1183,7 +1302,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>194</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1206,7 +1325,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>207</Y>
+			<Y>221</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1229,7 +1348,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>142</Y>
+			<Y>156</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1252,7 +1371,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>155</Y>
+			<Y>169</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1274,7 +1393,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>181</Y>
+			<Y>195</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1296,7 +1415,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>168</Y>
+			<Y>182</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1318,7 +1437,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>194</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1340,7 +1459,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>207</Y>
+			<Y>221</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1359,7 +1478,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>142</Y>
+			<Y>156</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1381,7 +1500,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>155</Y>
+			<Y>169</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -1408,7 +1527,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>40</X>
-			<Y>90</Y>
+			<Y>104</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -1430,7 +1549,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>122</X>
-			<Y>90</Y>
+			<Y>104</Y>
 		</Location>
 		<Size>
 			<CX>40</CX>
@@ -1452,7 +1571,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>90</Y>
+			<Y>104</Y>
 		</Location>
 		<Size>
 			<CX>50</CX>
@@ -1475,7 +1594,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>90</Y>
+			<Y>104</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1493,7 +1612,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>129</Y>
+			<Y>143</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1516,7 +1635,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>129</Y>
+			<Y>143</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1538,7 +1657,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>142</Y>
+			<Y>156</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1561,7 +1680,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>142</Y>
+			<Y>156</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1583,7 +1702,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>155</Y>
+			<Y>169</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1606,7 +1725,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>155</Y>
+			<Y>169</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1628,7 +1747,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>168</Y>
+			<Y>182</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1651,7 +1770,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>168</Y>
+			<Y>182</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1673,7 +1792,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>181</Y>
+			<Y>195</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1696,7 +1815,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>181</Y>
+			<Y>195</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1718,7 +1837,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>194</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1741,7 +1860,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>194</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1763,7 +1882,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>207</Y>
+			<Y>221</Y>
 		</Location>
 		<Size>
 			<CX>70</CX>
@@ -1786,7 +1905,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>207</Y>
+			<Y>221</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1810,7 +1929,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>103</Y>
+			<Y>117</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
@@ -1832,7 +1951,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>103</Y>
+			<Y>117</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1853,7 +1972,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>103</Y>
+			<Y>117</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
@@ -1875,7 +1994,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>103</Y>
+			<Y>117</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -1896,7 +2015,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>4</X>
-			<Y>116</Y>
+			<Y>130</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
@@ -1918,7 +2037,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>116</Y>
+			<Y>130</Y>
 		</Location>
 		<Size>
 			<CX>30</CX>
@@ -1939,7 +2058,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>89</X>
-			<Y>116</Y>
+			<Y>130</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
@@ -1961,7 +2080,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>135</X>
-			<Y>116</Y>
+			<Y>130</Y>
 		</Location>
 		<Size>
 			<CX>27</CX>
@@ -2090,7 +2209,7 @@
 		</Location>
 		<Size>
 			<CX>175</CX>
-			<CY>231</CY>
+			<CY>245</CY>
 		</Size>
 		<EQType>1</EQType>
 		<TextOffsetX>-1000</TextOffsetX>
@@ -2136,6 +2255,11 @@
 		<Pieces>FatigueIcon</Pieces>
 		<Pieces>ManaIcon</Pieces>
 		<Pieces>Player_EndNumber</Pieces>
+		<Pieces>Server_Tick</Pieces>
+		<Pieces>Mainhand_Timer</Pieces>
+		<Pieces>Offhand_Timer</Pieces>
+		<Pieces>OS_PW_MainPillLabel</Pieces>
+		<Pieces>OS_PW_OffPillLabel</Pieces>
 		<Pieces>XP_Label</Pieces>
 		<Pieces>Player_EXP</Pieces>
 		<Pieces>Player_EXPPercentage</Pieces>
@@ -2211,7 +2335,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>97</X>
-			<Y>84</Y>
+			<Y>98</Y>
 		</Location>
 		<Size>
 			<CX>83</CX>
@@ -2231,7 +2355,7 @@
 		<MinHSize>193</MinHSize>
 		<Size>
 			<CX>193</CX>
-			<CY>247</CY>
+			<CY>261</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -2258,6 +2382,21 @@
 		<Pieces>A_AttackIndicatorAnimLeft</Pieces>
 		<Pieces>A_AttackIndicatorAnimRight</Pieces>
 		<Pieces>A_AttackIndicatorAnimFill</Pieces>
+		<Menus>
+			<ID>1</ID>
+			<Pieces>Mainhand_Timer</Pieces>
+			<Pieces>Offhand_Timer</Pieces>
+			<Pieces>OS_PW_MainPillLabel</Pieces>
+			<Pieces>OS_PW_OffPillLabel</Pieces>
+			<Text>Show Attack Timer</Text>
+			<Default>false</Default>
+		</Menus>
+		<Menus>
+			<ID>2</ID>
+			<Pieces>Server_Tick</Pieces>
+			<Text>Show Mana Tick Timer</Text>
+			<Default>true</Default>
+		</Menus>
 	</Screen>
 	
 </XML>

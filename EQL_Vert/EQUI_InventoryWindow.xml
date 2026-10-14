@@ -7226,9 +7226,9 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorOffset>142</LeftAnchorOffset>
+		<LeftAnchorOffset>106</LeftAnchorOffset>
 		<TopAnchorOffset>306</TopAnchorOffset>
-		<RightAnchorOffset>210</RightAnchorOffset>
+		<RightAnchorOffset>156</RightAnchorOffset>
 		<BottomAnchorOffset>326</BottomAnchorOffset>
 		<Text>Swap</Text>
 		<Template>BDT_Normal</Template>
@@ -7241,9 +7241,9 @@
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorOffset>72</LeftAnchorOffset>
+		<LeftAnchorOffset>54</LeftAnchorOffset>
 		<TopAnchorOffset>306</TopAnchorOffset>
-		<RightAnchorOffset>140</RightAnchorOffset>
+		<RightAnchorOffset>104</RightAnchorOffset>
 		<BottomAnchorOffset>326</BottomAnchorOffset>
 		<Text>Edit</Text>
 		<Template>BDT_Normal</Template>
@@ -7258,23 +7258,38 @@
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<TopAnchorOffset>306</TopAnchorOffset>
-		<RightAnchorOffset>70</RightAnchorOffset>
+		<RightAnchorOffset>52</RightAnchorOffset>
 		<BottomAnchorOffset>326</BottomAnchorOffset>
 		<Text>Add</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="IWP_Reincarnate">
+		<ScreenID>IWP_Reincarnate</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<LeftAnchorOffset>158</LeftAnchorOffset>
+		<TopAnchorOffset>306</TopAnchorOffset>
+		<RightAnchorOffset>234</RightAnchorOffset>
+		<BottomAnchorOffset>326</BottomAnchorOffset>
+		<Text>Reincarnate</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Label item="IWP_LoadoutSwapAvailableLabel">
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>214</X>
+			<X>238</X>
 			<Y>308</Y>
 		</Location>
 		<Size>
-			<CX>120</CX>
+			<CX>96</CX>
 			<CY>14</CY>
 		</Size>
 		<Font>3</Font>
-		<Text>Swapping available:</Text>
+		<Text>Swap available:</Text>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -8626,6 +8641,7 @@
 		<Pieces>IWP_SwapLoadout</Pieces>
 		<Pieces>IWP_EditLoadout</Pieces>
 		<Pieces>IWP_AddLoadout</Pieces>
+		<Pieces>IWP_Reincarnate</Pieces>
 		<Pieces>IWP_LoadoutSwapAvailableLabel</Pieces>
 		<Pieces>IWP_LoadoutSwapAvailable</Pieces>
 		<Pieces>Screen:IWP_CharacterLevels1</Pieces>

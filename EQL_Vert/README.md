@@ -291,11 +291,17 @@ and the two extra buttons is the only place the bar can be dragged.
 Hence `os_petbuttons.tga` and `OS_BDT_PetFlat`, drawing `(41,44,49)` with a 1px
 `(16,16,16)` edge at 0.75 alpha. `BDT_Normal` itself is untouched.
 
-### Player window — `193 x 247`
+### Player window — `193 x 261`
 
 Rebuilt from NewWorld_RoF's layout: name on the HP bar, mana and endurance with
 their icons and numbers, XP and AA bars, AA banked, then AC/ATK, haste, velocity,
 mana and endurance regen, the seven stats and six resists in two columns.
+
+Under the endurance bar sit the client's timers: a thin line for the regen tick
+(the one server tick that HP, mana and endurance all regen on), and two orange
+**Main** / **Offhand** pills that fill as each weapon's swing comes round and
+empty when it lands. **Right-click the window** to show or hide them —
+*Show Mana Tick Timer* (on by default) and *Show Attack Timer* (off by default).
 
 Stat values use the same client values as the inventory window, so the two always
 agree.

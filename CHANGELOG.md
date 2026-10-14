@@ -1,5 +1,37 @@
 # Changelog
 
+## 14 October 2026
+
+Catches up with the 21 September and 12 October client patches.
+
+### New race
+
+The 12 October patch added the Half Dark Elf. Its race icons live in
+`EQUI_Animations.xml`, which this skin replaces, so the character creation,
+race change and loadout windows had nothing to draw for it. The six icons are
+now in the skin's copy.
+
+### Player window
+
+The window is 14 pixels taller (`193 x 261`) to make room for the client's
+timers, which the 21 September patch put behind a right-click menu:
+
+- a thin regen-tick line under the endurance bar - *Show Mana Tick Timer*, on
+  by default
+- orange **Main** and **Offhand** pills that fill as each weapon's swing comes
+  round and empty when it lands - *Show Attack Timer*, off by default
+
+Everything from the XP bar down moves 14 pixels lower.
+
+### Inventory window
+
+The Loadouts tab has a **Reincarnate** button beside Swap, ready for when the
+feature goes live. Until then the client hides it, so the row shows a gap.
+
+### Layout
+
+`default1080.ini` raises the player window to suit its new height.
+
 ## 20 September 2026
 
 The blue pinstripe now runs around the console, and the layout ships with it.

@@ -15024,6 +15024,21 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="RCW_Half Dark ElfMaleIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>MaleRace.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>96</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>48</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
 
 	<Ui2DAnimation item="RCW_BarbarianFemaleIconDisabled">
 		<Cycle>false</Cycle>
@@ -15265,6 +15280,21 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="RCW_Half Dark ElfFemaleIconDisabled">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>FemaleRaceDisabled.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>48</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>48</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
 
 	<Ui2DAnimation item="RCW_BarbarianMaleIconDisabled">
 		<Cycle>false</Cycle>
@@ -15492,6 +15522,21 @@
 		</Frames>
 	</Ui2DAnimation>
 	<Ui2DAnimation item="RCW_DrakkinMaleIconDisabled">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>MaleRaceDisabled.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>96</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>48</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="RCW_Half Dark ElfMaleIconDisabled">
 		<Cycle>false</Cycle>
 		<Grid>false</Grid>
 		<Frames>
@@ -25480,6 +25525,21 @@
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="RCW_Half Dark ElfFemaleIcon">
+		<Cycle>false</Cycle>
+		<Grid>false</Grid>
+		<Frames>
+			<Texture>FemaleRace.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>48</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>48</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
 	
 	<Ui2DAnimation item="BarbarianIcon">
     <Cycle>false</Cycle>
@@ -25721,6 +25781,21 @@
       </Size>
     </Frames>
   </Ui2DAnimation>
+  <Ui2DAnimation item="Half Dark ElfIcon">
+    <Cycle>false</Cycle>
+    <Grid>false</Grid>
+    <Frames>
+      <Texture>FemaleRace.tga</Texture>
+      <Location>
+        <X>0</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <CX>48</CX>
+        <CY>48</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
   <Ui2DAnimation item="BarbarianMaleIcon">
     <Cycle>false</Cycle>
     <Grid>false</Grid>
@@ -25947,6 +26022,21 @@
     </Frames>
   </Ui2DAnimation>
   <Ui2DAnimation item="DrakkinMaleIcon">
+    <Cycle>false</Cycle>
+    <Grid>false</Grid>
+    <Frames>
+      <Texture>MaleRace.tga</Texture>
+      <Location>
+        <X>192</X>
+        <Y>96</Y>
+      </Location>
+      <Size>
+        <CX>48</CX>
+        <CY>48</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+  <Ui2DAnimation item="Half Dark ElfMaleIcon">
     <Cycle>false</Cycle>
     <Grid>false</Grid>
     <Frames>
