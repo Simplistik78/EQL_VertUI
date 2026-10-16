@@ -1,5 +1,24 @@
 # Changelog
 
+## 15 October 2026
+
+Five more windows leave the client's classic art behind and take the skin's
+frames, inset boxes and buttons.
+
+### Instance Information
+
+**Invite Raid** and **Invite Task** now show after Make Leader - the modern
+client ships them at `0 x 0`. The window's default width is `490` so they clear
+Quit Instance.
+
+### Restyled
+
+- **Select Raid Options**, the window a raid zone-in opens. Join Raid now
+  stretches to the right edge.
+- **Load a skin**, keeping the Keep Your Layout button.
+- **Marketplace**.
+- **Mailbox**, keeping the Character Mailbox selector and its icon buttons.
+
 ## 14 October 2026
 
 Catches up with the 21 September and 12 October client patches.

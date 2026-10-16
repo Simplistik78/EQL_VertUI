@@ -393,6 +393,19 @@ client's classic art, because the skin had no copy of the file.
 
 It keeps stock's `425 x 325` minimum, which is larger than the map's.
 
+### Instance, raid, skin, marketplace and mail windows
+
+Five more windows that were still drawing the client's classic art now carry
+the skin's frames, inset boxes and buttons. Layout is stock unless noted.
+
+| Window | Change |
+| --- | --- |
+| Instance Information | **Invite Raid** and **Invite Task** now show after Make Leader (stock sizes them `0 x 0`). Default width `490` so they clear Quit Instance. |
+| Select Raid Options | Opened at a raid zone-in. Join Raid stretches to the right edge. |
+| Load a skin | Keeps the **Keep Your Layout** button and its label. |
+| Marketplace | Restyled only. |
+| Mailbox | Keeps the Character Mailbox selector and the Options and Address Book icons. |
+
 ### Console band
 
 Every window and hot bar in the band carries a 4px black border, and neighbours

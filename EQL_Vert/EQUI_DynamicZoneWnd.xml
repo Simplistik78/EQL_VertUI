@@ -440,8 +440,8 @@
       <Y>50</Y>
     </Location>
     <Size>
-      <CX>0</CX>
-      <CY>0</CY>
+      <CX>78</CX>
+      <CY>24</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -458,8 +458,8 @@
       <Y>50</Y>
     </Location>
     <Size>
-      <CX>0</CX>
-      <CY>0</CY>
+      <CX>78</CX>
+      <CY>24</CY>
     </Size>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
@@ -581,10 +581,10 @@
       <Y>60</Y>
     </Location>
     <Size>
-      <CX>402</CX>
+      <CX>490</CX>
       <CY>400</CY>
     </Size>
-    <MinHSize>402</MinHSize>
+    <MinHSize>490</MinHSize>
     <MinVSize>400</MinVSize>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
