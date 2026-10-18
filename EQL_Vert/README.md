@@ -431,6 +431,22 @@ the skin's frames, inset boxes and buttons. Layout is stock unless noted.
 | Marketplace | Restyled only. |
 | Mailbox | Keeps the Character Mailbox selector and the Options and Address Book icons. |
 
+### Item, spell, zone guide, faction and object preview windows
+
+Five more windows that were still drawing the client's classic art now carry the
+inventory's blue Vert frame, with Vert inset boxes and buttons inside. Layout is
+stock.
+
+| Window | Opened by |
+| --- | --- |
+| Item display | Inspecting an item |
+| Spell display | Inspecting a spell or buff |
+| Zone guide | The EQ menu |
+| Faction standings | The EQ menu |
+| Object preview | **Preview** on an item |
+
+The item window's 11 augment slots use the standard item slot.
+
 ### Console band
 
 Every window and hot bar in the band carries a 4px black border, and neighbours

@@ -24,6 +24,17 @@ classic art. They are `400` wide by default - half the bank - so the two fit sid
 by side under it. They do not move with the bank; arrange them once and the game
 remembers where they go.
 
+### Restyled
+
+Five more windows leave the client's classic art behind and take the
+inventory's blue Vert frame, with Vert inset boxes and buttons inside:
+
+- **Item display**, opened by inspecting an item.
+- **Spell display**, opened by inspecting a spell or buff.
+- **Zone guide**.
+- **Faction standings**.
+- **Object preview**, opened by **Preview** on an item.
+
 ## 15 October 2026
 
 Five more windows leave the client's classic art behind and take the skin's
