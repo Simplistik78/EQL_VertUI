@@ -216,7 +216,17 @@ The `GroupSize1`-`GroupSize11` table is deliberately absent. If restored, set al
 eleven to the same value or the client resizes the window on every membership
 change.
 
-### Inventory window — `504 x 495`
+### Inventory window — `1072 x 600`
+
+**All 12 bags inside the inventory.** A dark Vert panel on the right shows every
+general bag's contents as a block of 6 x 4 slots, 30px each, `Bag 1` to `Bag 12`
+in three columns by four rows. A block only draws as many slots as its bag
+holds, so a 24-slot rucksack shows 24 and a 4-slot kit shows 4. Items can be
+picked up, moved and placed straight from the blocks, and the panel moves with
+the inventory. **B** still opens each bag's own window.
+
+The right-hand column (name, XP, weight, bag slots, buttons) is shifted left by
+the panel's width so it stays beside the tabs.
 
 **Vert33OceanSpray ships no inventory window.** It never skinned one — it
 inherited the client default. So there was no layout to port, only slot
@@ -245,9 +255,9 @@ Extended Target, Chat and Chat Container already wear it. Inner panels keep
 `AUM_WDT_Inner`; the 8 `AUM_WDT_Def` uses are tab pages, which count as inner
 surfaces.
 
-`OS_A_RecessedBox` exists so only the inventory window's slots repoint. BigBank,
-Container and Templates keep stock `A_RecessedBox`; the bank has its own tiles
-(see below).
+`OS_A_RecessedBox` exists so only the inventory window's slots repoint. BigBank
+and Templates keep stock `A_RecessedBox`; the bank, the inventory's bags panel
+and bag windows use the darker `OS_A_RecessedBoxBank`.
 
 Bandolier is in scope because it is the only other consumer of the equipment slot
 art.
@@ -431,9 +441,9 @@ the skin's frames, inset boxes and buttons. Layout is stock unless noted.
 | Marketplace | Restyled only. |
 | Mailbox | Keeps the Character Mailbox selector and the Options and Address Book icons. |
 
-### Item, spell, zone guide, faction and object preview windows
+### Item, spell, zone guide, faction, object preview and skills windows
 
-Five more windows that were still drawing the client's classic art now carry the
+Six more windows that were still drawing the client's classic art now carry the
 inventory's blue Vert frame, with Vert inset boxes and buttons inside. Layout is
 stock.
 
@@ -444,8 +454,32 @@ stock.
 | Zone guide | The EQ menu |
 | Faction standings | The EQ menu |
 | Object preview | **Preview** on an item |
+| Skills | **Skills** on the inventory |
 
 The item window's 11 augment slots use the standard item slot.
+
+### Bag windows
+
+Every bag window - the ones **B** opens - carries the blue Vert frame and dark
+Vert slots. **Combine** on a tradeskill container sits in a bar under the slots,
+so it fits any width, including two-wide containers. Regular bags keep their
+Done button at the bottom; the client shows no Done on tradeskill containers,
+so those close with the window's close box.
+
+### Tradeskill window — `530 x 378`
+
+Compact, in two columns.
+
+- **Left:** a two-row search (trivial range and Search Recipes; name and Manual
+  Combine), the recipe list, and Favorites along the bottom.
+- **Right:** **Workbench** - the open container and the recipe's components,
+  five across - above **Actions**: Combine, Make All, Personal Depot,
+  Auto-Inventory, Tradeskill Depot and Close.
+
+The component boxes show what the selected recipe needs; nothing is placed in
+them. Pick a recipe and press Combine, or use **Manual Combine** to place items
+yourself in the container's own window. The recipe list grows if you resize
+the window.
 
 ### Console band
 

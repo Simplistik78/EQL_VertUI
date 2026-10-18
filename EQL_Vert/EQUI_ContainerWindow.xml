@@ -29,7 +29,7 @@
 			<CX>40</CX>
 			<CY>40</CY>
 		</Size>
-		<Background>AUM_A_RecessedBox</Background>
+		<Background>OS_A_RecessedBoxBank</Background>
 		<EQType>-1</EQType>
 	</InvSlot>
 	<TileLayoutBox item="ContainerStandard_Items">
@@ -81,43 +81,38 @@
 	<Button item="Container_Combine">
 		<ScreenID>Container_Combine</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>55</X>
-			<Y>2</Y>
-		</Location>
 		<Size>
-			<CX>60</CX>
-			<CY>34</CY>
+			<CX>82</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>Combine</Text>
-		<Template>BDT_SmallNormal</Template>
-		<UseInLayoutVertical>false</UseInLayoutVertical>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>0</B>
+		</TextColor>
+		<Template>AUM_BDT_Normal</Template>
 	</Button>
 	<Button item="StandardDoneButton">
 		<ScreenID>StandardDoneButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Size>
-			<CX>50</CX>
+			<CX>82</CX>
 			<CY>24</CY>
 		</Size>
 		<Text>Done</Text>
-		<Template>BDT_Normal</Template>
+		<Template>AUM_BDT_Normal</Template>
 	</Button>
 	<Button item="CombineDoneButton">
 		<ScreenID>CombineDoneButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>115</X>
-			<Y>10</Y>
-		</Location>
 		<Size>
-			<CX>60</CX>
+			<CX>82</CX>
 			<CY>20</CY>
 		</Size>
-		<UseInLayoutVertical>false</UseInLayoutVertical>
 		<Style_Transparent>false</Style_Transparent>
 		<Text>Done</Text>
-		<Template>BDT_Normal</Template>
+		<Template>AUM_BDT_Normal</Template>
 	</Button>
 	<STMLbox item="Container_StandardSize">
 		<ScreenID>StandardSize</ScreenID>
@@ -163,7 +158,7 @@
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<TooltipReference>Container</TooltipReference>
-		<DrawTemplate>AUM_WDT_Rounded</DrawTemplate>
+		<DrawTemplate>AUM_WDT_VertSquare</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Closebox>true</Style_Closebox>
 		<Style_Minimizebox>false</Style_Minimizebox>

@@ -8674,7 +8674,7 @@
 		<Pages>Page:IW_StoragePage</Pages>
 <!-- 		<Pages>Page:IW_StatPage</Pages>	 -->	
 		<LeftAnchorOffset>0</LeftAnchorOffset>
-		<RightAnchorOffset>115</RightAnchorOffset>
+		<RightAnchorOffset>683</RightAnchorOffset>
 		<TopAnchorOffset>0</TopAnchorOffset>
 		<BottomAnchorOffset>22</BottomAnchorOffset>
 	</TabBox>
@@ -8804,8 +8804,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>112</TopAnchorOffset>
 		<BottomAnchorOffset>130</BottomAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>
-		<LeftAnchorOffset>100</LeftAnchorOffset>
+		<RightAnchorOffset>583</RightAnchorOffset>
+		<LeftAnchorOffset>668</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Destroy</Text>
 		<TextColor>
@@ -8830,8 +8830,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<BottomAnchorOffset>42</BottomAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
-		<LeftAnchorOffset>56</LeftAnchorOffset>
+		<RightAnchorOffset>570</RightAnchorOffset>
+		<LeftAnchorOffset>624</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Alt. Adv.</Text>
 		<Template>BDT_Normal</Template>		
@@ -8846,8 +8846,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>40</TopAnchorOffset>
 		<BottomAnchorOffset>22</BottomAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
-		<LeftAnchorOffset>56</LeftAnchorOffset>
+		<RightAnchorOffset>570</RightAnchorOffset>
+		<LeftAnchorOffset>624</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Find Item</Text>
 		<NoWrap>true</NoWrap>
@@ -8874,8 +8874,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>20</TopAnchorOffset>
 		<BottomAnchorOffset>2</BottomAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
-		<LeftAnchorOffset>113</LeftAnchorOffset>
+		<RightAnchorOffset>570</RightAnchorOffset>
+		<LeftAnchorOffset>681</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Done</Text>
 		<Template>BDT_Normal</Template>
@@ -8890,8 +8890,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>60</TopAnchorOffset>
 		<BottomAnchorOffset>42</BottomAnchorOffset>
-		<RightAnchorOffset>58</RightAnchorOffset>
-		<LeftAnchorOffset>113</LeftAnchorOffset>
+		<RightAnchorOffset>626</RightAnchorOffset>
+		<LeftAnchorOffset>681</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Skills</Text>
 		<Template>BDT_Normal</Template>				
@@ -8906,8 +8906,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>80</TopAnchorOffset>
 		<BottomAnchorOffset>62</BottomAnchorOffset>
-		<RightAnchorOffset>2</RightAnchorOffset>
-		<LeftAnchorOffset>56</LeftAnchorOffset>
+		<RightAnchorOffset>570</RightAnchorOffset>
+		<LeftAnchorOffset>624</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Appear.</Text>
 		<Template>BDT_Normal</Template>		
@@ -8922,8 +8922,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>40</TopAnchorOffset>
 		<BottomAnchorOffset>22</BottomAnchorOffset>
-		<RightAnchorOffset>58</RightAnchorOffset>
-		<LeftAnchorOffset>113</LeftAnchorOffset>
+		<RightAnchorOffset>626</RightAnchorOffset>
+		<LeftAnchorOffset>681</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Achiev.</Text>
 		<Template>BDT_Normal</Template>		
@@ -9052,8 +9052,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>16</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Playername123456</Text>
 		<NoWrap>true</NoWrap>
@@ -9070,8 +9070,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>15</TopAnchorOffset>
 		<BottomAnchorOffset>30</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>60 Shadow Knight</Text>
 		<NoWrap>true</NoWrap>
@@ -9087,8 +9087,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>15</TopAnchorOffset>
 		<BottomAnchorOffset>30</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>60 Shadow Knight</Text>
 		<NoWrap>true</NoWrap>
@@ -9108,8 +9108,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>30</TopAnchorOffset>
 		<BottomAnchorOffset>45</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>NEXT LEVEL</Text>
 		<NoWrap>true</NoWrap>
@@ -9127,8 +9127,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>30</TopAnchorOffset>
 		<BottomAnchorOffset>45</BottomAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>583</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
@@ -9144,8 +9144,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>30</TopAnchorOffset>
 		<BottomAnchorOffset>45</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>%</Text>
 		<NoWrap>true</NoWrap>
@@ -9162,8 +9162,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>44</TopAnchorOffset>
 		<BottomAnchorOffset>54</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<FillTint>
@@ -9194,8 +9194,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>56</TopAnchorOffset>
 		<BottomAnchorOffset>70</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>NEXT AA</Text>
 		<NoWrap>true</NoWrap>
@@ -9213,8 +9213,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>56</TopAnchorOffset>
 		<BottomAnchorOffset>70</BottomAnchorOffset>
-		<RightAnchorOffset>15</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>583</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
@@ -9230,8 +9230,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>56</TopAnchorOffset>
 		<BottomAnchorOffset>70</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>%</Text>
 		<NoWrap>true</NoWrap>
@@ -9248,8 +9248,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>70</TopAnchorOffset>
 		<BottomAnchorOffset>80</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>111</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>679</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<GaugeOffsetY>0</GaugeOffsetY>
 		<FillTint>
@@ -9279,8 +9279,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>82</TopAnchorOffset>
 		<BottomAnchorOffset>100</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>110</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>678</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Weight</Text>
 		<NoWrap>true</NoWrap>
@@ -9298,8 +9298,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>82</TopAnchorOffset>
 		<BottomAnchorOffset>100</BottomAnchorOffset>
-		<RightAnchorOffset>33</RightAnchorOffset>
-		<LeftAnchorOffset>70</LeftAnchorOffset>
+		<RightAnchorOffset>601</RightAnchorOffset>
+		<LeftAnchorOffset>638</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>0</Text>
 		<NoWrap>true</NoWrap>
@@ -9314,8 +9314,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>82</TopAnchorOffset>
 		<BottomAnchorOffset>100</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>53</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>621</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>/</Text>
 		<TextColor>
@@ -9336,8 +9336,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>82</TopAnchorOffset>
 		<BottomAnchorOffset>100</BottomAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<LeftAnchorOffset>25</LeftAnchorOffset>
+		<RightAnchorOffset>568</RightAnchorOffset>
+		<LeftAnchorOffset>593</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text />
 		<NoWrap>true</NoWrap>
@@ -9354,8 +9354,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>95</TopAnchorOffset>
 		<BottomAnchorOffset>110</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>110</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>678</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text>Weight (Worn)</Text>
 		<NoWrap>true</NoWrap>
@@ -9372,8 +9372,8 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<TopAnchorOffset>95</TopAnchorOffset>
 		<BottomAnchorOffset>110</BottomAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<LeftAnchorOffset>24</LeftAnchorOffset>
+		<RightAnchorOffset>572</RightAnchorOffset>
+		<LeftAnchorOffset>592</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<Text />
 		<NoWrap>true</NoWrap>
@@ -9383,6 +9383,4539 @@
 	</Label>	
 	<!-- End EXP, AA gauge, WT -->	
 	
+	<Label item="VB_InvBag0Label">
+		<ScreenID>VB_InvBag0Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 1</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag0_0">
+		<ScreenID>VB_InvBag0_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_1">
+		<ScreenID>VB_InvBag0_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_2">
+		<ScreenID>VB_InvBag0_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_3">
+		<ScreenID>VB_InvBag0_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_4">
+		<ScreenID>VB_InvBag0_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_5">
+		<ScreenID>VB_InvBag0_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_6">
+		<ScreenID>VB_InvBag0_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_7">
+		<ScreenID>VB_InvBag0_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_8">
+		<ScreenID>VB_InvBag0_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_9">
+		<ScreenID>VB_InvBag0_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_10">
+		<ScreenID>VB_InvBag0_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_11">
+		<ScreenID>VB_InvBag0_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_12">
+		<ScreenID>VB_InvBag0_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_13">
+		<ScreenID>VB_InvBag0_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_14">
+		<ScreenID>VB_InvBag0_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_15">
+		<ScreenID>VB_InvBag0_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_16">
+		<ScreenID>VB_InvBag0_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_17">
+		<ScreenID>VB_InvBag0_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_18">
+		<ScreenID>VB_InvBag0_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_19">
+		<ScreenID>VB_InvBag0_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_20">
+		<ScreenID>VB_InvBag0_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_21">
+		<ScreenID>VB_InvBag0_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_22">
+		<ScreenID>VB_InvBag0_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag0_23">
+		<ScreenID>VB_InvBag0_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 23/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag1Label">
+		<ScreenID>VB_InvBag1Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 2</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag1_0">
+		<ScreenID>VB_InvBag1_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_1">
+		<ScreenID>VB_InvBag1_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_2">
+		<ScreenID>VB_InvBag1_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_3">
+		<ScreenID>VB_InvBag1_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_4">
+		<ScreenID>VB_InvBag1_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_5">
+		<ScreenID>VB_InvBag1_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_6">
+		<ScreenID>VB_InvBag1_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_7">
+		<ScreenID>VB_InvBag1_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_8">
+		<ScreenID>VB_InvBag1_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_9">
+		<ScreenID>VB_InvBag1_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_10">
+		<ScreenID>VB_InvBag1_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_11">
+		<ScreenID>VB_InvBag1_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_12">
+		<ScreenID>VB_InvBag1_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_13">
+		<ScreenID>VB_InvBag1_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_14">
+		<ScreenID>VB_InvBag1_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_15">
+		<ScreenID>VB_InvBag1_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_16">
+		<ScreenID>VB_InvBag1_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_17">
+		<ScreenID>VB_InvBag1_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_18">
+		<ScreenID>VB_InvBag1_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_19">
+		<ScreenID>VB_InvBag1_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_20">
+		<ScreenID>VB_InvBag1_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_21">
+		<ScreenID>VB_InvBag1_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_22">
+		<ScreenID>VB_InvBag1_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag1_23">
+		<ScreenID>VB_InvBag1_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 24/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag2Label">
+		<ScreenID>VB_InvBag2Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 3</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag2_0">
+		<ScreenID>VB_InvBag2_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_1">
+		<ScreenID>VB_InvBag2_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_2">
+		<ScreenID>VB_InvBag2_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_3">
+		<ScreenID>VB_InvBag2_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_4">
+		<ScreenID>VB_InvBag2_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_5">
+		<ScreenID>VB_InvBag2_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>19</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_6">
+		<ScreenID>VB_InvBag2_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_7">
+		<ScreenID>VB_InvBag2_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_8">
+		<ScreenID>VB_InvBag2_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_9">
+		<ScreenID>VB_InvBag2_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_10">
+		<ScreenID>VB_InvBag2_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_11">
+		<ScreenID>VB_InvBag2_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>49</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_12">
+		<ScreenID>VB_InvBag2_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_13">
+		<ScreenID>VB_InvBag2_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_14">
+		<ScreenID>VB_InvBag2_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_15">
+		<ScreenID>VB_InvBag2_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_16">
+		<ScreenID>VB_InvBag2_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_17">
+		<ScreenID>VB_InvBag2_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>79</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_18">
+		<ScreenID>VB_InvBag2_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_19">
+		<ScreenID>VB_InvBag2_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_20">
+		<ScreenID>VB_InvBag2_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_21">
+		<ScreenID>VB_InvBag2_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_22">
+		<ScreenID>VB_InvBag2_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag2_23">
+		<ScreenID>VB_InvBag2_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>109</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 25/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag3Label">
+		<ScreenID>VB_InvBag3Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 4</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag3_0">
+		<ScreenID>VB_InvBag3_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_1">
+		<ScreenID>VB_InvBag3_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_2">
+		<ScreenID>VB_InvBag3_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_3">
+		<ScreenID>VB_InvBag3_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_4">
+		<ScreenID>VB_InvBag3_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_5">
+		<ScreenID>VB_InvBag3_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_6">
+		<ScreenID>VB_InvBag3_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_7">
+		<ScreenID>VB_InvBag3_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_8">
+		<ScreenID>VB_InvBag3_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_9">
+		<ScreenID>VB_InvBag3_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_10">
+		<ScreenID>VB_InvBag3_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_11">
+		<ScreenID>VB_InvBag3_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_12">
+		<ScreenID>VB_InvBag3_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_13">
+		<ScreenID>VB_InvBag3_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_14">
+		<ScreenID>VB_InvBag3_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_15">
+		<ScreenID>VB_InvBag3_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_16">
+		<ScreenID>VB_InvBag3_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_17">
+		<ScreenID>VB_InvBag3_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_18">
+		<ScreenID>VB_InvBag3_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_19">
+		<ScreenID>VB_InvBag3_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_20">
+		<ScreenID>VB_InvBag3_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_21">
+		<ScreenID>VB_InvBag3_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_22">
+		<ScreenID>VB_InvBag3_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag3_23">
+		<ScreenID>VB_InvBag3_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 26/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag4Label">
+		<ScreenID>VB_InvBag4Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 5</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag4_0">
+		<ScreenID>VB_InvBag4_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_1">
+		<ScreenID>VB_InvBag4_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_2">
+		<ScreenID>VB_InvBag4_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_3">
+		<ScreenID>VB_InvBag4_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_4">
+		<ScreenID>VB_InvBag4_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_5">
+		<ScreenID>VB_InvBag4_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_6">
+		<ScreenID>VB_InvBag4_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_7">
+		<ScreenID>VB_InvBag4_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_8">
+		<ScreenID>VB_InvBag4_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_9">
+		<ScreenID>VB_InvBag4_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_10">
+		<ScreenID>VB_InvBag4_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_11">
+		<ScreenID>VB_InvBag4_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_12">
+		<ScreenID>VB_InvBag4_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_13">
+		<ScreenID>VB_InvBag4_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_14">
+		<ScreenID>VB_InvBag4_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_15">
+		<ScreenID>VB_InvBag4_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_16">
+		<ScreenID>VB_InvBag4_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_17">
+		<ScreenID>VB_InvBag4_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_18">
+		<ScreenID>VB_InvBag4_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_19">
+		<ScreenID>VB_InvBag4_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_20">
+		<ScreenID>VB_InvBag4_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_21">
+		<ScreenID>VB_InvBag4_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_22">
+		<ScreenID>VB_InvBag4_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag4_23">
+		<ScreenID>VB_InvBag4_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 27/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag5Label">
+		<ScreenID>VB_InvBag5Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>145</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 6</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag5_0">
+		<ScreenID>VB_InvBag5_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_1">
+		<ScreenID>VB_InvBag5_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_2">
+		<ScreenID>VB_InvBag5_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_3">
+		<ScreenID>VB_InvBag5_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_4">
+		<ScreenID>VB_InvBag5_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_5">
+		<ScreenID>VB_InvBag5_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>160</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_6">
+		<ScreenID>VB_InvBag5_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_7">
+		<ScreenID>VB_InvBag5_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_8">
+		<ScreenID>VB_InvBag5_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_9">
+		<ScreenID>VB_InvBag5_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_10">
+		<ScreenID>VB_InvBag5_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_11">
+		<ScreenID>VB_InvBag5_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>190</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_12">
+		<ScreenID>VB_InvBag5_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_13">
+		<ScreenID>VB_InvBag5_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_14">
+		<ScreenID>VB_InvBag5_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_15">
+		<ScreenID>VB_InvBag5_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_16">
+		<ScreenID>VB_InvBag5_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_17">
+		<ScreenID>VB_InvBag5_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>220</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_18">
+		<ScreenID>VB_InvBag5_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_19">
+		<ScreenID>VB_InvBag5_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_20">
+		<ScreenID>VB_InvBag5_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_21">
+		<ScreenID>VB_InvBag5_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_22">
+		<ScreenID>VB_InvBag5_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag5_23">
+		<ScreenID>VB_InvBag5_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>250</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 28/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag6Label">
+		<ScreenID>VB_InvBag6Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>286</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 7</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag6_0">
+		<ScreenID>VB_InvBag6_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_1">
+		<ScreenID>VB_InvBag6_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_2">
+		<ScreenID>VB_InvBag6_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_3">
+		<ScreenID>VB_InvBag6_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_4">
+		<ScreenID>VB_InvBag6_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_5">
+		<ScreenID>VB_InvBag6_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_6">
+		<ScreenID>VB_InvBag6_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_7">
+		<ScreenID>VB_InvBag6_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_8">
+		<ScreenID>VB_InvBag6_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_9">
+		<ScreenID>VB_InvBag6_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_10">
+		<ScreenID>VB_InvBag6_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_11">
+		<ScreenID>VB_InvBag6_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_12">
+		<ScreenID>VB_InvBag6_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_13">
+		<ScreenID>VB_InvBag6_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_14">
+		<ScreenID>VB_InvBag6_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_15">
+		<ScreenID>VB_InvBag6_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_16">
+		<ScreenID>VB_InvBag6_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_17">
+		<ScreenID>VB_InvBag6_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_18">
+		<ScreenID>VB_InvBag6_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_19">
+		<ScreenID>VB_InvBag6_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_20">
+		<ScreenID>VB_InvBag6_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_21">
+		<ScreenID>VB_InvBag6_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_22">
+		<ScreenID>VB_InvBag6_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag6_23">
+		<ScreenID>VB_InvBag6_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 29/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag7Label">
+		<ScreenID>VB_InvBag7Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>286</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 8</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag7_0">
+		<ScreenID>VB_InvBag7_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_1">
+		<ScreenID>VB_InvBag7_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_2">
+		<ScreenID>VB_InvBag7_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_3">
+		<ScreenID>VB_InvBag7_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_4">
+		<ScreenID>VB_InvBag7_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_5">
+		<ScreenID>VB_InvBag7_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_6">
+		<ScreenID>VB_InvBag7_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_7">
+		<ScreenID>VB_InvBag7_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_8">
+		<ScreenID>VB_InvBag7_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_9">
+		<ScreenID>VB_InvBag7_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_10">
+		<ScreenID>VB_InvBag7_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_11">
+		<ScreenID>VB_InvBag7_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_12">
+		<ScreenID>VB_InvBag7_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_13">
+		<ScreenID>VB_InvBag7_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_14">
+		<ScreenID>VB_InvBag7_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_15">
+		<ScreenID>VB_InvBag7_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_16">
+		<ScreenID>VB_InvBag7_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_17">
+		<ScreenID>VB_InvBag7_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_18">
+		<ScreenID>VB_InvBag7_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_19">
+		<ScreenID>VB_InvBag7_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_20">
+		<ScreenID>VB_InvBag7_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_21">
+		<ScreenID>VB_InvBag7_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_22">
+		<ScreenID>VB_InvBag7_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag7_23">
+		<ScreenID>VB_InvBag7_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 30/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag8Label">
+		<ScreenID>VB_InvBag8Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>286</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 9</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag8_0">
+		<ScreenID>VB_InvBag8_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_1">
+		<ScreenID>VB_InvBag8_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_2">
+		<ScreenID>VB_InvBag8_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_3">
+		<ScreenID>VB_InvBag8_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_4">
+		<ScreenID>VB_InvBag8_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_5">
+		<ScreenID>VB_InvBag8_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>301</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_6">
+		<ScreenID>VB_InvBag8_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_7">
+		<ScreenID>VB_InvBag8_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_8">
+		<ScreenID>VB_InvBag8_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_9">
+		<ScreenID>VB_InvBag8_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_10">
+		<ScreenID>VB_InvBag8_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_11">
+		<ScreenID>VB_InvBag8_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>331</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_12">
+		<ScreenID>VB_InvBag8_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_13">
+		<ScreenID>VB_InvBag8_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_14">
+		<ScreenID>VB_InvBag8_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_15">
+		<ScreenID>VB_InvBag8_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_16">
+		<ScreenID>VB_InvBag8_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_17">
+		<ScreenID>VB_InvBag8_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>361</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_18">
+		<ScreenID>VB_InvBag8_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_19">
+		<ScreenID>VB_InvBag8_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_20">
+		<ScreenID>VB_InvBag8_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_21">
+		<ScreenID>VB_InvBag8_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_22">
+		<ScreenID>VB_InvBag8_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag8_23">
+		<ScreenID>VB_InvBag8_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>391</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 31/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag9Label">
+		<ScreenID>VB_InvBag9Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>427</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 10</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag9_0">
+		<ScreenID>VB_InvBag9_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_1">
+		<ScreenID>VB_InvBag9_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_2">
+		<ScreenID>VB_InvBag9_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_3">
+		<ScreenID>VB_InvBag9_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_4">
+		<ScreenID>VB_InvBag9_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_5">
+		<ScreenID>VB_InvBag9_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_6">
+		<ScreenID>VB_InvBag9_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_7">
+		<ScreenID>VB_InvBag9_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_8">
+		<ScreenID>VB_InvBag9_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_9">
+		<ScreenID>VB_InvBag9_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_10">
+		<ScreenID>VB_InvBag9_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_11">
+		<ScreenID>VB_InvBag9_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_12">
+		<ScreenID>VB_InvBag9_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_13">
+		<ScreenID>VB_InvBag9_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_14">
+		<ScreenID>VB_InvBag9_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_15">
+		<ScreenID>VB_InvBag9_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_16">
+		<ScreenID>VB_InvBag9_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_17">
+		<ScreenID>VB_InvBag9_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_18">
+		<ScreenID>VB_InvBag9_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_19">
+		<ScreenID>VB_InvBag9_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>34</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_20">
+		<ScreenID>VB_InvBag9_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>64</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_21">
+		<ScreenID>VB_InvBag9_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_22">
+		<ScreenID>VB_InvBag9_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>124</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag9_23">
+		<ScreenID>VB_InvBag9_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>154</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 32/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag10Label">
+		<ScreenID>VB_InvBag10Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>427</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 11</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag10_0">
+		<ScreenID>VB_InvBag10_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_1">
+		<ScreenID>VB_InvBag10_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_2">
+		<ScreenID>VB_InvBag10_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_3">
+		<ScreenID>VB_InvBag10_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_4">
+		<ScreenID>VB_InvBag10_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_5">
+		<ScreenID>VB_InvBag10_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_6">
+		<ScreenID>VB_InvBag10_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_7">
+		<ScreenID>VB_InvBag10_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_8">
+		<ScreenID>VB_InvBag10_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_9">
+		<ScreenID>VB_InvBag10_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_10">
+		<ScreenID>VB_InvBag10_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_11">
+		<ScreenID>VB_InvBag10_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_12">
+		<ScreenID>VB_InvBag10_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_13">
+		<ScreenID>VB_InvBag10_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_14">
+		<ScreenID>VB_InvBag10_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_15">
+		<ScreenID>VB_InvBag10_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_16">
+		<ScreenID>VB_InvBag10_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_17">
+		<ScreenID>VB_InvBag10_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_18">
+		<ScreenID>VB_InvBag10_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>192</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_19">
+		<ScreenID>VB_InvBag10_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_20">
+		<ScreenID>VB_InvBag10_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>252</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_21">
+		<ScreenID>VB_InvBag10_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>282</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_22">
+		<ScreenID>VB_InvBag10_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>312</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag10_23">
+		<ScreenID>VB_InvBag10_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>342</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 33/23</EQType>
+	</InvSlot>
+	<Label item="VB_InvBag11Label">
+		<ScreenID>VB_InvBag11Label</ScreenID>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>427</Y>
+		</Location>
+		<Size>
+			<CX>180</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Bag 12</Text>
+		<AlignLeft>true</AlignLeft>
+	</Label>
+	<InvSlot item="VB_InvBag11_0">
+		<ScreenID>VB_InvBag11_0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/0</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_1">
+		<ScreenID>VB_InvBag11_1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/1</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_2">
+		<ScreenID>VB_InvBag11_2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/2</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_3">
+		<ScreenID>VB_InvBag11_3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/3</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_4">
+		<ScreenID>VB_InvBag11_4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/4</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_5">
+		<ScreenID>VB_InvBag11_5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>442</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/5</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_6">
+		<ScreenID>VB_InvBag11_6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/6</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_7">
+		<ScreenID>VB_InvBag11_7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/7</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_8">
+		<ScreenID>VB_InvBag11_8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/8</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_9">
+		<ScreenID>VB_InvBag11_9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/9</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_10">
+		<ScreenID>VB_InvBag11_10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/10</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_11">
+		<ScreenID>VB_InvBag11_11</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>472</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/11</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_12">
+		<ScreenID>VB_InvBag11_12</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/12</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_13">
+		<ScreenID>VB_InvBag11_13</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/13</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_14">
+		<ScreenID>VB_InvBag11_14</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/14</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_15">
+		<ScreenID>VB_InvBag11_15</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/15</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_16">
+		<ScreenID>VB_InvBag11_16</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/16</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_17">
+		<ScreenID>VB_InvBag11_17</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>502</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/17</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_18">
+		<ScreenID>VB_InvBag11_18</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>380</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/18</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_19">
+		<ScreenID>VB_InvBag11_19</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>410</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/19</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_20">
+		<ScreenID>VB_InvBag11_20</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>440</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/20</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_21">
+		<ScreenID>VB_InvBag11_21</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>470</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/21</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_22">
+		<ScreenID>VB_InvBag11_22</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>500</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/22</EQType>
+	</InvSlot>
+	<InvSlot item="VB_InvBag11_23">
+		<ScreenID>VB_InvBag11_23</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>530</X>
+			<Y>532</Y>
+		</Location>
+		<Size>
+			<CX>30</CX>
+			<CY>30</CY>
+		</Size>
+		<Background>OS_A_RecessedBoxBank</Background>
+		<EQType>inventory/Equip 34/23</EQType>
+	</InvSlot>
+	<Screen item="VB_InvBagsPanel">
+		<ScreenID>VB_InvBagsPanel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>566</LeftAnchorOffset>
+		<TopAnchorOffset>0</TopAnchorOffset>
+		<RightAnchorOffset>2</RightAnchorOffset>
+		<BottomAnchorOffset>566</BottomAnchorOffset>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>VB_InvBag0Label</Pieces>
+		<Pieces>VB_InvBag0_0</Pieces>
+		<Pieces>VB_InvBag0_1</Pieces>
+		<Pieces>VB_InvBag0_2</Pieces>
+		<Pieces>VB_InvBag0_3</Pieces>
+		<Pieces>VB_InvBag0_4</Pieces>
+		<Pieces>VB_InvBag0_5</Pieces>
+		<Pieces>VB_InvBag0_6</Pieces>
+		<Pieces>VB_InvBag0_7</Pieces>
+		<Pieces>VB_InvBag0_8</Pieces>
+		<Pieces>VB_InvBag0_9</Pieces>
+		<Pieces>VB_InvBag0_10</Pieces>
+		<Pieces>VB_InvBag0_11</Pieces>
+		<Pieces>VB_InvBag0_12</Pieces>
+		<Pieces>VB_InvBag0_13</Pieces>
+		<Pieces>VB_InvBag0_14</Pieces>
+		<Pieces>VB_InvBag0_15</Pieces>
+		<Pieces>VB_InvBag0_16</Pieces>
+		<Pieces>VB_InvBag0_17</Pieces>
+		<Pieces>VB_InvBag0_18</Pieces>
+		<Pieces>VB_InvBag0_19</Pieces>
+		<Pieces>VB_InvBag0_20</Pieces>
+		<Pieces>VB_InvBag0_21</Pieces>
+		<Pieces>VB_InvBag0_22</Pieces>
+		<Pieces>VB_InvBag0_23</Pieces>
+		<Pieces>VB_InvBag1Label</Pieces>
+		<Pieces>VB_InvBag1_0</Pieces>
+		<Pieces>VB_InvBag1_1</Pieces>
+		<Pieces>VB_InvBag1_2</Pieces>
+		<Pieces>VB_InvBag1_3</Pieces>
+		<Pieces>VB_InvBag1_4</Pieces>
+		<Pieces>VB_InvBag1_5</Pieces>
+		<Pieces>VB_InvBag1_6</Pieces>
+		<Pieces>VB_InvBag1_7</Pieces>
+		<Pieces>VB_InvBag1_8</Pieces>
+		<Pieces>VB_InvBag1_9</Pieces>
+		<Pieces>VB_InvBag1_10</Pieces>
+		<Pieces>VB_InvBag1_11</Pieces>
+		<Pieces>VB_InvBag1_12</Pieces>
+		<Pieces>VB_InvBag1_13</Pieces>
+		<Pieces>VB_InvBag1_14</Pieces>
+		<Pieces>VB_InvBag1_15</Pieces>
+		<Pieces>VB_InvBag1_16</Pieces>
+		<Pieces>VB_InvBag1_17</Pieces>
+		<Pieces>VB_InvBag1_18</Pieces>
+		<Pieces>VB_InvBag1_19</Pieces>
+		<Pieces>VB_InvBag1_20</Pieces>
+		<Pieces>VB_InvBag1_21</Pieces>
+		<Pieces>VB_InvBag1_22</Pieces>
+		<Pieces>VB_InvBag1_23</Pieces>
+		<Pieces>VB_InvBag2Label</Pieces>
+		<Pieces>VB_InvBag2_0</Pieces>
+		<Pieces>VB_InvBag2_1</Pieces>
+		<Pieces>VB_InvBag2_2</Pieces>
+		<Pieces>VB_InvBag2_3</Pieces>
+		<Pieces>VB_InvBag2_4</Pieces>
+		<Pieces>VB_InvBag2_5</Pieces>
+		<Pieces>VB_InvBag2_6</Pieces>
+		<Pieces>VB_InvBag2_7</Pieces>
+		<Pieces>VB_InvBag2_8</Pieces>
+		<Pieces>VB_InvBag2_9</Pieces>
+		<Pieces>VB_InvBag2_10</Pieces>
+		<Pieces>VB_InvBag2_11</Pieces>
+		<Pieces>VB_InvBag2_12</Pieces>
+		<Pieces>VB_InvBag2_13</Pieces>
+		<Pieces>VB_InvBag2_14</Pieces>
+		<Pieces>VB_InvBag2_15</Pieces>
+		<Pieces>VB_InvBag2_16</Pieces>
+		<Pieces>VB_InvBag2_17</Pieces>
+		<Pieces>VB_InvBag2_18</Pieces>
+		<Pieces>VB_InvBag2_19</Pieces>
+		<Pieces>VB_InvBag2_20</Pieces>
+		<Pieces>VB_InvBag2_21</Pieces>
+		<Pieces>VB_InvBag2_22</Pieces>
+		<Pieces>VB_InvBag2_23</Pieces>
+		<Pieces>VB_InvBag3Label</Pieces>
+		<Pieces>VB_InvBag3_0</Pieces>
+		<Pieces>VB_InvBag3_1</Pieces>
+		<Pieces>VB_InvBag3_2</Pieces>
+		<Pieces>VB_InvBag3_3</Pieces>
+		<Pieces>VB_InvBag3_4</Pieces>
+		<Pieces>VB_InvBag3_5</Pieces>
+		<Pieces>VB_InvBag3_6</Pieces>
+		<Pieces>VB_InvBag3_7</Pieces>
+		<Pieces>VB_InvBag3_8</Pieces>
+		<Pieces>VB_InvBag3_9</Pieces>
+		<Pieces>VB_InvBag3_10</Pieces>
+		<Pieces>VB_InvBag3_11</Pieces>
+		<Pieces>VB_InvBag3_12</Pieces>
+		<Pieces>VB_InvBag3_13</Pieces>
+		<Pieces>VB_InvBag3_14</Pieces>
+		<Pieces>VB_InvBag3_15</Pieces>
+		<Pieces>VB_InvBag3_16</Pieces>
+		<Pieces>VB_InvBag3_17</Pieces>
+		<Pieces>VB_InvBag3_18</Pieces>
+		<Pieces>VB_InvBag3_19</Pieces>
+		<Pieces>VB_InvBag3_20</Pieces>
+		<Pieces>VB_InvBag3_21</Pieces>
+		<Pieces>VB_InvBag3_22</Pieces>
+		<Pieces>VB_InvBag3_23</Pieces>
+		<Pieces>VB_InvBag4Label</Pieces>
+		<Pieces>VB_InvBag4_0</Pieces>
+		<Pieces>VB_InvBag4_1</Pieces>
+		<Pieces>VB_InvBag4_2</Pieces>
+		<Pieces>VB_InvBag4_3</Pieces>
+		<Pieces>VB_InvBag4_4</Pieces>
+		<Pieces>VB_InvBag4_5</Pieces>
+		<Pieces>VB_InvBag4_6</Pieces>
+		<Pieces>VB_InvBag4_7</Pieces>
+		<Pieces>VB_InvBag4_8</Pieces>
+		<Pieces>VB_InvBag4_9</Pieces>
+		<Pieces>VB_InvBag4_10</Pieces>
+		<Pieces>VB_InvBag4_11</Pieces>
+		<Pieces>VB_InvBag4_12</Pieces>
+		<Pieces>VB_InvBag4_13</Pieces>
+		<Pieces>VB_InvBag4_14</Pieces>
+		<Pieces>VB_InvBag4_15</Pieces>
+		<Pieces>VB_InvBag4_16</Pieces>
+		<Pieces>VB_InvBag4_17</Pieces>
+		<Pieces>VB_InvBag4_18</Pieces>
+		<Pieces>VB_InvBag4_19</Pieces>
+		<Pieces>VB_InvBag4_20</Pieces>
+		<Pieces>VB_InvBag4_21</Pieces>
+		<Pieces>VB_InvBag4_22</Pieces>
+		<Pieces>VB_InvBag4_23</Pieces>
+		<Pieces>VB_InvBag5Label</Pieces>
+		<Pieces>VB_InvBag5_0</Pieces>
+		<Pieces>VB_InvBag5_1</Pieces>
+		<Pieces>VB_InvBag5_2</Pieces>
+		<Pieces>VB_InvBag5_3</Pieces>
+		<Pieces>VB_InvBag5_4</Pieces>
+		<Pieces>VB_InvBag5_5</Pieces>
+		<Pieces>VB_InvBag5_6</Pieces>
+		<Pieces>VB_InvBag5_7</Pieces>
+		<Pieces>VB_InvBag5_8</Pieces>
+		<Pieces>VB_InvBag5_9</Pieces>
+		<Pieces>VB_InvBag5_10</Pieces>
+		<Pieces>VB_InvBag5_11</Pieces>
+		<Pieces>VB_InvBag5_12</Pieces>
+		<Pieces>VB_InvBag5_13</Pieces>
+		<Pieces>VB_InvBag5_14</Pieces>
+		<Pieces>VB_InvBag5_15</Pieces>
+		<Pieces>VB_InvBag5_16</Pieces>
+		<Pieces>VB_InvBag5_17</Pieces>
+		<Pieces>VB_InvBag5_18</Pieces>
+		<Pieces>VB_InvBag5_19</Pieces>
+		<Pieces>VB_InvBag5_20</Pieces>
+		<Pieces>VB_InvBag5_21</Pieces>
+		<Pieces>VB_InvBag5_22</Pieces>
+		<Pieces>VB_InvBag5_23</Pieces>
+		<Pieces>VB_InvBag6Label</Pieces>
+		<Pieces>VB_InvBag6_0</Pieces>
+		<Pieces>VB_InvBag6_1</Pieces>
+		<Pieces>VB_InvBag6_2</Pieces>
+		<Pieces>VB_InvBag6_3</Pieces>
+		<Pieces>VB_InvBag6_4</Pieces>
+		<Pieces>VB_InvBag6_5</Pieces>
+		<Pieces>VB_InvBag6_6</Pieces>
+		<Pieces>VB_InvBag6_7</Pieces>
+		<Pieces>VB_InvBag6_8</Pieces>
+		<Pieces>VB_InvBag6_9</Pieces>
+		<Pieces>VB_InvBag6_10</Pieces>
+		<Pieces>VB_InvBag6_11</Pieces>
+		<Pieces>VB_InvBag6_12</Pieces>
+		<Pieces>VB_InvBag6_13</Pieces>
+		<Pieces>VB_InvBag6_14</Pieces>
+		<Pieces>VB_InvBag6_15</Pieces>
+		<Pieces>VB_InvBag6_16</Pieces>
+		<Pieces>VB_InvBag6_17</Pieces>
+		<Pieces>VB_InvBag6_18</Pieces>
+		<Pieces>VB_InvBag6_19</Pieces>
+		<Pieces>VB_InvBag6_20</Pieces>
+		<Pieces>VB_InvBag6_21</Pieces>
+		<Pieces>VB_InvBag6_22</Pieces>
+		<Pieces>VB_InvBag6_23</Pieces>
+		<Pieces>VB_InvBag7Label</Pieces>
+		<Pieces>VB_InvBag7_0</Pieces>
+		<Pieces>VB_InvBag7_1</Pieces>
+		<Pieces>VB_InvBag7_2</Pieces>
+		<Pieces>VB_InvBag7_3</Pieces>
+		<Pieces>VB_InvBag7_4</Pieces>
+		<Pieces>VB_InvBag7_5</Pieces>
+		<Pieces>VB_InvBag7_6</Pieces>
+		<Pieces>VB_InvBag7_7</Pieces>
+		<Pieces>VB_InvBag7_8</Pieces>
+		<Pieces>VB_InvBag7_9</Pieces>
+		<Pieces>VB_InvBag7_10</Pieces>
+		<Pieces>VB_InvBag7_11</Pieces>
+		<Pieces>VB_InvBag7_12</Pieces>
+		<Pieces>VB_InvBag7_13</Pieces>
+		<Pieces>VB_InvBag7_14</Pieces>
+		<Pieces>VB_InvBag7_15</Pieces>
+		<Pieces>VB_InvBag7_16</Pieces>
+		<Pieces>VB_InvBag7_17</Pieces>
+		<Pieces>VB_InvBag7_18</Pieces>
+		<Pieces>VB_InvBag7_19</Pieces>
+		<Pieces>VB_InvBag7_20</Pieces>
+		<Pieces>VB_InvBag7_21</Pieces>
+		<Pieces>VB_InvBag7_22</Pieces>
+		<Pieces>VB_InvBag7_23</Pieces>
+		<Pieces>VB_InvBag8Label</Pieces>
+		<Pieces>VB_InvBag8_0</Pieces>
+		<Pieces>VB_InvBag8_1</Pieces>
+		<Pieces>VB_InvBag8_2</Pieces>
+		<Pieces>VB_InvBag8_3</Pieces>
+		<Pieces>VB_InvBag8_4</Pieces>
+		<Pieces>VB_InvBag8_5</Pieces>
+		<Pieces>VB_InvBag8_6</Pieces>
+		<Pieces>VB_InvBag8_7</Pieces>
+		<Pieces>VB_InvBag8_8</Pieces>
+		<Pieces>VB_InvBag8_9</Pieces>
+		<Pieces>VB_InvBag8_10</Pieces>
+		<Pieces>VB_InvBag8_11</Pieces>
+		<Pieces>VB_InvBag8_12</Pieces>
+		<Pieces>VB_InvBag8_13</Pieces>
+		<Pieces>VB_InvBag8_14</Pieces>
+		<Pieces>VB_InvBag8_15</Pieces>
+		<Pieces>VB_InvBag8_16</Pieces>
+		<Pieces>VB_InvBag8_17</Pieces>
+		<Pieces>VB_InvBag8_18</Pieces>
+		<Pieces>VB_InvBag8_19</Pieces>
+		<Pieces>VB_InvBag8_20</Pieces>
+		<Pieces>VB_InvBag8_21</Pieces>
+		<Pieces>VB_InvBag8_22</Pieces>
+		<Pieces>VB_InvBag8_23</Pieces>
+		<Pieces>VB_InvBag9Label</Pieces>
+		<Pieces>VB_InvBag9_0</Pieces>
+		<Pieces>VB_InvBag9_1</Pieces>
+		<Pieces>VB_InvBag9_2</Pieces>
+		<Pieces>VB_InvBag9_3</Pieces>
+		<Pieces>VB_InvBag9_4</Pieces>
+		<Pieces>VB_InvBag9_5</Pieces>
+		<Pieces>VB_InvBag9_6</Pieces>
+		<Pieces>VB_InvBag9_7</Pieces>
+		<Pieces>VB_InvBag9_8</Pieces>
+		<Pieces>VB_InvBag9_9</Pieces>
+		<Pieces>VB_InvBag9_10</Pieces>
+		<Pieces>VB_InvBag9_11</Pieces>
+		<Pieces>VB_InvBag9_12</Pieces>
+		<Pieces>VB_InvBag9_13</Pieces>
+		<Pieces>VB_InvBag9_14</Pieces>
+		<Pieces>VB_InvBag9_15</Pieces>
+		<Pieces>VB_InvBag9_16</Pieces>
+		<Pieces>VB_InvBag9_17</Pieces>
+		<Pieces>VB_InvBag9_18</Pieces>
+		<Pieces>VB_InvBag9_19</Pieces>
+		<Pieces>VB_InvBag9_20</Pieces>
+		<Pieces>VB_InvBag9_21</Pieces>
+		<Pieces>VB_InvBag9_22</Pieces>
+		<Pieces>VB_InvBag9_23</Pieces>
+		<Pieces>VB_InvBag10Label</Pieces>
+		<Pieces>VB_InvBag10_0</Pieces>
+		<Pieces>VB_InvBag10_1</Pieces>
+		<Pieces>VB_InvBag10_2</Pieces>
+		<Pieces>VB_InvBag10_3</Pieces>
+		<Pieces>VB_InvBag10_4</Pieces>
+		<Pieces>VB_InvBag10_5</Pieces>
+		<Pieces>VB_InvBag10_6</Pieces>
+		<Pieces>VB_InvBag10_7</Pieces>
+		<Pieces>VB_InvBag10_8</Pieces>
+		<Pieces>VB_InvBag10_9</Pieces>
+		<Pieces>VB_InvBag10_10</Pieces>
+		<Pieces>VB_InvBag10_11</Pieces>
+		<Pieces>VB_InvBag10_12</Pieces>
+		<Pieces>VB_InvBag10_13</Pieces>
+		<Pieces>VB_InvBag10_14</Pieces>
+		<Pieces>VB_InvBag10_15</Pieces>
+		<Pieces>VB_InvBag10_16</Pieces>
+		<Pieces>VB_InvBag10_17</Pieces>
+		<Pieces>VB_InvBag10_18</Pieces>
+		<Pieces>VB_InvBag10_19</Pieces>
+		<Pieces>VB_InvBag10_20</Pieces>
+		<Pieces>VB_InvBag10_21</Pieces>
+		<Pieces>VB_InvBag10_22</Pieces>
+		<Pieces>VB_InvBag10_23</Pieces>
+		<Pieces>VB_InvBag11Label</Pieces>
+		<Pieces>VB_InvBag11_0</Pieces>
+		<Pieces>VB_InvBag11_1</Pieces>
+		<Pieces>VB_InvBag11_2</Pieces>
+		<Pieces>VB_InvBag11_3</Pieces>
+		<Pieces>VB_InvBag11_4</Pieces>
+		<Pieces>VB_InvBag11_5</Pieces>
+		<Pieces>VB_InvBag11_6</Pieces>
+		<Pieces>VB_InvBag11_7</Pieces>
+		<Pieces>VB_InvBag11_8</Pieces>
+		<Pieces>VB_InvBag11_9</Pieces>
+		<Pieces>VB_InvBag11_10</Pieces>
+		<Pieces>VB_InvBag11_11</Pieces>
+		<Pieces>VB_InvBag11_12</Pieces>
+		<Pieces>VB_InvBag11_13</Pieces>
+		<Pieces>VB_InvBag11_14</Pieces>
+		<Pieces>VB_InvBag11_15</Pieces>
+		<Pieces>VB_InvBag11_16</Pieces>
+		<Pieces>VB_InvBag11_17</Pieces>
+		<Pieces>VB_InvBag11_18</Pieces>
+		<Pieces>VB_InvBag11_19</Pieces>
+		<Pieces>VB_InvBag11_20</Pieces>
+		<Pieces>VB_InvBag11_21</Pieces>
+		<Pieces>VB_InvBag11_22</Pieces>
+		<Pieces>VB_InvBag11_23</Pieces>
+	</Screen>
 	<Screen item="InventoryWindow">
 		<RelativePosition>false</RelativePosition>
 		<MenuName>Default Layout</MenuName>		
@@ -9391,8 +13924,8 @@
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>504</CX>
-			<CY>495</CY>
+			<CX>1072</CX>
+			<CY>600</CY>
 		</Size>
 		<KeepOnScreen>true</KeepOnScreen>
 		<KeepOnScreenOffset>
@@ -9444,6 +13977,7 @@
 		<Pieces>IW_MaxWeight</Pieces>
 		<Pieces>IW_WeightWorn</Pieces>
 		<Pieces>IW_WornWeightNumber</Pieces>		
+		<Pieces>Screen:VB_InvBagsPanel</Pieces>
 	</Screen>
 </XML>
 

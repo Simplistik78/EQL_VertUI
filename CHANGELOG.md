@@ -34,6 +34,28 @@ inventory's blue Vert frame, with Vert inset boxes and buttons inside:
 - **Zone guide**.
 - **Faction standings**.
 - **Object preview**, opened by **Preview** on an item.
+- **Skills**, opened from the inventory.
+
+### Inventory
+
+All 12 bags now show inside the inventory window, in a panel on the right: one
+block per bag, `Bag 1` to `Bag 12`, each drawing as many slots as the bag holds.
+Items can be moved straight from the blocks, and the panel moves with the
+inventory. The window is `1072 x 600`. **B** still opens each bag's own window.
+
+### Bag windows
+
+Every bag window carries the Vert frame and dark Vert slots. On tradeskill
+containers **Combine** now sits in a bar under the slots, so it fits two-wide
+containers instead of being squeezed beside the icon.
+
+### Tradeskill window
+
+Rebuilt as a compact two-column window, `530 x 378`: search, recipes and
+favorites on the left; the container and the recipe's components above the
+Combine, Make All, Personal Depot, Auto-Inventory, Tradeskill Depot and Close
+buttons on the right. Anyone who has resized the window before keeps their saved
+size until they resize it again.
 
 ## 15 October 2026
 
