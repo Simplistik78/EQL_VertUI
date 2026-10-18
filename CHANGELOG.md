@@ -57,6 +57,13 @@ Combine, Make All, Personal Depot, Auto-Inventory, Tradeskill Depot and Close
 buttons on the right. Anyone who has resized the window before keeps their saved
 size until they resize it again.
 
+### Pet Dmg window
+
+The shipped layout now sends your pet's melee and spell damage to the **Pet Dmg**
+chat window and shows it as numbers only. You get this when you load the skin's
+layout (untick **Keep Your Layout** in the Load Skin window). Every other chat
+filter stays your own.
+
 ## 15 October 2026
 
 Five more windows leave the client's classic art behind and take the skin's
