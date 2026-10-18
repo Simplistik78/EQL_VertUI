@@ -33644,6 +33644,352 @@
 	</Ui2DAnimation>
 <!-- ===== end OceanSpray Vert bag slots ===== -->
 
+<!-- ===== Vert bank slots =====
+     os_recessedbox_bank.tga is os_recessedbox.tga with the inner fill at 60%
+     brightness, border kept, so icons stand out in the bank bag blocks. -->
+	<TextureInfo item="os_recessedbox_bank.tga">
+		<Size>
+			<CX>64</CX>
+			<CY>64</CY>
+		</Size>
+	</TextureInfo>
+	<Ui2DAnimation item="OS_A_RecessedBoxBank">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_recessedbox_bank.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>41</CX>
+				<CY>41</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+<!-- ===== end Vert bank slots ===== -->
+
+<!-- ===== Vert numbered bank bag slots =====
+     os_bankslots.tga is os_bagslots.tga with BAG 13-16 added in the empty
+     fourth row, built from the existing glyphs.  Kept separate so the
+     inventory texture is untouched. -->
+	<TextureInfo item="os_bankslots.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+	<Ui2DAnimation item="OS_A_BankBag01">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag02">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag03">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag04">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag05">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag06">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag07">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag08">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag09">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>128</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag10">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>128</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag11">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>128</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag12">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>128</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag13">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag14">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag15">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="OS_A_BankBag16">
+		<Cycle>false</Cycle>
+		<Frames>
+			<Texture>os_bankslots.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+<!-- ===== end Vert numbered bank bag slots ===== -->
+
 <!-- ===== OceanSpray Vert numbered bag slots =====
      OS_A_Bag01-12 back InvSlot23-34 only.  PetInvSlot00-11 stay on the
      unnumbered OS_A_RecessedBox - they are pet inventory, not bags.

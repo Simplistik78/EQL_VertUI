@@ -1,5 +1,29 @@
 # Changelog
 
+## 18 October 2026
+
+The bank window is rebuilt so you can see what is inside your bank bags without
+opening them.
+
+### Bank
+
+- The 16 bag slots are numbered `BAG 1` to `BAG 16`, in the same style as the
+  inventory's bag slots.
+- Four tabs - `1-4`, `5-8`, `9-12`, `13-16` - each show one row of the bag grid
+  as blocks of slots. A block only draws as many slots as its bag holds, so a
+  backpack shows 8 and a storage trunk all 50. Items can be moved straight from
+  the blocks.
+- The block slots are a darker blue so item icons stand out.
+- Coins and buttons sit under the bag grid, with Done across the bottom. The
+  window is `801 x 400`.
+
+### Dragon's Hoard and Tradeskill Depot
+
+Both now carry the Vert frame, inset lists and buttons instead of the client's
+classic art. They are `400` wide by default - half the bank - so the two fit side
+by side under it. They do not move with the bank; arrange them once and the game
+remembers where they go.
+
 ## 15 October 2026
 
 Five more windows leave the client's classic art behind and take the skin's

@@ -245,8 +245,9 @@ Extended Target, Chat and Chat Container already wear it. Inner panels keep
 `AUM_WDT_Inner`; the 8 `AUM_WDT_Def` uses are tab pages, which count as inner
 surfaces.
 
-`OS_A_RecessedBox` exists so only the inventory window's slots repoint. Bank,
-BigBank, Container and Templates keep stock `A_RecessedBox`.
+`OS_A_RecessedBox` exists so only the inventory window's slots repoint. BigBank,
+Container and Templates keep stock `A_RecessedBox`; the bank has its own tiles
+(see below).
 
 Bandolier is in scope because it is the only other consumer of the equipment slot
 art.
@@ -393,6 +394,30 @@ client's classic art, because the skin had no copy of the file.
 
 It keeps stock's `425 x 325` minimum, which is larger than the map's.
 
+### Bank window — `801 x 400`
+
+One window that shows what is inside your bank bags without opening them. EQL
+opens the 16-slot bank (`BankWnd`), not the 24-slot BigBank.
+
+- **Left:** the 16 bag slots, numbered `BAG 1` to `BAG 16` left to right, top to
+  bottom. Coins sit under them, then the buttons in two columns, with Done
+  across the bottom.
+- **Right:** four tabs, `1-4`, `5-8`, `9-12` and `13-16`, one per row of the bag
+  grid. Each tab shows that row's four bags as blocks of 10 x 5 slots, 30px each.
+  A block only draws as many slots as its bag holds, so an 8-slot backpack shows
+  8 and a 50-slot trunk shows all 50.
+
+Items can be picked up, moved and placed straight from the blocks. The block
+slots use a darker blue (`OS_A_RecessedBoxBank`) so icons stand out.
+
+There is no shared bank on EQL, so its slots stay hidden. The Shrouds button is
+kept for when EQL enables it.
+
+**Dragon's Hoard** and **Tradeskill Depot** carry the same Vert frame and are
+400 wide by default, half the bank's width, so the two fit side by side under it.
+They are separate windows and do not move with the bank; arrange them once and
+the game remembers where they go.
+
 ### Instance, raid, skin, marketplace and mail windows
 
 Five more windows that were still drawing the client's classic art now carry
@@ -495,6 +520,8 @@ what and for the caveat on the spell-sheet variants.
 | `os_solWindowPieces03.tga` | 1024 KB | charm slot |
 | `os_bagslots.tga` | 256 KB | 12 numbered bag tiles |
 | `os_recessedbox.tga` | 16 KB | inventory bag / pet tab slots |
+| `os_recessedbox_bank.tga` | 16 KB | bank bag contents — the recessed box at 60% |
+| `os_bankslots.tga` | 256 KB | 16 numbered bank bag tiles |
 | `os_petslots.tga` | 256 KB | 7 `PET n` tiles |
 | `os_petbuttons.tga` | 128 KB | flat pet command buttons |
 | `os_hotbar_empty.tga` | 16 KB | hotbar fill — the `(24,48,93)` colour reference |
