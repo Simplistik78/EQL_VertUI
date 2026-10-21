@@ -1,5 +1,13 @@
 # Changelog
 
+## 20 October 2026
+
+### Fixed
+
+- Holding **Alt** while hovering over a spell or an item shows its tooltip again.
+  The skin restyles the item and spell display windows, and the game also
+  needs their tooltip files in the skin folder; those now ship with it.
+
 ## 18 October 2026
 
 The bank window is rebuilt so you can see what is inside your bank bags without
