@@ -1,5 +1,13 @@
 # Changelog
 
+## 23 October 2026
+
+### Added
+
+- The inventory's **Loadouts** tab now shows **Race Levels** under Class
+  Levels, one box per race. Existing races are all level 50; the new Ayr'Haeth
+  (`HDE`) starts at level 1 and levels up separately.
+
 ## 20 October 2026
 
 ### Fixed

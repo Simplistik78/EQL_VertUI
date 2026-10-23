@@ -8593,6 +8593,838 @@
 		<Pieces>IWP_WizardLevel</Pieces>				
 	</Screen>
 
+	<Label item="IWP_RacesLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>424</Y>
+		</Location>
+		<Size>
+			<CX>200</CX>
+			<CY>14</CY>
+		</Size>
+		<Text>Race Levels</Text>
+		<TextColor>
+			<R>138</R>
+			<G>163</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HumanLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>HUM</Text>
+		<TooltipReference>Human</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HumanLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1101</EQType>
+		<Location>
+			<X>64</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Human</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_BarbarianLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>BAR</Text>
+		<TooltipReference>Barbarian</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_BarbarianLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1102</EQType>
+		<Location>
+			<X>64</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Barbarian</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_EruditeLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>ERU</Text>
+		<TooltipReference>Erudite</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_EruditeLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1103</EQType>
+		<Location>
+			<X>64</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Erudite</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_WoodElfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>ELF</Text>
+		<TooltipReference>Wood Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_WoodElfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1104</EQType>
+		<Location>
+			<X>64</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Wood Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_HighElfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>HIE</Text>
+		<TooltipReference>High Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HighElfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1105</EQType>
+		<Location>
+			<X>64</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>High Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Screen item="IWP_RaceLevels1">
+		<ScreenID>IWP_RaceLevels1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>440</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>91</CY>
+		</Size>
+		<TooltipReference></TooltipReference>
+		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>IWP_HumanLabel</Pieces>
+		<Pieces>IWP_BarbarianLabel</Pieces>
+		<Pieces>IWP_EruditeLabel</Pieces>
+		<Pieces>IWP_WoodElfLabel</Pieces>
+		<Pieces>IWP_HighElfLabel</Pieces>
+		<Pieces>IWP_HumanLevel</Pieces>
+		<Pieces>IWP_BarbarianLevel</Pieces>
+		<Pieces>IWP_EruditeLevel</Pieces>
+		<Pieces>IWP_WoodElfLevel</Pieces>
+		<Pieces>IWP_HighElfLevel</Pieces>
+	</Screen>
+
+	<Label item="IWP_DarkElfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>DEF</Text>
+		<TooltipReference>Dark Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_DarkElfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1106</EQType>
+		<Location>
+			<X>64</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Dark Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_HalfElfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>HEF</Text>
+		<TooltipReference>Half Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HalfElfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1107</EQType>
+		<Location>
+			<X>64</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Half Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_DwarfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>DWF</Text>
+		<TooltipReference>Dwarf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_DwarfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1108</EQType>
+		<Location>
+			<X>64</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Dwarf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_TrollLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>TRL</Text>
+		<TooltipReference>Troll</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_TrollLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1109</EQType>
+		<Location>
+			<X>64</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Troll</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_OgreLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>OGR</Text>
+		<TooltipReference>Ogre</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_OgreLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1110</EQType>
+		<Location>
+			<X>64</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Ogre</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Screen item="IWP_RaceLevels2">
+		<ScreenID>IWP_RaceLevels2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>440</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>91</CY>
+		</Size>
+		<TooltipReference></TooltipReference>
+		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>IWP_DarkElfLabel</Pieces>
+		<Pieces>IWP_HalfElfLabel</Pieces>
+		<Pieces>IWP_DwarfLabel</Pieces>
+		<Pieces>IWP_TrollLabel</Pieces>
+		<Pieces>IWP_OgreLabel</Pieces>
+		<Pieces>IWP_DarkElfLevel</Pieces>
+		<Pieces>IWP_HalfElfLevel</Pieces>
+		<Pieces>IWP_DwarfLevel</Pieces>
+		<Pieces>IWP_TrollLevel</Pieces>
+		<Pieces>IWP_OgreLevel</Pieces>
+	</Screen>
+
+	<Label item="IWP_HalflingLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>HFL</Text>
+		<TooltipReference>Halfling</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HalflingLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1111</EQType>
+		<Location>
+			<X>64</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Halfling</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_GnomeLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>GNM</Text>
+		<TooltipReference>Gnome</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_GnomeLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1112</EQType>
+		<Location>
+			<X>64</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Gnome</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_IksarLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>IKS</Text>
+		<TooltipReference>Iksar</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_IksarLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1113</EQType>
+		<Location>
+			<X>64</X>
+			<Y>36</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Iksar</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_VahShirLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>VAH</Text>
+		<TooltipReference>Vah Shir</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_VahShirLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1114</EQType>
+		<Location>
+			<X>64</X>
+			<Y>52</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Vah Shir</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_GuktanLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>FRG</Text>
+		<TooltipReference>Guktan</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_GuktanLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1115</EQType>
+		<Location>
+			<X>64</X>
+			<Y>68</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Guktan</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Screen item="IWP_RaceLevels3">
+		<ScreenID>IWP_RaceLevels3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>186</X>
+			<Y>440</Y>
+		</Location>
+		<Size>
+			<CX>90</CX>
+			<CY>91</CY>
+		</Size>
+		<TooltipReference></TooltipReference>
+		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>IWP_HalflingLabel</Pieces>
+		<Pieces>IWP_GnomeLabel</Pieces>
+		<Pieces>IWP_IksarLabel</Pieces>
+		<Pieces>IWP_VahShirLabel</Pieces>
+		<Pieces>IWP_GuktanLabel</Pieces>
+		<Pieces>IWP_HalflingLevel</Pieces>
+		<Pieces>IWP_GnomeLevel</Pieces>
+		<Pieces>IWP_IksarLevel</Pieces>
+		<Pieces>IWP_VahShirLevel</Pieces>
+		<Pieces>IWP_GuktanLevel</Pieces>
+	</Screen>
+
+	<Label item="IWP_KerranLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>KRN</Text>
+		<TooltipReference>Kerran</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_KerranLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1116</EQType>
+		<Location>
+			<X>64</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Kerran</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Label item="IWP_HalfDarkElfLabel">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>70</CX>
+			<CY>18</CY>
+		</Size>
+		<Text>HDE</Text>
+		<TooltipReference>Half Dark Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>false</AlignRight>
+	</Label>
+
+	<Label item="IWP_HalfDarkElfLevel">
+		<RelativePosition>true</RelativePosition>
+		<EQType>1117</EQType>
+		<Location>
+			<X>64</X>
+			<Y>20</Y>
+		</Location>
+		<Size>
+			<CX>20</CX>
+			<CY>18</CY>
+		</Size>
+		<Text></Text>
+		<SpecialTextColor>
+			<Alpha>255</Alpha>
+			<R>0</R>
+			<G>255</G>
+			<B>0</B>
+		</SpecialTextColor>
+		<TooltipReference>Half Dark Elf</TooltipReference>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AlignRight>true</AlignRight>
+	</Label>
+
+	<Screen item="IWP_RaceLevels4">
+		<ScreenID>IWP_RaceLevels4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>278</X>
+			<Y>440</Y>
+		</Location>
+		<Size>
+			<CX>91</CX>
+			<CY>91</CY>
+		</Size>
+		<TooltipReference></TooltipReference>
+		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>IWP_KerranLabel</Pieces>
+		<Pieces>IWP_HalfDarkElfLabel</Pieces>
+		<Pieces>IWP_KerranLevel</Pieces>
+		<Pieces>IWP_HalfDarkElfLevel</Pieces>
+	</Screen>
+
 	<Listbox item="IWP_ClassList">
 		<ScreenID>IWP_ClassList</ScreenID>
 		<DrawTemplate>AUM_WDT_Inner</DrawTemplate>
@@ -8648,6 +9480,11 @@
 		<Pieces>Screen:IWP_CharacterLevels2</Pieces>
 		<Pieces>Screen:IWP_CharacterLevels3</Pieces>
 		<Pieces>Screen:IWP_CharacterLevels4</Pieces>
+		<Pieces>IWP_RacesLabel</Pieces>
+		<Pieces>Screen:IWP_RaceLevels1</Pieces>
+		<Pieces>Screen:IWP_RaceLevels2</Pieces>
+		<Pieces>Screen:IWP_RaceLevels3</Pieces>
+		<Pieces>Screen:IWP_RaceLevels4</Pieces>
 		<Location>
 			<X>0</X>
 			<Y>22</Y>
